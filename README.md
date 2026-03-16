@@ -2,6 +2,11 @@
 
 # claude-skills-kit
 
+![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+![Skills](https://img.shields.io/badge/skills-2-informational?style=flat-square)
+
+
 A growing collection of reusable skills for Claude — ready-to-use instruction files that extend Claude's behavior across any interface: Claude.ai, Claude Projects, API, or Cowork.
 
 ---
