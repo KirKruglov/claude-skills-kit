@@ -59,14 +59,6 @@ All templates are bilingual (RU/EN).
 - [User Guide](docs/USER-GUIDE.md) — usage scenarios, commands, and examples
 - [Русская версия](README.ru.md)
 
-## Project Roadmap
-
-| Release | Platform | Coverage | Status |
-|---------|----------|----------|--------|
-| **MVP** | Claude.ai Project (no MCP) | 7 skills, 8 tasks | Current |
-| Product 1 | Claude.ai Project + MCP | 20 skills, 32 tasks | Planned |
-| Product 2 | Cowork | Full feature set + file autonomy | Planned |
-
 ## License
 
 MIT
