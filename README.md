@@ -4,7 +4,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-3-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-10-informational?style=flat-square)
 
 
 A growing collection of reusable skills for Claude — ready-to-use instruction files that extend Claude's behavior across any interface: Claude.ai, Claude Projects, API, or Cowork.
@@ -33,6 +33,7 @@ Example: the RU version of `prompt-builder` triggers on **"напиши пром
 | context-builder-cowork | [EN](skills/context-builder-cowork/) | [RU](skills/context-builder-cowork-ru/) | Generates a structured `project-context.md` file via interactive interview |
 | prompt-builder | [EN](skills/prompt-builder/) | [RU](skills/prompt-builder-ru/) | Builds a structured prompt for any task via interactive Q&A |
 | report-analyzer | [EN](skills/report-analyzer/) | [RU](skills/report-analyzer-ru/) | Analyzes large PDF/PPTX reports and produces a structured summary with key data and insights |
+| project-management-kit | [Details](skills/project-management-kit/) | — | AI Project Manager agent — 7 skills for project documentation (charter, risk register, project plan, communication plan, meeting protocol, plan-vs-actual report, closure report). PMBoK 8 + Agile. Bilingual EN/RU |
 
 More skills coming.
 
@@ -52,15 +53,21 @@ claude-skills-kit/
 │   ├── prompt-builder-ru/            # RU
 │   │   └── SKILL.md
 │   ├── report-analyzer/              # EN
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── INSTRUCTION.md
-│   │   └── EXAMPLE.md
-│   └── report-analyzer-ru/           # RU
-│       ├── SKILL.md
+│   │   └── SKILL.md, README.md, ...
+│   ├── report-analyzer-ru/           # RU
+│   │   └── SKILL.md, README.md, ...
+│   └── project-management-kit/       # Skill kit (EN/RU)
 │       ├── README.md
-│       ├── INSTRUCTION.md
-│       └── EXAMPLE.md
+│       ├── system-prompt.md
+│       ├── project-instructions.md
+│       ├── docs/                     # INSTALL, USER-GUIDE
+│       ├── generate-charter/         # 7 skills, each with
+│       ├── generate-risk-register/   #   SKILL.md, README.md,
+│       ├── generate-project-plan/    #   README.ru.md, templates/
+│       ├── generate-comm-plan/
+│       ├── generate-meeting-protocol/
+│       ├── generate-plan-fact-report/
+│       └── generate-closure-report/
 ├── README.md
 └── README.ru.md
 ```
