@@ -4,7 +4,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-10-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-11-informational?style=flat-square)
 
 
 Растущая коллекция переиспользуемых скиллов для Claude — готовые файлы с инструкциями, которые расширяют поведение Claude в любом интерфейсе: Claude.ai, Claude Projects, API или Cowork.
@@ -33,6 +33,7 @@
 | context-builder-cowork | [EN](skills/context-builder-cowork/) | [RU](skills/context-builder-cowork-ru/) | Генерирует структурированный `project-context.md` через интерактивное интервью |
 | prompt-builder | [EN](skills/prompt-builder/) | [RU](skills/prompt-builder-ru/) | Создаёт структурированный промпт для любой задачи через серию вопросов |
 | report-analyzer | [EN](skills/report-analyzer/) | [RU](skills/report-analyzer-ru/) | Анализирует большие отчёты (PDF/PPTX) и формирует структурированное резюме с ключевыми данными и инсайтами |
+| project-onboarding | [EN/RU](skills/project-onboarding/) | — | Полный онбординг проекта в Cowork: генерирует context.md, правила папки, карту файлов и стартовые промпты за одну сессию. Двуязычный EN/RU |
 | project-management-kit | [Подробнее](skills/project-management-kit/) | — | AI-агент для управления проектами — 7 скиллов для проектной документации (устав, реестр рисков, план проекта, план коммуникаций, протокол встречи, отчёт план/факт, отчёт о закрытии). PMBoK 8 + Agile. Двуязычный EN/RU |
 
 Новые скиллы будут добавляться.
@@ -56,6 +57,11 @@ claude-skills-kit/
 │   │   └── SKILL.md, README.md, ...
 │   ├── report-analyzer-ru/           # RU
 │   │   └── SKILL.md, README.md, ...
+│   ├── project-onboarding/           # EN/RU (двуязычный)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── resources/
 │   └── project-management-kit/       # Набор скиллов (EN/RU)
 │       ├── README.md
 │       ├── system-prompt.md
