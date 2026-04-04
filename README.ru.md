@@ -4,7 +4,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-11-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-12-informational?style=flat-square)
 
 
 Растущая коллекция переиспользуемых скиллов для Claude — готовые файлы с инструкциями, которые расширяют поведение Claude в любом интерфейсе: Claude.ai, Claude Projects, API или Cowork.
@@ -28,13 +28,14 @@
 
 Пример: RU-версия `prompt-builder` запускается по триггеру **"напиши промт"**, EN-версия — по **"create a prompt"**.
 
-| Скилл | EN | RU | Описание |
-|-------|----|----|----------|
-| context-builder-cowork | [EN](skills/context-builder-cowork/) | [RU](skills/context-builder-cowork-ru/) | Генерирует структурированный `project-context.md` через интерактивное интервью |
-| prompt-builder | [EN](skills/prompt-builder/) | [RU](skills/prompt-builder-ru/) | Создаёт структурированный промпт для любой задачи через серию вопросов |
-| report-analyzer | [EN](skills/report-analyzer/) | [RU](skills/report-analyzer-ru/) | Анализирует большие отчёты (PDF/PPTX) и формирует структурированное резюме с ключевыми данными и инсайтами |
-| project-onboarding | [EN/RU](skills/project-onboarding/) | — | Полный онбординг проекта в Cowork: генерирует context.md, правила папки, карту файлов и стартовые промпты за одну сессию. Двуязычный EN/RU |
-| project-management-kit | [Подробнее](skills/project-management-kit/) | — | AI-агент для управления проектами — 7 скиллов для проектной документации (устав, реестр рисков, план проекта, план коммуникаций, протокол встречи, отчёт план/факт, отчёт о закрытии). PMBoK 8 + Agile. Двуязычный EN/RU |
+| Скилл                  | EN                                   | RU                                      | Описание                                                                                                                                                                                                                     |
+| ---------------------- | ------------------------------------ | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| context-builder-cowork | [EN](skills/context-builder-cowork/) | [RU](skills/context-builder-cowork-ru/) | Генерирует структурированный `project-context.md` через интерактивное интервью                                                                                                                                               |
+| prompt-builder         | [EN](skills/prompt-builder/)         | [RU](skills/prompt-builder-ru/)         | Создаёт структурированный промпт для любой задачи через серию вопросов                                                                                                                                                       |
+| report-analyzer        | [EN](skills/report-analyzer/)        | [RU](skills/report-analyzer-ru/)        | Анализирует большие отчёты (PDF/PPTX) и формирует структурированное резюме с ключевыми данными и инсайтами                                                                                                                   |
+| project-onboarding     | [EN](skills/project-onboarding/)     | [RU](skills/project-onboarding/)        | Полный онбординг проекта в Cowork: генерирует context.md, правила папки, карту файлов и стартовые промпты за одну сессию. Двуязычный EN/RU                                                                                   |
+| project-management-kit | [EN](skills/project-management-kit/) | [RU](skills/project-management-kit/)    | Набор скилов для управления проектами — 7 скиллов для проектной документации (устав, реестр рисков, план проекта, план коммуникаций, протокол встречи, отчёт план/факт, отчёт о закрытии). PMBoK 8 + Agile. Двуязычный EN/RU |
+| feature-guide          | [EN](skills/feature-guide/)          | [RU](skills/feature-guide/)             | Мгновенно объясняет любую возможность Claude: что это, где доступна, какой тариф нужен, как активировать, ограничения и вердикт о применимости. Двуязычный EN/RU                                                             |
 
 Новые скиллы будут добавляться.
 
@@ -62,18 +63,23 @@ claude-skills-kit/
 │   │   ├── README.md
 │   │   ├── README.ru.md
 │   │   └── resources/
-│   └── project-management-kit/       # Набор скиллов (EN/RU)
+│   ├── project-management-kit/       # Набор скиллов (EN/RU)
+│   │   ├── README.md
+│   │   ├── system-prompt.md
+│   │   ├── project-instructions.md
+│   │   ├── docs/                     # INSTALL, USER-GUIDE
+│   │   ├── generate-charter/         # 7 скиллов, каждый с
+│   │   ├── generate-risk-register/   #   SKILL.md, README.md,
+│   │   ├── generate-project-plan/    #   README.ru.md, templates/
+│   │   ├── generate-comm-plan/
+│   │   ├── generate-meeting-protocol/
+│   │   ├── generate-plan-fact-report/
+│   │   └── generate-closure-report/
+│   └── feature-guide/                # EN/RU (двуязычный)
+│       ├── SKILL.md
 │       ├── README.md
-│       ├── system-prompt.md
-│       ├── project-instructions.md
-│       ├── docs/                     # INSTALL, USER-GUIDE
-│       ├── generate-charter/         # 7 скиллов, каждый с
-│       ├── generate-risk-register/   #   SKILL.md, README.md,
-│       ├── generate-project-plan/    #   README.ru.md, templates/
-│       ├── generate-comm-plan/
-│       ├── generate-meeting-protocol/
-│       ├── generate-plan-fact-report/
-│       └── generate-closure-report/
+│       ├── README.ru.md
+│       └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
 ├── README.md
 └── README.ru.md
 ```
