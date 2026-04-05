@@ -4,7 +4,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-12-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-14-informational?style=flat-square)
 
 
 A growing collection of reusable skills for Claude — ready-to-use instruction files that extend Claude's behavior across any interface: Claude.ai, Claude Projects, API, or Cowork.
@@ -36,6 +36,8 @@ Example: the RU version of `prompt-builder` triggers on **"напиши пром
 | project-onboarding | [EN](skills/project-onboarding/) | [RU](skills/project-onboarding/) | Full project onboarding for Cowork: generates context.md, folder rules, file map, and starter prompts in one session. Bilingual EN/RU |
 | project-management-kit | [EN](skills/project-management-kit/) | [RU](skills/project-management-kit/) | AI Project Manager agent — 7 skills for project documentation (charter, risk register, project plan, communication plan, meeting protocol, plan-vs-actual report, closure report). PMBoK 8 + Agile. Bilingual EN/RU |
 | feature-guide | [EN](skills/feature-guide/) | [RU](skills/feature-guide/) | Instantly explains any Claude feature or capability: what it is, where it's available, required plan, how to activate, limitations, and an applicability verdict. Bilingual EN/RU |
+| memory-auditor-chat | [EN](skills/memory-auditor-chat/) | [RU](skills/memory-auditor-chat/) | Audits and cleans Claude.ai native memory: finds contradictions, outdated entries, duplicates, and noise in Memory Edits and Memory Summary. Bilingual EN/RU |
+| memory-auditor-cowork | [EN](skills/memory-auditor-cowork/) | [RU](skills/memory-auditor-cowork/) | Audits and cleans file-based memory in Cowork: auto-memory, CLAUDE.md, User Preferences, and Project Instructions. Bilingual EN/RU |
 
 More skills coming.
 
@@ -75,7 +77,17 @@ claude-skills-kit/
 │   │   ├── generate-meeting-protocol/
 │   │   ├── generate-plan-fact-report/
 │   │   └── generate-closure-report/
-│   └── feature-guide/                # EN/RU (bilingual)
+│   ├── feature-guide/                # EN/RU (bilingual)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   ├── memory-auditor-chat/          # EN/RU (bilingual)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   └── memory-auditor-cowork/        # EN/RU (bilingual)
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md

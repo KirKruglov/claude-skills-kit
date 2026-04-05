@@ -4,7 +4,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-12-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-14-informational?style=flat-square)
 
 
 Растущая коллекция переиспользуемых скиллов для Claude — готовые файлы с инструкциями, которые расширяют поведение Claude в любом интерфейсе: Claude.ai, Claude Projects, API или Cowork.
@@ -36,6 +36,8 @@
 | project-onboarding     | [EN](skills/project-onboarding/)     | [RU](skills/project-onboarding/)        | Полный онбординг проекта в Cowork: генерирует context.md, правила папки, карту файлов и стартовые промпты за одну сессию. Двуязычный EN/RU                                                                                   |
 | project-management-kit | [EN](skills/project-management-kit/) | [RU](skills/project-management-kit/)    | Набор скилов для управления проектами — 7 скиллов для проектной документации (устав, реестр рисков, план проекта, план коммуникаций, протокол встречи, отчёт план/факт, отчёт о закрытии). PMBoK 8 + Agile. Двуязычный EN/RU |
 | feature-guide          | [EN](skills/feature-guide/)          | [RU](skills/feature-guide/)             | Мгновенно объясняет любую возможность Claude: что это, где доступна, какой тариф нужен, как активировать, ограничения и вердикт о применимости. Двуязычный EN/RU                                                             |
+| memory-auditor-chat    | [EN](skills/memory-auditor-chat/)    | [RU](skills/memory-auditor-chat/)       | Аудит и очистка нативной памяти Claude.ai: находит противоречия, устаревшие записи, дубли и шум в Memory Edits и Memory Summary. Двуязычный EN/RU                                                                            |
+| memory-auditor-cowork  | [EN](skills/memory-auditor-cowork/) | [RU](skills/memory-auditor-cowork/)     | Аудит и очистка файловой памяти в Cowork: auto-memory, CLAUDE.md, User Preferences и Project Instructions. Двуязычный EN/RU                                                                                                  |
 
 Новые скиллы будут добавляться.
 
@@ -75,7 +77,17 @@ claude-skills-kit/
 │   │   ├── generate-meeting-protocol/
 │   │   ├── generate-plan-fact-report/
 │   │   └── generate-closure-report/
-│   └── feature-guide/                # EN/RU (двуязычный)
+│   ├── feature-guide/                # EN/RU (двуязычный)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   ├── memory-auditor-chat/          # EN/RU (двуязычный)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   └── memory-auditor-cowork/        # EN/RU (двуязычный)
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md
