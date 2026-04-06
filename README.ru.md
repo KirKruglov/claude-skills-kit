@@ -4,7 +4,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-14-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-15-informational?style=flat-square)
 
 
 Растущая коллекция переиспользуемых скиллов для Claude — готовые файлы с инструкциями, которые расширяют поведение Claude в любом интерфейсе: Claude.ai, Claude Projects, API или Cowork.
@@ -38,6 +38,7 @@
 | feature-guide          | [EN](skills/feature-guide/)          | [RU](skills/feature-guide/)             | Мгновенно объясняет любую возможность Claude: что это, где доступна, какой тариф нужен, как активировать, ограничения и вердикт о применимости. Двуязычный EN/RU                                                             |
 | memory-auditor-chat    | [EN](skills/memory-auditor-chat/)    | [RU](skills/memory-auditor-chat/)       | Аудит и очистка нативной памяти Claude.ai: находит противоречия, устаревшие записи, дубли и шум в Memory Edits и Memory Summary. Двуязычный EN/RU                                                                            |
 | memory-auditor-cowork  | [EN](skills/memory-auditor-cowork/) | [RU](skills/memory-auditor-cowork/)     | Аудит и очистка файловой памяти в Cowork: auto-memory, CLAUDE.md, User Preferences и Project Instructions. Двуязычный EN/RU                                                                                                  |
+| delegation-brief       | [EN](skills/delegation-brief/)      | [RU](skills/delegation-brief/)          | Генерирует структурированный бриф задачи через 5-вопросное интервью — готов к вставке в новый диалог Cowork. Двуязычный EN/RU                                                                                                |
 
 Новые скиллы будут добавляться.
 
@@ -87,7 +88,12 @@ claude-skills-kit/
 │   │   ├── README.md
 │   │   ├── README.ru.md
 │   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   └── memory-auditor-cowork/        # EN/RU (двуязычный)
+│   ├── memory-auditor-cowork/        # EN/RU (двуязычный)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   └── delegation-brief/             # EN/RU (двуязычный)
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md
