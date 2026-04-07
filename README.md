@@ -4,7 +4,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-15-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-16-informational?style=flat-square)
 
 
 A growing collection of reusable skills for Claude — ready-to-use instruction files that extend Claude's behavior across any interface: Claude.ai, Claude Projects, API, or Cowork.
@@ -39,6 +39,7 @@ Example: the RU version of `prompt-builder` triggers on **"напиши пром
 | memory-auditor-chat | [EN](skills/memory-auditor-chat/) | [RU](skills/memory-auditor-chat/) | Audits and cleans Claude.ai native memory: finds contradictions, outdated entries, duplicates, and noise in Memory Edits and Memory Summary. Bilingual EN/RU |
 | memory-auditor-cowork | [EN](skills/memory-auditor-cowork/) | [RU](skills/memory-auditor-cowork/) | Audits and cleans file-based memory in Cowork: auto-memory, CLAUDE.md, User Preferences, and Project Instructions. Bilingual EN/RU |
 | delegation-brief | [EN](skills/delegation-brief/) | [RU](skills/delegation-brief/) | Generates a structured task brief via 5-question interview — ready to paste into a new Cowork session. Bilingual EN/RU |
+| workspace-health-monitor | [EN](skills/workspace_health_monitor/) | [RU](skills/workspace_health_monitor/) | Audits a manager's workspace files to find orphaned files, forgotten action items, duplicates, and plan-to-reality drift. Bilingual EN/RU |
 
 More skills coming.
 
@@ -93,7 +94,12 @@ claude-skills-kit/
 │   │   ├── README.md
 │   │   ├── README.ru.md
 │   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   └── delegation-brief/             # EN/RU (bilingual)
+│   ├── delegation-brief/             # EN/RU (bilingual)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   └── workspace_health_monitor/     # EN/RU (bilingual)
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md
