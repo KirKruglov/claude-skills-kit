@@ -4,7 +4,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-16-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-17-informational?style=flat-square)
 
 
 A growing collection of reusable skills for Claude — ready-to-use instruction files that extend Claude's behavior across any interface: Claude.ai, Claude Projects, API, or Cowork.
@@ -28,18 +28,19 @@ Each skill is available in two language versions. Claude activates the skill bas
 
 Example: the RU version of `prompt-builder` triggers on **"напиши промт"**, the EN version — on **"create a prompt"**.
 
-| Skill | EN | RU | Description |
-|-------|----|----|-------------|
-| context-builder-cowork | [EN](skills/context-builder-cowork/) | [RU](skills/context-builder-cowork-ru/) | Generates a structured `project-context.md` file via interactive interview |
-| prompt-builder | [EN](skills/prompt-builder/) | [RU](skills/prompt-builder-ru/) | Builds a structured prompt for any task via interactive Q&A |
-| report-analyzer | [EN](skills/report-analyzer/) | [RU](skills/report-analyzer-ru/) | Analyzes large PDF/PPTX reports and produces a structured summary with key data and insights |
-| project-onboarding | [EN](skills/project-onboarding/) | [RU](skills/project-onboarding/) | Full project onboarding for Cowork: generates context.md, folder rules, file map, and starter prompts in one session. Bilingual EN/RU |
-| project-management-kit | [EN](skills/project-management-kit/) | [RU](skills/project-management-kit/) | AI Project Manager agent — 7 skills for project documentation (charter, risk register, project plan, communication plan, meeting protocol, plan-vs-actual report, closure report). PMBoK 8 + Agile. Bilingual EN/RU |
-| feature-guide | [EN](skills/feature-guide/) | [RU](skills/feature-guide/) | Instantly explains any Claude feature or capability: what it is, where it's available, required plan, how to activate, limitations, and an applicability verdict. Bilingual EN/RU |
-| memory-auditor-chat | [EN](skills/memory-auditor-chat/) | [RU](skills/memory-auditor-chat/) | Audits and cleans Claude.ai native memory: finds contradictions, outdated entries, duplicates, and noise in Memory Edits and Memory Summary. Bilingual EN/RU |
-| memory-auditor-cowork | [EN](skills/memory-auditor-cowork/) | [RU](skills/memory-auditor-cowork/) | Audits and cleans file-based memory in Cowork: auto-memory, CLAUDE.md, User Preferences, and Project Instructions. Bilingual EN/RU |
-| delegation-brief | [EN](skills/delegation-brief/) | [RU](skills/delegation-brief/) | Generates a structured task brief via 5-question interview — ready to paste into a new Cowork session. Bilingual EN/RU |
-| workspace-health-monitor | [EN](skills/workspace_health_monitor/) | [RU](skills/workspace_health_monitor/) | Audits a manager's workspace files to find orphaned files, forgotten action items, duplicates, and plan-to-reality drift. Bilingual EN/RU |
+| Skill                    | EN                                     | RU                                      | Description                                                                                                                                                                                                         |
+| ------------------------ | -------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| context-builder-cowork   | [EN](skills/context-builder-cowork/)   | [RU](skills/context-builder-cowork-ru/) | Generates a structured `project-context.md` file via interactive interview                                                                                                                                          |
+| prompt-builder           | [EN](skills/prompt-builder/)           | [RU](skills/prompt-builder-ru/)         | Builds a structured prompt for any task via interactive Q&A                                                                                                                                                         |
+| report-analyzer          | [EN](skills/report-analyzer/)          | [RU](skills/report-analyzer-ru/)        | Analyzes large PDF/PPTX reports and produces a structured summary with key data and insights                                                                                                                        |
+| project-onboarding       | [EN](skills/project-onboarding/)       | [RU](skills/project-onboarding/)        | Full project onboarding for Cowork: generates context.md, folder rules, file map, and starter prompts in one session. Bilingual EN/RU                                                                               |
+| project-management-kit   | [EN](skills/project-management-kit/)   | [RU](skills/project-management-kit/)    | AI Project Manager agent — 7 skills for project documentation (charter, risk register, project plan, communication plan, meeting protocol, plan-vs-actual report, closure report). PMBoK 8 + Agile. Bilingual EN/RU |
+| feature-guide            | [EN](skills/feature-guide/)            | [RU](skills/feature-guide/)             | Instantly explains any Claude feature or capability: what it is, where it's available, required plan, how to activate, limitations, and an applicability verdict. Bilingual EN/RU                                   |
+| memory-auditor-chat      | [EN](skills/memory-auditor-chat/)      | [RU](skills/memory-auditor-chat/)       | Audits and cleans Claude.ai native memory: finds contradictions, outdated entries, duplicates, and noise in Memory Edits and Memory Summary. Bilingual EN/RU                                                        |
+| memory-auditor-cowork    | [EN](skills/memory-auditor-cowork/)    | [RU](skills/memory-auditor-cowork/)     | Audits and cleans file-based memory in Cowork: auto-memory, CLAUDE.md, User Preferences, and Project Instructions. Bilingual EN/RU                                                                                  |
+| delegation-brief         | [EN](skills/delegation-brief/)         | [RU](skills/delegation-brief/)          | Generates a structured task brief via 5-question interview — ready to paste into a new Cowork session. Bilingual EN/RU                                                                                              |
+| workspace-health-monitor | [EN](skills/workspace_health_monitor/) | [RU](skills/workspace_health_monitor/)  | Audits a manager's workspace files to find orphaned files, forgotten action items, duplicates, and plan-to-reality drift. Bilingual EN/RU                                                                           |
+| decision-log             | [EN](skills/decision-log/)             | [RU](skills/decision-log/)              | Extracts structured decisions from meeting notes, Slack threads, or email chains — builds a clean log separate from action items. Two modes: new log and append with deduplication. Bilingual EN/RU                 |
 
 More skills coming.
 
@@ -99,11 +100,17 @@ claude-skills-kit/
 │   │   ├── README.md
 │   │   ├── README.ru.md
 │   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   └── workspace_health_monitor/     # EN/RU (bilingual)
+│   ├── workspace_health_monitor/     # EN/RU (bilingual)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   └── decision-log/                 # EN/RU (bilingual)
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md
-│       └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│       ├── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│       └── templates/                # decision-log-template.md/ru
 ├── README.md
 └── README.ru.md
 ```

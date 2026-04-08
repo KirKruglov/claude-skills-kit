@@ -4,7 +4,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-16-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-17-informational?style=flat-square)
 
 
 Растущая коллекция переиспользуемых скиллов для Claude — готовые файлы с инструкциями, которые расширяют поведение Claude в любом интерфейсе: Claude.ai, Claude Projects, API или Cowork.
@@ -40,6 +40,7 @@
 | memory-auditor-cowork  | [EN](skills/memory-auditor-cowork/) | [RU](skills/memory-auditor-cowork/)     | Аудит и очистка файловой памяти в Cowork: auto-memory, CLAUDE.md, User Preferences и Project Instructions. Двуязычный EN/RU                                                                                                  |
 | delegation-brief       | [EN](skills/delegation-brief/)      | [RU](skills/delegation-brief/)          | Генерирует структурированный бриф задачи через 5-вопросное интервью — готов к вставке в новый диалог Cowork. Двуязычный EN/RU                                                                                                |
 | workspace-health-monitor | [EN](skills/workspace_health_monitor/) | [RU](skills/workspace_health_monitor/) | Аудит рабочего пространства менеджера: находит осиротевшие файлы, забытые задачи, дубликаты и расхождения планов с реальностью. Двуязычный EN/RU |
+| decision-log             | [EN](skills/decision-log/)             | [RU](skills/decision-log/)             | Извлекает структурированные решения из заметок встреч, Slack-тредов или email-цепочек — ведёт чистый лог отдельно от action items. Два режима: новый лог и пополнение с дедупликацией. Двуязычный EN/RU |
 
 Новые скиллы будут добавляться.
 
@@ -99,11 +100,17 @@ claude-skills-kit/
 │   │   ├── README.md
 │   │   ├── README.ru.md
 │   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   └── workspace_health_monitor/     # EN/RU (двуязычный)
+│   ├── workspace_health_monitor/     # EN/RU (двуязычный)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   └── decision-log/                 # EN/RU (двуязычный)
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md
-│       └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│       ├── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│       └── templates/                # decision-log-template.md/ru
 ├── README.md
 └── README.ru.md
 ```
