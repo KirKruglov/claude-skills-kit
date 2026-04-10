@@ -1,10 +1,10 @@
-> [English version](projects/claude-skills-kit/README.md)
+> [English version](README.md)
 
 # claude-skills-kit
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-18-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-19-informational?style=flat-square)
 
 
 Растущая коллекция переиспользуемых скиллов для Claude — готовые файлы с инструкциями, которые расширяют поведение Claude в любом интерфейсе: Claude.ai, Claude Projects, API или Cowork.
@@ -42,6 +42,7 @@
 | workspace-health-monitor | [EN](skills/workspace_health_monitor/) | [RU](skills/workspace_health_monitor/) | Аудит рабочего пространства менеджера: находит осиротевшие файлы, забытые задачи, дубликаты и расхождения планов с реальностью. Двуязычный EN/RU |
 | decision-log             | [EN](skills/decision-log/)             | [RU](skills/decision-log/)             | Извлекает структурированные решения из заметок встреч, Slack-тредов или email-цепочек — ведёт чистый лог отдельно от action items. Два режима: новый лог и пополнение с дедупликацией. Двуязычный EN/RU |
 | one-to-one-prep          | [EN](skills/one-to-one-prep/)          | [RU](skills/one-to-one-prep/)          | Генерирует структурированный prep-документ для ежемесячных встреч 1-on-1: трекинг action items, приоритизированные темы для обсуждения, вопросы по мотивации. Работает с обычным текстом из любого трекера. Двуязычный EN/RU |
+| prd-review-challenger    | [EN/RU](skills/prd-review-challenger/) | [EN/RU](skills/prd-review-challenger/) | Адвокат дьявола для PRD, фича-спецификаций и продуктовых решений — находит слабые допущения, открытые вопросы, риски реализации и логические дыры до того, как документ уйдёт в команду. Двуязычный EN/RU              |
 
 Новые скиллы будут добавляться.
 
@@ -112,10 +113,16 @@ claude-skills-kit/
 │   │   ├── README.ru.md
 │   │   ├── docs/                     # INSTALL, USER-GUIDE (EN+RU)
 │   │   └── templates/                # decision-log-template.md/ru
-│   └── one-to-one-prep/              # EN/RU (двуязычный)
+│   ├── one-to-one-prep/              # EN/RU (двуязычный)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   └── prd-review-challenger/        # EN/RU (двуязычный)
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md
+│       ├── evals.json
 │       └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
 ├── README.md
 └── README.ru.md

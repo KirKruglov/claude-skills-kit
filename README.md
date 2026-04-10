@@ -1,10 +1,10 @@
-> [Версия на русском языке](projects/claude-skills-kit/README.ru.md)
+> [Версия на русском языке](README.ru.md)
 
 # claude-skills-kit
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-18-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-19-informational?style=flat-square)
 
 
 A growing collection of reusable skills for Claude — ready-to-use instruction files that extend Claude's behavior across any interface: Claude.ai, Claude Projects, API, or Cowork.
@@ -42,6 +42,7 @@ Example: the RU version of `prompt-builder` triggers on **"напиши пром
 | workspace-health-monitor | [EN](skills/workspace_health_monitor/) | [RU](skills/workspace_health_monitor/)  | Audits a manager's workspace files to find orphaned files, forgotten action items, duplicates, and plan-to-reality drift. Bilingual EN/RU                                                                           |
 | decision-log             | [EN](skills/decision-log/)             | [RU](skills/decision-log/)              | Extracts structured decisions from meeting notes, Slack threads, or email chains — builds a clean log separate from action items. Two modes: new log and append with deduplication. Bilingual EN/RU                 |
 | one-to-one-prep          | [EN](skills/one-to-one-prep/)          | [RU](skills/one-to-one-prep/)           | Generates a structured prep document for monthly 1-on-1 meetings: action item tracking, prioritized discussion topics, and wellbeing questions. Works with plain text from any tracker. Bilingual EN/RU             |
+| prd-review-challenger    | [EN/RU](skills/prd-review-challenger/) | [EN/RU](skills/prd-review-challenger/)  | Devil's advocate for PRDs, feature specs, and product decisions — surfaces weak assumptions, open questions, implementation risks, and logical gaps before the document goes to the team. Bilingual EN/RU            |
 
 More skills coming.
 
@@ -112,10 +113,16 @@ claude-skills-kit/
 │   │   ├── README.ru.md
 │   │   ├── docs/                     # INSTALL, USER-GUIDE (EN+RU)
 │   │   └── templates/                # decision-log-template.md/ru
-│   └── one-to-one-prep/              # EN/RU (bilingual)
+│   ├── one-to-one-prep/              # EN/RU (bilingual)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   └── prd-review-challenger/        # EN/RU (bilingual)
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md
+│       ├── evals.json
 │       └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
 ├── README.md
 └── README.ru.md
