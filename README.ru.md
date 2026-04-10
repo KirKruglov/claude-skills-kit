@@ -5,9 +5,41 @@
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 ![Skills](https://img.shields.io/badge/skills-19-informational?style=flat-square)
+![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
+19 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-Растущая коллекция переиспользуемых скиллов для Claude — готовые файлы с инструкциями, которые расширяют поведение Claude в любом интерфейсе: Claude.ai, Claude Projects, API или Cowork.
+---
+
+## Быстрый старт
+
+**Шаг 1.** Найди скилл в каталоге ниже.
+
+**Шаг 2.** Скопируй папку скилла в своё рабочее пространство:
+
+- **Cowork** — скопируй папку скилла в рабочую директорию Cowork. Claude обнаружит его автоматически.
+- **Claude.ai / Projects** — открой `SKILL.md` скилла, скопируй содержимое и вставь в Project Instructions.
+
+**Шаг 3.** Используй Claude как обычно. Скилл активируется по сообщению — команды не нужны.
+
+> В каждой папке скилла есть `docs/INSTALL.md` с пошаговой инструкцией для твоей платформы.
+
+---
+
+## Почему Claude Skills Kit?
+
+Большинство репозиториев скиллов содержат только файл `SKILL.md`.
+Claude Skills Kit поставляет **полный пакет** для каждого скилла:
+
+| Что включено                     | Зачем это нужно                                            |
+| -------------------------------- | ---------------------------------------------------------- |
+| `SKILL.md` — основные инструкции | Claude активирует скилл                                    |
+| `README.md` (EN + RU)            | Ты знаешь, что делает скилл, до установки                  |
+| `docs/INSTALL.md`                | Установка под твою платформу за 3 шага                     |
+| `docs/USER-GUIDE.md`             | Как использовать скилл с примерами                         |
+
+**Создан для нетехнических пользователей.** Никакого кода, CLI и конфигурации.
+**Двуязычный EN/RU.** Claude определяет язык запроса автоматически.
 
 ---
 
@@ -24,25 +56,38 @@
 
 ## Скиллы
 
-Каждый скилл доступен в двух языковых версиях. Claude активирует скилл на основе языка запроса — используй EN-версию для английского, RU-версию для русского.
+### Управление проектами
 
-Пример: RU-версия `prompt-builder` запускается по триггеру **"напиши промт"**, EN-версия — по **"create a prompt"**.
+| Скилл | Ссылка | Описание |
+| --- | --- | --- |
+| project-management-kit | [→](skills/project-management-kit/) | Набор скиллов для управления проектами — 7 скиллов для проектной документации (устав, реестр рисков, план проекта, план коммуникаций, протокол встречи, отчёт план/факт, отчёт о закрытии). PMBoK 8 + Agile. Двуязычный EN/RU |
+| project-onboarding | [→](skills/project-onboarding/) | Полный онбординг проекта в Cowork: генерирует context.md, правила папки, карту файлов и стартовые промпты за одну сессию. Двуязычный EN/RU |
 
-| Скилл                  | EN                                   | RU                                      | Описание                                                                                                                                                                                                                     |
-| ---------------------- | ------------------------------------ | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| context-builder-cowork | [EN](skills/context-builder-cowork/) | [RU](skills/context-builder-cowork-ru/) | Генерирует структурированный `project-context.md` через интерактивное интервью                                                                                                                                               |
-| prompt-builder         | [EN](skills/prompt-builder/)         | [RU](skills/prompt-builder-ru/)         | Создаёт структурированный промпт для любой задачи через серию вопросов                                                                                                                                                       |
-| report-analyzer        | [EN](skills/report-analyzer/)        | [RU](skills/report-analyzer-ru/)        | Анализирует большие отчёты (PDF/PPTX) и формирует структурированное резюме с ключевыми данными и инсайтами                                                                                                                   |
-| project-onboarding     | [EN](skills/project-onboarding/)     | [RU](skills/project-onboarding/)        | Полный онбординг проекта в Cowork: генерирует context.md, правила папки, карту файлов и стартовые промпты за одну сессию. Двуязычный EN/RU                                                                                   |
-| project-management-kit | [EN](skills/project-management-kit/) | [RU](skills/project-management-kit/)    | Набор скилов для управления проектами — 7 скиллов для проектной документации (устав, реестр рисков, план проекта, план коммуникаций, протокол встречи, отчёт план/факт, отчёт о закрытии). PMBoK 8 + Agile. Двуязычный EN/RU |
-| feature-guide          | [EN](skills/feature-guide/)          | [RU](skills/feature-guide/)             | Мгновенно объясняет любую возможность Claude: что это, где доступна, какой тариф нужен, как активировать, ограничения и вердикт о применимости. Двуязычный EN/RU                                                             |
-| memory-auditor-chat    | [EN](skills/memory-auditor-chat/)    | [RU](skills/memory-auditor-chat/)       | Аудит и очистка нативной памяти Claude.ai: находит противоречия, устаревшие записи, дубли и шум в Memory Edits и Memory Summary. Двуязычный EN/RU                                                                            |
-| memory-auditor-cowork  | [EN](skills/memory-auditor-cowork/) | [RU](skills/memory-auditor-cowork/)     | Аудит и очистка файловой памяти в Cowork: auto-memory, CLAUDE.md, User Preferences и Project Instructions. Двуязычный EN/RU                                                                                                  |
-| delegation-brief       | [EN](skills/delegation-brief/)      | [RU](skills/delegation-brief/)          | Генерирует структурированный бриф задачи через 5-вопросное интервью — готов к вставке в новый диалог Cowork. Двуязычный EN/RU                                                                                                |
-| workspace-health-monitor | [EN](skills/workspace_health_monitor/) | [RU](skills/workspace_health_monitor/) | Аудит рабочего пространства менеджера: находит осиротевшие файлы, забытые задачи, дубликаты и расхождения планов с реальностью. Двуязычный EN/RU |
-| decision-log             | [EN](skills/decision-log/)             | [RU](skills/decision-log/)             | Извлекает структурированные решения из заметок встреч, Slack-тредов или email-цепочек — ведёт чистый лог отдельно от action items. Два режима: новый лог и пополнение с дедупликацией. Двуязычный EN/RU |
-| one-to-one-prep          | [EN](skills/one-to-one-prep/)          | [RU](skills/one-to-one-prep/)          | Генерирует структурированный prep-документ для ежемесячных встреч 1-on-1: трекинг action items, приоритизированные темы для обсуждения, вопросы по мотивации. Работает с обычным текстом из любого трекера. Двуязычный EN/RU |
-| prd-review-challenger    | [EN](skills/prd-review-challenger/) | [RU](skills/prd-review-challenger/) | Адвокат дьявола для PRD, фича-спецификаций и продуктовых решений — находит слабые допущения, открытые вопросы, риски реализации и логические дыры до того, как документ уйдёт в команду. Двуязычный EN/RU              |
+### Продуктивность и рабочие процессы
+
+| Скилл | Ссылка | Описание |
+| --- | --- | --- |
+| workspace-health-monitor | [→](skills/workspace_health_monitor/) | Аудит рабочего пространства менеджера: находит осиротевшие файлы, забытые задачи, дубликаты и расхождения планов с реальностью. Двуязычный EN/RU |
+| delegation-brief | [→](skills/delegation-brief/) | Генерирует структурированный бриф задачи через 5-вопросное интервью — готов к вставке в новый диалог Cowork. Двуязычный EN/RU |
+| one-to-one-prep | [→](skills/one-to-one-prep/) | Генерирует структурированный prep-документ для ежемесячных встреч 1-on-1: трекинг action items, приоритизированные темы, вопросы по мотивации. Двуязычный EN/RU |
+| decision-log | [→](skills/decision-log/) | Извлекает структурированные решения из заметок встреч, Slack-тредов или email-цепочек — ведёт чистый лог отдельно от action items. Два режима: новый лог и пополнение с дедупликацией. Двуязычный EN/RU |
+
+### AI и возможности Claude
+
+| Скилл | Ссылка | Описание |
+| --- | --- | --- |
+| feature-guide | [→](skills/feature-guide/) | Мгновенно объясняет любую возможность Claude: что это, где доступна, какой тариф нужен, как активировать, ограничения и вердикт о применимости. Двуязычный EN/RU |
+| memory-auditor-chat | [→](skills/memory-auditor-chat/) | Аудит и очистка нативной памяти Claude.ai: находит противоречия, устаревшие записи, дубли и шум в Memory Edits и Memory Summary. Двуязычный EN/RU |
+| memory-auditor-cowork | [→](skills/memory-auditor-cowork/) | Аудит и очистка файловой памяти в Cowork: auto-memory, CLAUDE.md, User Preferences и Project Instructions. Двуязычный EN/RU |
+
+### Анализ и рецензирование
+
+| Скилл | Ссылка | Описание |
+| --- | --- | --- |
+| report-analyzer | [→](skills/report-analyzer-ru/) | Анализирует большие отчёты (PDF/PPTX) и формирует структурированное резюме с ключевыми данными и инсайтами |
+| prd-review-challenger | [→](skills/prd-review-challenger/) | Адвокат дьявола для PRD, фича-спецификаций и продуктовых решений — находит слабые допущения, открытые вопросы, риски реализации и логические дыры до того, как документ уйдёт в команду. Двуязычный EN/RU |
+| prompt-builder | [→](skills/prompt-builder-ru/) | Создаёт структурированный промпт для любой задачи через серию вопросов |
+| context-builder-cowork | [→](skills/context-builder-cowork-ru/) | Генерирует структурированный `project-context.md` через интерактивное интервью |
 
 Новые скиллы будут добавляться.
 

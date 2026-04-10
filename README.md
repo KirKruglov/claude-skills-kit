@@ -5,9 +5,41 @@
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 ![Skills](https://img.shields.io/badge/skills-19-informational?style=flat-square)
+![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
+19 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-A growing collection of reusable skills for Claude — ready-to-use instruction files that extend Claude's behavior across any interface: Claude.ai, Claude Projects, API, or Cowork.
+---
+
+## Quick Start
+
+**Step 1.** Find a skill in the catalog below.
+
+**Step 2.** Copy the skill folder to your workspace:
+
+- **Cowork** — copy the skill folder into your Cowork workspace directory. Claude detects it automatically.
+- **Claude.ai / Projects** — open the skill's `SKILL.md`, copy its content, and paste it into Project Instructions.
+
+**Step 3.** Use Claude as usual. The skill activates based on your message — no commands needed.
+
+> Each skill folder includes a `docs/INSTALL.md` with step-by-step instructions for your platform.
+
+---
+
+## Why Claude Skills Kit?
+
+Most skill repositories contain only a `SKILL.md` file.
+Claude Skills Kit ships a **complete package** per skill:
+
+| What's included                | Why it matters                                           |
+| ------------------------------ | -------------------------------------------------------- |
+| `SKILL.md` — core instructions | Claude activates the skill                               |
+| `README.md` (EN + RU)          | You know what the skill does before installing           |
+| `docs/INSTALL.md`              | Platform-specific setup in 3 steps                       |
+| `docs/USER-GUIDE.md`           | How to use the skill with examples                       |
+
+**Designed for non-technical users.** No code, no CLI, no configuration.
+**Bilingual EN/RU.** Claude detects the language of your request automatically.
 
 ---
 
@@ -24,25 +56,38 @@ Skills are:
 
 ## Skills
 
-Each skill is available in two language versions. Claude activates the skill based on the language of the request — use the EN version for English, the RU version for Russian.
+### Project Management
 
-Example: the RU version of `prompt-builder` triggers on **"напиши промт"**, the EN version — on **"create a prompt"**.
+| Skill | Link | Description |
+| --- | --- | --- |
+| project-management-kit | [→](skills/project-management-kit/) | AI Project Manager agent — 7 skills for project documentation (charter, risk register, project plan, communication plan, meeting protocol, plan-vs-actual report, closure report). PMBoK 8 + Agile. Bilingual EN/RU |
+| project-onboarding | [→](skills/project-onboarding/) | Full project onboarding for Cowork: generates context.md, folder rules, file map, and starter prompts in one session. Bilingual EN/RU |
 
-| Skill                    | EN                                     | RU                                      | Description                                                                                                                                                                                                         |
-| ------------------------ | -------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| context-builder-cowork   | [EN](skills/context-builder-cowork/)   | [RU](skills/context-builder-cowork-ru/) | Generates a structured `project-context.md` file via interactive interview                                                                                                                                          |
-| prompt-builder           | [EN](skills/prompt-builder/)           | [RU](skills/prompt-builder-ru/)         | Builds a structured prompt for any task via interactive Q&A                                                                                                                                                         |
-| report-analyzer          | [EN](skills/report-analyzer/)          | [RU](skills/report-analyzer-ru/)        | Analyzes large PDF/PPTX reports and produces a structured summary with key data and insights                                                                                                                        |
-| project-onboarding       | [EN](skills/project-onboarding/)       | [RU](skills/project-onboarding/)        | Full project onboarding for Cowork: generates context.md, folder rules, file map, and starter prompts in one session. Bilingual EN/RU                                                                               |
-| project-management-kit   | [EN](skills/project-management-kit/)   | [RU](skills/project-management-kit/)    | AI Project Manager agent — 7 skills for project documentation (charter, risk register, project plan, communication plan, meeting protocol, plan-vs-actual report, closure report). PMBoK 8 + Agile. Bilingual EN/RU |
-| feature-guide            | [EN](skills/feature-guide/)            | [RU](skills/feature-guide/)             | Instantly explains any Claude feature or capability: what it is, where it's available, required plan, how to activate, limitations, and an applicability verdict. Bilingual EN/RU                                   |
-| memory-auditor-chat      | [EN](skills/memory-auditor-chat/)      | [RU](skills/memory-auditor-chat/)       | Audits and cleans Claude.ai native memory: finds contradictions, outdated entries, duplicates, and noise in Memory Edits and Memory Summary. Bilingual EN/RU                                                        |
-| memory-auditor-cowork    | [EN](skills/memory-auditor-cowork/)    | [RU](skills/memory-auditor-cowork/)     | Audits and cleans file-based memory in Cowork: auto-memory, CLAUDE.md, User Preferences, and Project Instructions. Bilingual EN/RU                                                                                  |
-| delegation-brief         | [EN](skills/delegation-brief/)         | [RU](skills/delegation-brief/)          | Generates a structured task brief via 5-question interview — ready to paste into a new Cowork session. Bilingual EN/RU                                                                                              |
-| workspace-health-monitor | [EN](skills/workspace_health_monitor/) | [RU](skills/workspace_health_monitor/)  | Audits a manager's workspace files to find orphaned files, forgotten action items, duplicates, and plan-to-reality drift. Bilingual EN/RU                                                                           |
-| decision-log             | [EN](skills/decision-log/)             | [RU](skills/decision-log/)              | Extracts structured decisions from meeting notes, Slack threads, or email chains — builds a clean log separate from action items. Two modes: new log and append with deduplication. Bilingual EN/RU                 |
-| one-to-one-prep          | [EN](skills/one-to-one-prep/)          | [RU](skills/one-to-one-prep/)           | Generates a structured prep document for monthly 1-on-1 meetings: action item tracking, prioritized discussion topics, and wellbeing questions. Works with plain text from any tracker. Bilingual EN/RU             |
-| prd-review-challenger    | [EN](skills/prd-review-challenger/) | [RU](skills/prd-review-challenger/)  | Devil's advocate for PRDs, feature specs, and product decisions — surfaces weak assumptions, open questions, implementation risks, and logical gaps before the document goes to the team. Bilingual EN/RU            |
+### Productivity & Workflow
+
+| Skill | Link | Description |
+| --- | --- | --- |
+| workspace-health-monitor | [→](skills/workspace_health_monitor/) | Audits a manager's workspace files to find orphaned files, forgotten action items, duplicates, and plan-to-reality drift. Bilingual EN/RU |
+| delegation-brief | [→](skills/delegation-brief/) | Generates a structured task brief via 5-question interview — ready to paste into a new Cowork session. Bilingual EN/RU |
+| one-to-one-prep | [→](skills/one-to-one-prep/) | Generates a structured prep document for monthly 1-on-1 meetings: action item tracking, prioritized discussion topics, and wellbeing questions. Bilingual EN/RU |
+| decision-log | [→](skills/decision-log/) | Extracts structured decisions from meeting notes, Slack threads, or email chains — builds a clean log separate from action items. Two modes: new log and append with deduplication. Bilingual EN/RU |
+
+### AI & Claude Mastery
+
+| Skill | Link | Description |
+| --- | --- | --- |
+| feature-guide | [→](skills/feature-guide/) | Instantly explains any Claude feature or capability: what it is, where it's available, required plan, how to activate, limitations, and an applicability verdict. Bilingual EN/RU |
+| memory-auditor-chat | [→](skills/memory-auditor-chat/) | Audits and cleans Claude.ai native memory: finds contradictions, outdated entries, duplicates, and noise in Memory Edits and Memory Summary. Bilingual EN/RU |
+| memory-auditor-cowork | [→](skills/memory-auditor-cowork/) | Audits and cleans file-based memory in Cowork: auto-memory, CLAUDE.md, User Preferences, and Project Instructions. Bilingual EN/RU |
+
+### Analysis & Review
+
+| Skill | Link | Description |
+| --- | --- | --- |
+| report-analyzer | [→](skills/report-analyzer/) | Analyzes large PDF/PPTX reports and produces a structured summary with key data and insights |
+| prd-review-challenger | [→](skills/prd-review-challenger/) | Devil's advocate for PRDs, feature specs, and product decisions — surfaces weak assumptions, open questions, implementation risks, and logical gaps before the document goes to the team. Bilingual EN/RU |
+| prompt-builder | [→](skills/prompt-builder/) | Builds a structured prompt for any task via interactive Q&A |
+| context-builder-cowork | [→](skills/context-builder-cowork/) | Generates a structured `project-context.md` file via interactive interview |
 
 More skills coming.
 
