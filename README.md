@@ -42,7 +42,7 @@ Example: the RU version of `prompt-builder` triggers on **"напиши пром
 | workspace-health-monitor | [EN](skills/workspace_health_monitor/) | [RU](skills/workspace_health_monitor/)  | Audits a manager's workspace files to find orphaned files, forgotten action items, duplicates, and plan-to-reality drift. Bilingual EN/RU                                                                           |
 | decision-log             | [EN](skills/decision-log/)             | [RU](skills/decision-log/)              | Extracts structured decisions from meeting notes, Slack threads, or email chains — builds a clean log separate from action items. Two modes: new log and append with deduplication. Bilingual EN/RU                 |
 | one-to-one-prep          | [EN](skills/one-to-one-prep/)          | [RU](skills/one-to-one-prep/)           | Generates a structured prep document for monthly 1-on-1 meetings: action item tracking, prioritized discussion topics, and wellbeing questions. Works with plain text from any tracker. Bilingual EN/RU             |
-| prd-review-challenger    | [EN/RU](skills/prd-review-challenger/) | [EN/RU](skills/prd-review-challenger/)  | Devil's advocate for PRDs, feature specs, and product decisions — surfaces weak assumptions, open questions, implementation risks, and logical gaps before the document goes to the team. Bilingual EN/RU            |
+| prd-review-challenger    | [EN](skills/prd-review-challenger/) | [RU](skills/prd-review-challenger/)  | Devil's advocate for PRDs, feature specs, and product decisions — surfaces weak assumptions, open questions, implementation risks, and logical gaps before the document goes to the team. Bilingual EN/RU            |
 
 More skills coming.
 
@@ -122,7 +122,6 @@ claude-skills-kit/
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md
-│       ├── evals.json
 │       └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
 ├── README.md
 └── README.ru.md
