@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-19-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-20-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-19 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+20 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
 ---
 
@@ -71,6 +71,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | delegation-brief | [→](skills/delegation-brief/) | Генерирует структурированный бриф задачи через 5-вопросное интервью — готов к вставке в новый диалог Cowork. Двуязычный EN/RU |
 | one-to-one-prep | [→](skills/one-to-one-prep/) | Генерирует структурированный prep-документ для ежемесячных встреч 1-on-1: трекинг action items, приоритизированные темы, вопросы по мотивации. Двуязычный EN/RU |
 | decision-log | [→](skills/decision-log/) | Извлекает структурированные решения из заметок встреч, Slack-тредов или email-цепочек — ведёт чистый лог отдельно от action items. Два режима: новый лог и пополнение с дедупликацией. Двуязычный EN/RU |
+| weekly-digest-synthesizer | [→](skills/weekly-digest-synthesizer/) | Компилирует статусы из файлов .md/.txt в структурированный еженедельный дайджест по проектам, с задачами и блокерами. Двуязычный EN/RU |
 
 ### AI и возможности Claude
 
@@ -163,11 +164,16 @@ claude-skills-kit/
 │   │   ├── README.md
 │   │   ├── README.ru.md
 │   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   └── prd-review-challenger/        # EN/RU (двуязычный)
+│   ├── prd-review-challenger/        # EN/RU (двуязычный)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   └── weekly-digest-synthesizer/    # EN/RU (двуязычный)
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md
-│       └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   │   └── docs/                     # USER-GUIDE (EN+RU)
 ├── README.md
 └── README.ru.md
 ```

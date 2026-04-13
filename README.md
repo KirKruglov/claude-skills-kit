@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-19-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-20-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-19 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+20 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
 ---
 
@@ -71,6 +71,7 @@ Skills are:
 | delegation-brief | [→](skills/delegation-brief/) | Generates a structured task brief via 5-question interview — ready to paste into a new Cowork session. Bilingual EN/RU |
 | one-to-one-prep | [→](skills/one-to-one-prep/) | Generates a structured prep document for monthly 1-on-1 meetings: action item tracking, prioritized discussion topics, and wellbeing questions. Bilingual EN/RU |
 | decision-log | [→](skills/decision-log/) | Extracts structured decisions from meeting notes, Slack threads, or email chains — builds a clean log separate from action items. Two modes: new log and append with deduplication. Bilingual EN/RU |
+| weekly-digest-synthesizer | [→](skills/weekly-digest-synthesizer/) | Compiles status updates from multiple .md/.txt files into a structured weekly digest — by project, with action items and blockers. Bilingual EN/RU |
 
 ### AI & Claude Mastery
 
@@ -163,11 +164,16 @@ claude-skills-kit/
 │   │   ├── README.md
 │   │   ├── README.ru.md
 │   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   └── prd-review-challenger/        # EN/RU (bilingual)
+│   ├── prd-review-challenger/        # EN/RU (bilingual)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   └── weekly-digest-synthesizer/    # EN/RU (bilingual)
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md
-│       └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   │   └── docs/                     # USER-GUIDE (EN+RU)
 ├── README.md
 └── README.ru.md
 ```
