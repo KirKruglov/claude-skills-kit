@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-20-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-21-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-20 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+21 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
 ---
 
@@ -65,13 +65,13 @@ Skills are:
 
 ### Productivity & Workflow
 
-| Skill | Link | Description |
-| --- | --- | --- |
-| workspace-health-monitor | [→](skills/workspace_health_monitor/) | Audits a manager's workspace files to find orphaned files, forgotten action items, duplicates, and plan-to-reality drift. Bilingual EN/RU |
-| delegation-brief | [→](skills/delegation-brief/) | Generates a structured task brief via 5-question interview — ready to paste into a new Cowork session. Bilingual EN/RU |
-| one-to-one-prep | [→](skills/one-to-one-prep/) | Generates a structured prep document for monthly 1-on-1 meetings: action item tracking, prioritized discussion topics, and wellbeing questions. Bilingual EN/RU |
-| decision-log | [→](skills/decision-log/) | Extracts structured decisions from meeting notes, Slack threads, or email chains — builds a clean log separate from action items. Two modes: new log and append with deduplication. Bilingual EN/RU |
-| weekly-digest-synthesizer | [→](skills/weekly-digest-synthesizer/) | Compiles status updates from multiple .md/.txt files into a structured weekly digest — by project, with action items and blockers. Bilingual EN/RU |
+| Skill                     | Link                                   | Description                                                                                                                                                                                         |
+| ------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| workspace-health-monitor  | [→](skills/workspace_health_monitor/)  | Audits a manager's workspace files to find orphaned files, forgotten action items, duplicates, and plan-to-reality drift. Bilingual EN/RU                                                           |
+| delegation-brief          | [→](skills/delegation-brief/)          | Generates a structured task brief via 5-question interview — ready to paste into a new Cowork session. Bilingual EN/RU                                                                              |
+| one-to-one-prep           | [→](skills/one-to-one-prep/)           | Generates a structured prep document for monthly 1-on-1 meetings: action item tracking, prioritized discussion topics, and wellbeing questions. Bilingual EN/RU                                     |
+| decision-log              | [→](skills/decision-log/)              | Extracts structured decisions from meeting notes, Slack threads, or email chains — builds a clean log separate from action items. Two modes: new log and append with deduplication. Bilingual EN/RU |
+| weekly-digest-synthesizer | [→](skills/weekly-digest-synthesizer/) | Compiles status updates from multiple .md/.txt files into a structured weekly digest — by project, with action items and blockers. Bilingual EN/RU                                                  |
 
 ### AI & Claude Mastery
 
@@ -89,6 +89,7 @@ Skills are:
 | prd-review-challenger | [→](skills/prd-review-challenger/) | Devil's advocate for PRDs, feature specs, and product decisions — surfaces weak assumptions, open questions, implementation risks, and logical gaps before the document goes to the team. Bilingual EN/RU |
 | prompt-builder | [→](skills/prompt-builder/) | Builds a structured prompt for any task via interactive Q&A |
 | context-builder-cowork | [→](skills/context-builder-cowork/) | Generates a structured `project-context.md` file via interactive interview |
+| user-feedback-synthesizer | [→](skills/user-feedback-synthesizer/) | Synthesizes user interview transcripts and feedback files (.md, .txt, .csv) into a prioritized insight report with themes, quotes, and open questions. Bilingual EN/RU |
 
 More skills coming.
 
@@ -169,6 +170,11 @@ claude-skills-kit/
 │   │   ├── README.md
 │   │   ├── README.ru.md
 │   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   ├── user-feedback-synthesizer/    # EN/RU (bilingual)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # USER-GUIDE (EN+RU)
 │   └── weekly-digest-synthesizer/    # EN/RU (bilingual)
 │       ├── SKILL.md
 │       ├── README.md
