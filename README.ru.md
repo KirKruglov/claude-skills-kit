@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-21-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-22-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-21 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+22 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
 ---
 
@@ -72,6 +72,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | one-to-one-prep | [→](skills/one-to-one-prep/) | Генерирует структурированный prep-документ для ежемесячных встреч 1-on-1: трекинг action items, приоритизированные темы, вопросы по мотивации. Двуязычный EN/RU |
 | decision-log | [→](skills/decision-log/) | Извлекает структурированные решения из заметок встреч, Slack-тредов или email-цепочек — ведёт чистый лог отдельно от action items. Два режима: новый лог и пополнение с дедупликацией. Двуязычный EN/RU |
 | weekly-digest-synthesizer | [→](skills/weekly-digest-synthesizer/) | Компилирует статусы из файлов .md/.txt в структурированный еженедельный дайджест по проектам, с задачами и блокерами. Двуязычный EN/RU |
+| stakeholder-adapter       | [→](skills/stakeholder-adapter/)       | Адаптирует любой документ в версии для разных аудиторий: Руководство (бизнес-эффект, фокус на решениях), Команда (техническая глубина, actionable), Клиент (язык результатов, без жаргона). Двуязычный EN/RU |
 
 ### AI и возможности Claude
 
@@ -83,13 +84,13 @@ Claude Skills Kit поставляет **полный пакет** для каж
 
 ### Анализ и рецензирование
 
-| Скилл | Ссылка | Описание |
-| --- | --- | --- |
-| report-analyzer | [→](skills/report-analyzer-ru/) | Анализирует большие отчёты (PDF/PPTX) и формирует структурированное резюме с ключевыми данными и инсайтами |
-| prd-review-challenger | [→](skills/prd-review-challenger/) | Адвокат дьявола для PRD, фича-спецификаций и продуктовых решений — находит слабые допущения, открытые вопросы, риски реализации и логические дыры до того, как документ уйдёт в команду. Двуязычный EN/RU |
-| prompt-builder | [→](skills/prompt-builder-ru/) | Создаёт структурированный промпт для любой задачи через серию вопросов |
-| context-builder-cowork | [→](skills/context-builder-cowork-ru/) | Генерирует структурированный `project-context.md` через интерактивное интервью |
-| user-feedback-synthesizer | [→](skills/user-feedback-synthesizer/) | Синтезирует транскрипты пользовательских интервью и feedback-файлы (.md, .txt, .csv) в приоритизированный инсайт-отчёт с темами, цитатами и открытыми вопросами. Двуязычный EN/RU |
+| Скилл                     | Ссылка                                 | Описание                                                                                                                                                                                                  |
+| ------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| report-analyzer           | [→](skills/report-analyzer-ru/)        | Анализирует большие отчёты (PDF/PPTX) и формирует структурированное резюме с ключевыми данными и инсайтами                                                                                                |
+| prd-review-challenger     | [→](skills/prd-review-challenger/)     | Адвокат дьявола для PRD, фича-спецификаций и продуктовых решений — находит слабые допущения, открытые вопросы, риски реализации и логические дыры до того, как документ уйдёт в команду. Двуязычный EN/RU |
+| prompt-builder            | [→](skills/prompt-builder-ru/)         | Создаёт структурированный промпт для любой задачи через серию вопросов                                                                                                                                    |
+| context-builder-cowork    | [→](skills/context-builder-cowork-ru/) | Генерирует структурированный `project-context.md` через интерактивное интервью                                                                                                                            |
+| user-feedback-synthesizer | [→](skills/user-feedback-synthesizer/) | Синтезирует транскрипты пользовательских интервью и feedback-файлы (.md, .txt, .csv) в приоритизированный инсайт-отчёт с темами, цитатами и открытыми вопросами. Двуязычный EN/RU                         |
 
 Новые скиллы будут добавляться.
 
@@ -175,11 +176,16 @@ claude-skills-kit/
 │   │   ├── README.md
 │   │   ├── README.ru.md
 │   │   └── docs/                     # USER-GUIDE (EN+RU)
-│   └── weekly-digest-synthesizer/    # EN/RU (двуязычный)
+│   ├── weekly-digest-synthesizer/    # EN/RU (двуязычный)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # USER-GUIDE (EN+RU)
+│   └── stakeholder-adapter/          # EN/RU (двуязычный)
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md
-│   │   └── docs/                     # USER-GUIDE (EN+RU)
+│       └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
 ├── README.md
 └── README.ru.md
 ```
