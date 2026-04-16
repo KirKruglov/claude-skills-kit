@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-22-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-23-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-22 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+23 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
 ---
 
@@ -73,6 +73,7 @@ Skills are:
 | decision-log              | [→](skills/decision-log/)              | Extracts structured decisions from meeting notes, Slack threads, or email chains — builds a clean log separate from action items. Two modes: new log and append with deduplication. Bilingual EN/RU |
 | weekly-digest-synthesizer | [→](skills/weekly-digest-synthesizer/) | Compiles status updates from multiple .md/.txt files into a structured weekly digest — by project, with action items and blockers. Bilingual EN/RU                                                  |
 | stakeholder-adapter       | [→](skills/stakeholder-adapter/)       | Adapts any document into audience-specific versions: Leadership (business impact, decision-focused), Engineering/Team (technical depth, actionable), Client (outcome language, no jargon). Bilingual EN/RU |
+| hiring-pipeline-reviewer  | [→](skills/hiring-pipeline-reviewer/)  | Generates a structured weekly status report for all candidates in your hiring pipeline from interview notes and evaluation sheets. Flags stuck candidates, consolidates scores, and recommends next steps. Bilingual EN/RU |
 
 ### AI & Claude Mastery
 
@@ -181,11 +182,16 @@ claude-skills-kit/
 │   │   ├── README.md
 │   │   ├── README.ru.md
 │   │   └── docs/                     # USER-GUIDE (EN+RU)
-│   └── stakeholder-adapter/          # EN/RU (bilingual)
+│   ├── stakeholder-adapter/          # EN/RU (bilingual)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # USER-GUIDE (EN+RU)
+│   └── hiring-pipeline-reviewer/     # EN/RU (bilingual)
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md
-│       └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   │   └── docs/                     # USER-GUIDE (EN+RU)
 ├── README.md
 └── README.ru.md
 ```

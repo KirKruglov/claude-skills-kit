@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-22-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-23-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-22 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+23 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
 ---
 
@@ -73,6 +73,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | decision-log | [→](skills/decision-log/) | Извлекает структурированные решения из заметок встреч, Slack-тредов или email-цепочек — ведёт чистый лог отдельно от action items. Два режима: новый лог и пополнение с дедупликацией. Двуязычный EN/RU |
 | weekly-digest-synthesizer | [→](skills/weekly-digest-synthesizer/) | Компилирует статусы из файлов .md/.txt в структурированный еженедельный дайджест по проектам, с задачами и блокерами. Двуязычный EN/RU |
 | stakeholder-adapter       | [→](skills/stakeholder-adapter/)       | Адаптирует любой документ в версии для разных аудиторий: Руководство (бизнес-эффект, фокус на решениях), Команда (техническая глубина, actionable), Клиент (язык результатов, без жаргона). Двуязычный EN/RU |
+| hiring-pipeline-reviewer  | [→](skills/hiring-pipeline-reviewer/)  | Генерирует структурированный еженедельный статус по всем кандидатам пайплайна найма из заметок о собеседованиях и оценочных листов. Выявляет застрявших кандидатов, сводит оценки, формирует рекомендации. Двуязычный EN/RU |
 
 ### AI и возможности Claude
 
@@ -181,11 +182,16 @@ claude-skills-kit/
 │   │   ├── README.md
 │   │   ├── README.ru.md
 │   │   └── docs/                     # USER-GUIDE (EN+RU)
-│   └── stakeholder-adapter/          # EN/RU (двуязычный)
+│   ├── stakeholder-adapter/          # EN/RU (двуязычный)
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   ├── README.ru.md
+│   │   └── docs/                     # USER-GUIDE (EN+RU)
+│   └── hiring-pipeline-reviewer/     # EN/RU (двуязычный)
 │       ├── SKILL.md
 │       ├── README.md
 │       ├── README.ru.md
-│       └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
+│   │   └── docs/                     # USER-GUIDE (EN+RU)
 ├── README.md
 └── README.ru.md
 ```
