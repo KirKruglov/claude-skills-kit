@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-23-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-24-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-23 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+24 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
 ---
 
@@ -74,6 +74,7 @@ Skills are:
 | weekly-digest-synthesizer | [→](skills/weekly-digest-synthesizer/) | Compiles status updates from multiple .md/.txt files into a structured weekly digest — by project, with action items and blockers. Bilingual EN/RU                                                  |
 | stakeholder-adapter       | [→](skills/stakeholder-adapter/)       | Adapts any document into audience-specific versions: Leadership (business impact, decision-focused), Engineering/Team (technical depth, actionable), Client (outcome language, no jargon). Bilingual EN/RU |
 | hiring-pipeline-reviewer  | [→](skills/hiring-pipeline-reviewer/)  | Generates a structured weekly status report for all candidates in your hiring pipeline from interview notes and evaluation sheets. Flags stuck candidates, consolidates scores, and recommends next steps. Bilingual EN/RU |
+| retro-pattern-analyzer    | [→](skills/retro-pattern-analyzer/)    | Analyzes sprint retrospective files to surface recurring pain points, unresolved action items, and positive patterns across sprints. Bilingual EN/RU |
 
 ### AI & Claude Mastery
 
@@ -92,109 +93,6 @@ Skills are:
 | prompt-builder | [→](skills/prompt-builder/) | Builds a structured prompt for any task via interactive Q&A |
 | context-builder-cowork | [→](skills/context-builder-cowork/) | Generates a structured `project-context.md` file via interactive interview |
 | user-feedback-synthesizer | [→](skills/user-feedback-synthesizer/) | Synthesizes user interview transcripts and feedback files (.md, .txt, .csv) into a prioritized insight report with themes, quotes, and open questions. Bilingual EN/RU |
-
-More skills coming.
-
----
-
-## Repository structure
-
-```
-claude-skills-kit/
-├── skills/
-│   ├── context-builder-cowork/       # EN
-│   │   └── SKILL.md
-│   ├── context-builder-cowork-ru/    # RU
-│   │   └── SKILL.md
-│   ├── prompt-builder/               # EN
-│   │   └── SKILL.md
-│   ├── prompt-builder-ru/            # RU
-│   │   └── SKILL.md
-│   ├── report-analyzer/              # EN
-│   │   └── SKILL.md, README.md, ...
-│   ├── report-analyzer-ru/           # RU
-│   │   └── SKILL.md, README.md, ...
-│   ├── project-onboarding/           # EN/RU (bilingual)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── resources/
-│   ├── project-management-kit/       # Skill kit (EN/RU)
-│   │   ├── README.md
-│   │   ├── system-prompt.md
-│   │   ├── project-instructions.md
-│   │   ├── docs/                     # INSTALL, USER-GUIDE
-│   │   ├── generate-charter/         # 7 skills, each with
-│   │   ├── generate-risk-register/   #   SKILL.md, README.md,
-│   │   ├── generate-project-plan/    #   README.ru.md, templates/
-│   │   ├── generate-comm-plan/
-│   │   ├── generate-meeting-protocol/
-│   │   ├── generate-plan-fact-report/
-│   │   └── generate-closure-report/
-│   ├── feature-guide/                # EN/RU (bilingual)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── memory-auditor-chat/          # EN/RU (bilingual)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── memory-auditor-cowork/        # EN/RU (bilingual)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── delegation-brief/             # EN/RU (bilingual)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── workspace_health_monitor/     # EN/RU (bilingual)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── decision-log/                 # EN/RU (bilingual)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   ├── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   │   └── templates/                # decision-log-template.md/ru
-│   ├── one-to-one-prep/              # EN/RU (bilingual)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── prd-review-challenger/        # EN/RU (bilingual)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── user-feedback-synthesizer/    # EN/RU (bilingual)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # USER-GUIDE (EN+RU)
-│   ├── weekly-digest-synthesizer/    # EN/RU (bilingual)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # USER-GUIDE (EN+RU)
-│   ├── stakeholder-adapter/          # EN/RU (bilingual)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # USER-GUIDE (EN+RU)
-│   └── hiring-pipeline-reviewer/     # EN/RU (bilingual)
-│       ├── SKILL.md
-│       ├── README.md
-│       ├── README.ru.md
-│   │   └── docs/                     # USER-GUIDE (EN+RU)
-├── README.md
-└── README.ru.md
-```
 
 ---
 

@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-23-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-24-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-23 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+24 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
 ---
 
@@ -74,6 +74,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | weekly-digest-synthesizer | [→](skills/weekly-digest-synthesizer/) | Компилирует статусы из файлов .md/.txt в структурированный еженедельный дайджест по проектам, с задачами и блокерами. Двуязычный EN/RU |
 | stakeholder-adapter       | [→](skills/stakeholder-adapter/)       | Адаптирует любой документ в версии для разных аудиторий: Руководство (бизнес-эффект, фокус на решениях), Команда (техническая глубина, actionable), Клиент (язык результатов, без жаргона). Двуязычный EN/RU |
 | hiring-pipeline-reviewer  | [→](skills/hiring-pipeline-reviewer/)  | Генерирует структурированный еженедельный статус по всем кандидатам пайплайна найма из заметок о собеседованиях и оценочных листов. Выявляет застрявших кандидатов, сводит оценки, формирует рекомендации. Двуязычный EN/RU |
+| retro-pattern-analyzer    | [→](skills/retro-pattern-analyzer/)    | Анализирует файлы ретроспектив нескольких спринтов и выявляет повторяющиеся боли, нерешённые action items и стабильные позитивные паттерны команды. Двуязычный EN/RU |
 
 ### AI и возможности Claude
 
@@ -93,111 +94,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | context-builder-cowork    | [→](skills/context-builder-cowork-ru/) | Генерирует структурированный `project-context.md` через интерактивное интервью                                                                                                                            |
 | user-feedback-synthesizer | [→](skills/user-feedback-synthesizer/) | Синтезирует транскрипты пользовательских интервью и feedback-файлы (.md, .txt, .csv) в приоритизированный инсайт-отчёт с темами, цитатами и открытыми вопросами. Двуязычный EN/RU                         |
 
-Новые скиллы будут добавляться.
-
 ---
-
-## Структура репозитория
-
-```
-claude-skills-kit/
-├── skills/
-│   ├── context-builder-cowork/       # EN
-│   │   └── SKILL.md
-│   ├── context-builder-cowork-ru/    # RU
-│   │   └── SKILL.md
-│   ├── prompt-builder/               # EN
-│   │   └── SKILL.md
-│   ├── prompt-builder-ru/            # RU
-│   │   └── SKILL.md
-│   ├── report-analyzer/              # EN
-│   │   └── SKILL.md, README.md, ...
-│   ├── report-analyzer-ru/           # RU
-│   │   └── SKILL.md, README.md, ...
-│   ├── project-onboarding/           # EN/RU (двуязычный)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── resources/
-│   ├── project-management-kit/       # Набор скиллов (EN/RU)
-│   │   ├── README.md
-│   │   ├── system-prompt.md
-│   │   ├── project-instructions.md
-│   │   ├── docs/                     # INSTALL, USER-GUIDE
-│   │   ├── generate-charter/         # 7 скиллов, каждый с
-│   │   ├── generate-risk-register/   #   SKILL.md, README.md,
-│   │   ├── generate-project-plan/    #   README.ru.md, templates/
-│   │   ├── generate-comm-plan/
-│   │   ├── generate-meeting-protocol/
-│   │   ├── generate-plan-fact-report/
-│   │   └── generate-closure-report/
-│   ├── feature-guide/                # EN/RU (двуязычный)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── memory-auditor-chat/          # EN/RU (двуязычный)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── memory-auditor-cowork/        # EN/RU (двуязычный)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── delegation-brief/             # EN/RU (двуязычный)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── workspace_health_monitor/     # EN/RU (двуязычный)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── decision-log/                 # EN/RU (двуязычный)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   ├── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   │   └── templates/                # decision-log-template.md/ru
-│   ├── one-to-one-prep/              # EN/RU (двуязычный)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── prd-review-challenger/        # EN/RU (двуязычный)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # INSTALL, USER-GUIDE (EN+RU)
-│   ├── user-feedback-synthesizer/    # EN/RU (двуязычный)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # USER-GUIDE (EN+RU)
-│   ├── weekly-digest-synthesizer/    # EN/RU (двуязычный)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # USER-GUIDE (EN+RU)
-│   ├── stakeholder-adapter/          # EN/RU (двуязычный)
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   ├── README.ru.md
-│   │   └── docs/                     # USER-GUIDE (EN+RU)
-│   └── hiring-pipeline-reviewer/     # EN/RU (двуязычный)
-│       ├── SKILL.md
-│       ├── README.md
-│       ├── README.ru.md
-│   │   └── docs/                     # USER-GUIDE (EN+RU)
-├── README.md
-└── README.ru.md
-```
-
----
-
 ## Как установить скилл
 
 ### Вариант 1 — Git clone (рекомендуется)
