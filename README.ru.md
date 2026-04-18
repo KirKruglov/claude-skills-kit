@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-24-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-25-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-24 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+25 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
 ---
 
@@ -75,6 +75,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | stakeholder-adapter       | [→](skills/stakeholder-adapter/)       | Адаптирует любой документ в версии для разных аудиторий: Руководство (бизнес-эффект, фокус на решениях), Команда (техническая глубина, actionable), Клиент (язык результатов, без жаргона). Двуязычный EN/RU |
 | hiring-pipeline-reviewer  | [→](skills/hiring-pipeline-reviewer/)  | Генерирует структурированный еженедельный статус по всем кандидатам пайплайна найма из заметок о собеседованиях и оценочных листов. Выявляет застрявших кандидатов, сводит оценки, формирует рекомендации. Двуязычный EN/RU |
 | retro-pattern-analyzer    | [→](skills/retro-pattern-analyzer/)    | Анализирует файлы ретроспектив нескольких спринтов и выявляет повторяющиеся боли, нерешённые action items и стабильные позитивные паттерны команды. Двуязычный EN/RU |
+| okr-progress-narrator     | [→](skills/okr-progress-narrator/)     | Преобразует сырые OKR-данные (таблицы, списки, CSV или текст в чате) в нарративный апдейт для стейкхолдеров: executive summary, абзац по каждой цели, таблица KR, риски и следующие шаги. Двуязычный EN/RU |
 
 ### AI и возможности Claude
 
