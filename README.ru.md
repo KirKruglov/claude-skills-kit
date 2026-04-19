@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-25-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-26-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-25 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+26 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
 ---
 
@@ -84,6 +84,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | feature-guide | [→](skills/feature-guide/) | Мгновенно объясняет любую возможность Claude: что это, где доступна, какой тариф нужен, как активировать, ограничения и вердикт о применимости. Двуязычный EN/RU |
 | memory-auditor-chat | [→](skills/memory-auditor-chat/) | Аудит и очистка нативной памяти Claude.ai: находит противоречия, устаревшие записи, дубли и шум в Memory Edits и Memory Summary. Двуязычный EN/RU |
 | memory-auditor-cowork | [→](skills/memory-auditor-cowork/) | Аудит и очистка файловой памяти в Cowork: auto-memory, CLAUDE.md, User Preferences и Project Instructions. Двуязычный EN/RU |
+| session-handoff-composer  | [→](skills/session-handoff-composer/)  | Составляет структурированный handoff-блок из текущей сессии при переполнении контекста — решения, задачи, открытые вопросы и следующие шаги, готовые к вставке в новую сессию. Двуязычный EN/RU |
 
 ### Анализ и рецензирование
 
