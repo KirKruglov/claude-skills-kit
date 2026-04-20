@@ -1,13 +1,13 @@
-> [Версия на русском языке](README.ru.md)
+> [Версия на русском языке](operations/skills-dev/claude-skills-kit/README.ru.md)
 
 # claude-skills-kit
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-26-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-27-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-26 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+27 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
 ---
 
@@ -76,6 +76,7 @@ Skills are:
 | hiring-pipeline-reviewer  | [→](skills/hiring-pipeline-reviewer/)  | Generates a structured weekly status report for all candidates in your hiring pipeline from interview notes and evaluation sheets. Flags stuck candidates, consolidates scores, and recommends next steps. Bilingual EN/RU |
 | retro-pattern-analyzer    | [→](skills/retro-pattern-analyzer/)    | Analyzes sprint retrospective files to surface recurring pain points, unresolved action items, and positive patterns across sprints. Bilingual EN/RU |
 | okr-progress-narrator     | [→](skills/okr-progress-narrator/)     | Transforms raw OKR data (tables, lists, CSV, or pasted text) into a narrative stakeholder update: executive summary, per-objective narrative, KR status table, risks, and next steps. Bilingual EN/RU |
+| morning-standup-brief-generator | [→](skills/morning-standup-brief-generator/) | Compiles local notes, tasks, and project files into a structured daily standup brief — Yesterday / Today / Blockers / Questions. No connectors required. Bilingual EN/RU |
 
 ### AI & Claude Mastery
 
