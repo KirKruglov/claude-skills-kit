@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-27-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-28-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-27 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+28 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
 ---
 
@@ -58,44 +58,45 @@ Skills are:
 
 ### Project Management
 
-| Skill | Link | Description |
-| --- | --- | --- |
-| project-management-kit | [→](skills/project-management-kit/) | AI Project Manager agent — 7 skills for project documentation (charter, risk register, project plan, communication plan, meeting protocol, plan-vs-actual report, closure report). PMBoK 8 + Agile. Bilingual EN/RU |
-| project-onboarding | [→](skills/project-onboarding/) | Full project onboarding for Cowork: generates context.md, folder rules, file map, and starter prompts in one session. Bilingual EN/RU |
+| Skill                     | Link                                   | Description                                                                                                                                                                                                         |
+| ------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| project-management-kit    | [→](skills/project-management-kit/)    | AI Project Manager agent — 7 skills for project documentation (charter, risk register, project plan, communication plan, meeting protocol, plan-vs-actual report, closure report). PMBoK 8 + Agile. Bilingual EN/RU |
+| project-onboarding        | [→](skills/project-onboarding/)        | Full project onboarding for Cowork: generates context.md, folder rules, file map, and starter prompts in one session. Bilingual EN/RU                                                                               |
+| weekly-digest-synthesizer | [→](skills/weekly-digest-synthesizer/) | Compiles status updates from multiple .md/.txt files into a structured weekly digest — by project, with action items and blockers. Bilingual EN/RU                                                                  |
+| context-builder-cowork    | [→](skills/context-builder-cowork/)    | Generates a structured `project-context.md` file via interactive interview                                                                                                                                          |
+| okr-progress-narrator     | [→](skills/okr-progress-narrator/)     | Transforms raw OKR data (tables, lists, CSV, or pasted text) into a narrative stakeholder update: executive summary, per-objective narrative, KR status table, risks, and next steps. Bilingual EN/RU               |
+| retro-pattern-analyzer    | [→](skills/retro-pattern-analyzer/)    | Analyzes sprint retrospective files to surface recurring pain points, unresolved action items, and positive patterns across sprints. Bilingual EN/RU                                                                |
 
 ### Productivity & Workflow
 
-| Skill                     | Link                                   | Description                                                                                                                                                                                         |
-| ------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| workspace-health-monitor  | [→](skills/workspace_health_monitor/)  | Audits a manager's workspace files to find orphaned files, forgotten action items, duplicates, and plan-to-reality drift. Bilingual EN/RU                                                           |
-| delegation-brief          | [→](skills/delegation-brief/)          | Generates a structured task brief via 5-question interview — ready to paste into a new Cowork session. Bilingual EN/RU                                                                              |
-| one-to-one-prep           | [→](skills/one-to-one-prep/)           | Generates a structured prep document for monthly 1-on-1 meetings: action item tracking, prioritized discussion topics, and wellbeing questions. Bilingual EN/RU                                     |
-| decision-log              | [→](skills/decision-log/)              | Extracts structured decisions from meeting notes, Slack threads, or email chains — builds a clean log separate from action items. Two modes: new log and append with deduplication. Bilingual EN/RU |
-| weekly-digest-synthesizer | [→](skills/weekly-digest-synthesizer/) | Compiles status updates from multiple .md/.txt files into a structured weekly digest — by project, with action items and blockers. Bilingual EN/RU                                                  |
-| stakeholder-adapter       | [→](skills/stakeholder-adapter/)       | Adapts any document into audience-specific versions: Leadership (business impact, decision-focused), Engineering/Team (technical depth, actionable), Client (outcome language, no jargon). Bilingual EN/RU |
-| hiring-pipeline-reviewer  | [→](skills/hiring-pipeline-reviewer/)  | Generates a structured weekly status report for all candidates in your hiring pipeline from interview notes and evaluation sheets. Flags stuck candidates, consolidates scores, and recommends next steps. Bilingual EN/RU |
-| retro-pattern-analyzer    | [→](skills/retro-pattern-analyzer/)    | Analyzes sprint retrospective files to surface recurring pain points, unresolved action items, and positive patterns across sprints. Bilingual EN/RU |
-| okr-progress-narrator     | [→](skills/okr-progress-narrator/)     | Transforms raw OKR data (tables, lists, CSV, or pasted text) into a narrative stakeholder update: executive summary, per-objective narrative, KR status table, risks, and next steps. Bilingual EN/RU |
-| morning-standup-brief-generator | [→](skills/morning-standup-brief-generator/) | Compiles local notes, tasks, and project files into a structured daily standup brief — Yesterday / Today / Blockers / Questions. No connectors required. Bilingual EN/RU |
+| Skill                           | Link                                         | Description                                                                                                                                                                                                                |
+| ------------------------------- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| workspace-health-monitor        | [→](skills/workspace_health_monitor/)        | Audits a manager's workspace files to find orphaned files, forgotten action items, duplicates, and plan-to-reality drift. Bilingual EN/RU                                                                                  |
+| delegation-brief                | [→](skills/delegation-brief/)                | Generates a structured task brief via 5-question interview — ready to paste into a new Cowork session. Bilingual EN/RU                                                                                                     |
+| one-to-one-prep                 | [→](skills/one-to-one-prep/)                 | Generates a structured prep document for monthly 1-on-1 meetings: action item tracking, prioritized discussion topics, and wellbeing questions. Bilingual EN/RU                                                            |
+| decision-log                    | [→](skills/decision-log/)                    | Extracts structured decisions from meeting notes, Slack threads, or email chains — builds a clean log separate from action items. Two modes: new log and append with deduplication. Bilingual EN/RU                        |
+| weekly-competitor-tracker       | [→](skills/weekly-competitor-tracker/)       | Tracks weekly competitor changes from your markdown notes — compares current vs. last-week snapshot and generates a delta-report with significance flags. No APIs required. Bilingual EN/RU                                |
+| stakeholder-adapter             | [→](skills/stakeholder-adapter/)             | Adapts any document into audience-specific versions: Leadership (business impact, decision-focused), Engineering/Team (technical depth, actionable), Client (outcome language, no jargon). Bilingual EN/RU                 |
+| hiring-pipeline-reviewer        | [→](skills/hiring-pipeline-reviewer/)        | Generates a structured weekly status report for all candidates in your hiring pipeline from interview notes and evaluation sheets. Flags stuck candidates, consolidates scores, and recommends next steps. Bilingual EN/RU |
+| morning-standup-brief-generator | [→](skills/morning-standup-brief-generator/) | Compiles local notes, tasks, and project files into a structured daily standup brief — Yesterday / Today / Blockers / Questions. No connectors required. Bilingual EN/RU                                                   |
 
 ### AI & Claude Mastery
 
-| Skill | Link | Description |
-| --- | --- | --- |
-| feature-guide | [→](skills/feature-guide/) | Instantly explains any Claude feature or capability: what it is, where it's available, required plan, how to activate, limitations, and an applicability verdict. Bilingual EN/RU |
-| memory-auditor-chat | [→](skills/memory-auditor-chat/) | Audits and cleans Claude.ai native memory: finds contradictions, outdated entries, duplicates, and noise in Memory Edits and Memory Summary. Bilingual EN/RU |
-| memory-auditor-cowork | [→](skills/memory-auditor-cowork/) | Audits and cleans file-based memory in Cowork: auto-memory, CLAUDE.md, User Preferences, and Project Instructions. Bilingual EN/RU |
-| session-handoff-composer  | [→](skills/session-handoff-composer/)  | Composes a structured handoff block from the current session when context fills up — decisions, tasks, open questions, and next steps ready to paste into a new session. Bilingual EN/RU |
+| Skill                    | Link                                  | Description                                                                                                                                                                              |
+| ------------------------ | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| feature-guide            | [→](skills/feature-guide/)            | Instantly explains any Claude feature or capability: what it is, where it's available, required plan, how to activate, limitations, and an applicability verdict. Bilingual EN/RU        |
+| memory-auditor-chat      | [→](skills/memory-auditor-chat/)      | Audits and cleans Claude.ai native memory: finds contradictions, outdated entries, duplicates, and noise in Memory Edits and Memory Summary. Bilingual EN/RU                             |
+| memory-auditor-cowork    | [→](skills/memory-auditor-cowork/)    | Audits and cleans file-based memory in Cowork: auto-memory, CLAUDE.md, User Preferences, and Project Instructions. Bilingual EN/RU                                                       |
+| session-handoff-composer | [→](skills/session-handoff-composer/) | Composes a structured handoff block from the current session when context fills up — decisions, tasks, open questions, and next steps ready to paste into a new session. Bilingual EN/RU |
+| prompt-builder           | [→](skills/prompt-builder/)           | Builds a structured prompt for any task via interactive Q&A                                                                                                                              |
 
 ### Analysis & Review
 
-| Skill | Link | Description |
-| --- | --- | --- |
-| report-analyzer | [→](skills/report-analyzer/) | Analyzes large PDF/PPTX reports and produces a structured summary with key data and insights |
-| prd-review-challenger | [→](skills/prd-review-challenger/) | Devil's advocate for PRDs, feature specs, and product decisions — surfaces weak assumptions, open questions, implementation risks, and logical gaps before the document goes to the team. Bilingual EN/RU |
-| prompt-builder | [→](skills/prompt-builder/) | Builds a structured prompt for any task via interactive Q&A |
-| context-builder-cowork | [→](skills/context-builder-cowork/) | Generates a structured `project-context.md` file via interactive interview |
-| user-feedback-synthesizer | [→](skills/user-feedback-synthesizer/) | Synthesizes user interview transcripts and feedback files (.md, .txt, .csv) into a prioritized insight report with themes, quotes, and open questions. Bilingual EN/RU |
+| Skill                     | Link                                   | Description                                                                                                                                                                                               |
+| ------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| report-analyzer           | [→](skills/report-analyzer/)           | Analyzes large PDF/PPTX reports and produces a structured summary with key data and insights                                                                                                              |
+| prd-review-challenger     | [→](skills/prd-review-challenger/)     | Devil's advocate for PRDs, feature specs, and product decisions — surfaces weak assumptions, open questions, implementation risks, and logical gaps before the document goes to the team. Bilingual EN/RU |
+| user-feedback-synthesizer | [→](skills/user-feedback-synthesizer/) | Synthesizes user interview transcripts and feedback files (.md, .txt, .csv) into a prioritized insight report with themes, quotes, and open questions. Bilingual EN/RU                                    |
 
 ---
 
