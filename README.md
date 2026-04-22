@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-28-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-29-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-28 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+29 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
 ---
 
@@ -82,13 +82,14 @@ Skills are:
 
 ### AI & Claude Mastery
 
-| Skill                    | Link                                  | Description                                                                                                                                                                              |
-| ------------------------ | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| feature-guide            | [→](skills/feature-guide/)            | Instantly explains any Claude feature or capability: what it is, where it's available, required plan, how to activate, limitations, and an applicability verdict. Bilingual EN/RU        |
-| memory-auditor-chat      | [→](skills/memory-auditor-chat/)      | Audits and cleans Claude.ai native memory: finds contradictions, outdated entries, duplicates, and noise in Memory Edits and Memory Summary. Bilingual EN/RU                             |
-| memory-auditor-cowork    | [→](skills/memory-auditor-cowork/)    | Audits and cleans file-based memory in Cowork: auto-memory, CLAUDE.md, User Preferences, and Project Instructions. Bilingual EN/RU                                                       |
-| session-handoff-composer | [→](skills/session-handoff-composer/) | Composes a structured handoff block from the current session when context fills up — decisions, tasks, open questions, and next steps ready to paste into a new session. Bilingual EN/RU |
-| prompt-builder           | [→](skills/prompt-builder/)           | Builds a structured prompt for any task via interactive Q&A                                                                                                                              |
+| Skill                     | Link                                   | Description                                                                                                                                                                              |
+| ------------------------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| feature-guide             | [→](skills/feature-guide/)             | Instantly explains any Claude feature or capability: what it is, where it's available, required plan, how to activate, limitations, and an applicability verdict. Bilingual EN/RU        |
+| memory-auditor-chat       | [→](skills/memory-auditor-chat/)       | Audits and cleans Claude.ai native memory: finds contradictions, outdated entries, duplicates, and noise in Memory Edits and Memory Summary. Bilingual EN/RU                             |
+| memory-auditor-cowork     | [→](skills/memory-auditor-cowork/)     | Audits and cleans file-based memory in Cowork: auto-memory, CLAUDE.md, User Preferences, and Project Instructions. Bilingual EN/RU                                                       |
+| session-handoff-composer  | [→](skills/session-handoff-composer/)  | Composes a structured handoff block from the current session when context fills up — decisions, tasks, open questions, and next steps ready to paste into a new session. Bilingual EN/RU |
+| prompt-builder            | [→](skills/prompt-builder/)            | Builds a structured prompt for any task via interactive Q&A                                                                                                                              |
+| weekly-ai-workflow-review | [→](skills/weekly-ai-workflow-review/) | Analyzes weekly notes about Claude-delegated tasks to surface delegation patterns, effective prompts, and optimization areas — with reusable prompt templates. Bilingual EN/RU           |
 
 ### Analysis & Review
 
