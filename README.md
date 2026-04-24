@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-30-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-31-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-30 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+31 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
 ---
 
@@ -79,6 +79,7 @@ Skills are:
 | stakeholder-adapter             | [→](skills/stakeholder-adapter/)             | Adapts any document into audience-specific versions: Leadership (business impact, decision-focused), Engineering/Team (technical depth, actionable), Client (outcome language, no jargon). Bilingual EN/RU                 |
 | hiring-pipeline-reviewer        | [→](skills/hiring-pipeline-reviewer/)        | Generates a structured weekly status report for all candidates in your hiring pipeline from interview notes and evaluation sheets. Flags stuck candidates, consolidates scores, and recommends next steps. Bilingual EN/RU |
 | morning-standup-brief-generator | [→](skills/morning-standup-brief-generator/) | Compiles local notes, tasks, and project files into a structured daily standup brief — Yesterday / Today / Blockers / Questions. No connectors required. Bilingual EN/RU                                                   |
+| team-update-aggregator          | [→](skills/team-update-aggregator/)          | Aggregates weekly updates from team members into a people-centric status report — organized by person, not by project. Progress, plans, blockers, capacity, and manager attention flags per team member. Bilingual EN/RU   |
 
 ### AI & Claude Mastery
 

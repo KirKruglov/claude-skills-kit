@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-30-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-31-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-30 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+31 готовый скилл-агент для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
 ---
 
@@ -79,6 +79,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | stakeholder-adapter             | [→](skills/stakeholder-adapter/)             | Адаптирует любой документ в версии для разных аудиторий: Руководство (бизнес-эффект, фокус на решениях), Команда (техническая глубина, actionable), Клиент (язык результатов, без жаргона). Двуязычный EN/RU                |
 | hiring-pipeline-reviewer        | [→](skills/hiring-pipeline-reviewer/)        | Генерирует структурированный еженедельный статус по всем кандидатам пайплайна найма из заметок о собеседованиях и оценочных листов. Выявляет застрявших кандидатов, сводит оценки, формирует рекомендации. Двуязычный EN/RU |
 | morning-standup-brief-generator | [→](skills/morning-standup-brief-generator/) | Компилирует локальные заметки, задачи и проектные файлы в структурированный дейли-бриф — Вчера / Сегодня / Блокеры / Вопросы. Без коннекторов. Двуязычный EN/RU                                                             |
+| team-update-aggregator          | [→](skills/team-update-aggregator/)          | Агрегирует еженедельные обновления от членов команды в people-centric статус-отчёт — организованный по людям, а не по проектам. Прогресс, планы, блокеры, нагрузка и флаги внимания менеджера на каждого. Двуязычный EN/RU   |
 
 ### AI и возможности Claude
 
