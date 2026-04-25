@@ -12,6 +12,7 @@ trigger: >
 template: risk-register-en.md
 output_file: risk-register.md
 phase: "1 — Initiation (initial), 2 — Planning (detailed)"
+version: 1.0.0
 ---
 
 # generate-risk-register

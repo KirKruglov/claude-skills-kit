@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Morning Standup Brief Generator
 
 Turn your local notes and task files into a ready-to-use standup brief in seconds — no integrations required.

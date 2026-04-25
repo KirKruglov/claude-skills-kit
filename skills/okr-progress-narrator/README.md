@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # OKR Progress Narrator
 
 **Transform raw OKR data into a readable stakeholder update — automatically.**

@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # generate-charter
 
 Генерирует устав проекта — базовый документ фазы инициации.

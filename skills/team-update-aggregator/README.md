@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Team Update Aggregator
 
 A Claude skill that compiles weekly updates from your team members into a structured **people-centric** status report — organized by person, not by project. Each team member gets a dedicated section with progress, next-week plans, blockers, capacity notes, and manager attention flags.

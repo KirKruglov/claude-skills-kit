@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Claude Memory Auditor (Chat) — Аудит и очистка памяти Claude
 
 Находит противоречия, устаревшие записи, дубли и шум во всех слоях нативной памяти Claude.ai.

@@ -1,4 +1,4 @@
-> **[Версия на русском языке](../report-analyzer-ru/README.md)**
+> [Версия на русском языке](README.ru.md)
 
 # Report Analyzer — Claude Cowork Skill
 

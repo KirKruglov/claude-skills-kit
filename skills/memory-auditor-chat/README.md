@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Claude Memory Auditor (Chat) — Keep Your AI Memory Clean and Accurate
 
 Find contradictions, outdated entries, duplicates, and noise across all Claude.ai native memory layers.

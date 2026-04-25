@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Weekly AI Workflow Review
 
 Turn your week of Claude interactions into actionable insights: patterns, wins, and prompt templates for next week.

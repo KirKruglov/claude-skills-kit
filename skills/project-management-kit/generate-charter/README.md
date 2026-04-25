@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # generate-charter
 
 Generates a project charter — the foundational document of the Initiation phase.

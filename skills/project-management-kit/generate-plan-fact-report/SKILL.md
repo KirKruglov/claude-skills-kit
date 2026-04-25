@@ -10,6 +10,7 @@ trigger: >
   Triggers EN: "generate plan-fact report", "plan vs actual", "variance report".
 output_file: plan-fact-report.md
 phase: "6 — Closing"
+version: 1.0.0
 ---
 
 # generate-plan-fact-report

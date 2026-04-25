@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Hiring Pipeline Reviewer
 
 Turn scattered interview notes into a structured weekly candidate status report — with flags, scores, and clear next steps.

@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # generate-meeting-protocol
 
 Генерирует структурированный протокол встречи из свободных заметок.

@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Retro Pattern Analyzer
 
 Stop re-reading the same complaints sprint after sprint. Surface what keeps coming back — and what your team has silently given up trying to fix.

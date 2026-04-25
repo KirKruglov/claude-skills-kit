@@ -1,0 +1,59 @@
+name: Skill Request
+description: Suggest a new skill for the collection
+labels: ["skill-request"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Skill name (kebab-case)
+      placeholder: e.g. meeting-notes-summarizer
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What does the skill do?
+      description: 1–2 sentences describing the skill's purpose.
+    validations:
+      required: true
+
+  - type: input
+    id: trigger
+    attributes:
+      label: Example trigger phrase
+      placeholder: e.g. "Summarize these meeting notes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: input
+    attributes:
+      label: Example input
+      description: What would a user provide to the skill?
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Expected output
+      description: What should the skill produce?
+    validations:
+      required: true
+
+  - type: input
+    id: audience
+    attributes:
+      label: Target audience
+      placeholder: e.g. Project managers, team leads
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Existing alternatives
+      description: Are there similar skills already in the collection or elsewhere?
+    validations:
+      required: false

@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # PRD Review Challenger — AI Devil's Advocate for Product Documents
 
 Find the gaps in your PRD before your team does.

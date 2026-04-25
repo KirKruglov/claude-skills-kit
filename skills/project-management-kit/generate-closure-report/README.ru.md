@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # generate-closure-report
 
 Генерирует отчёт о закрытии проекта — итоговый артефакт жизненного цикла проекта.

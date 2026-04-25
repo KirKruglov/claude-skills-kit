@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # stakeholder-adapter — One Document, Every Audience
 
 Stop rewriting the same document for every room you walk into. `stakeholder-adapter` takes your working document and generates ready-to-send versions for Leadership, Engineering, and your Client — each tuned to what that audience actually needs.

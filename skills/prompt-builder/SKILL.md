@@ -1,25 +1,37 @@
 ---
 name: prompt-builder
-description: Interactive structured prompt generator for Claude based on the user's task description. Activate this skill when the user wants to create a prompt for Cowork or Claude.ai.
-triggers:
-  - "create a prompt"
-  - "write a prompt"
-  - "prompt builder"
-language: en
-interactive: true
-version: 1.0
+description: "Interactive structured prompt generator for Claude based on the user's task description. Asks 7 questions and assembles a ready-to-use prompt from a universal template. EN triggers: 'create a prompt', 'write a prompt', 'prompt builder'. RU triggers: 'создай промпт', 'напиши промпт', 'prompt builder'."
+version: 1.0.0
 ---
 
-# Prompt Builder Skill
+# Prompt Builder
 
-## Purpose
-An interactive generator that builds structured prompts for Claude based on the user's task description. The skill asks questions, interprets loose answers, clarifies details, and assembles a ready-to-use prompt from a universal template.
+An interactive generator that builds structured prompts for Claude based on the user's task description. The skill asks 7 questions, interprets loose or vague answers, clarifies details, and assembles a ready-to-use prompt from a universal template.
 
-## Instructions for Claude
+Suitable for anyone who needs to create a reusable, well-structured prompt for Claude — for code review, content writing, data analysis, or any other repeatable task.
+
+## Language Detection
+
+Detect the language of the user's first message:
+- If the message is in **Russian** — conduct the entire interview and output the final prompt in Russian.
+- If the message is in **English** — conduct the entire interview and output the final prompt in English.
+- If the language is ambiguous, default to English.
+
+All question texts, labels, and output section headers must match the detected language.
+
+## Input
+
+A natural-language description from the user of what they want the prompt to accomplish. Can be brief ("I need a prompt for code review") or detailed.
+
+## Output
+
+A structured prompt document with sections: Role, Context, Task, Input data, Output requirements, Constraints, and optionally Examples. Displayed in chat and optionally saved as a `.md` file.
+
+## Instructions
 
 ### Step 1: Interactive interview
 
-Ask questions in the order below. Wait for the user's answer after each question.
+Ask questions in the order below. Wait for the user's answer after each question before proceeding.
 
 **Rules:**
 - User answers may be unstructured or vague — interpret the intent
@@ -27,12 +39,13 @@ Ask questions in the order below. Wait for the user's answer after each question
 - Do not move to the next item until you have enough information
 - Collect answers into variables for final generation
 
+---
+
 #### Question 1: Claude's role
-```
-What role should Claude take on in this task?
-(E.g.: analyst, writer, tester, coder, etc.)
-Describe what it will do in general terms.
-```
+
+**EN:** "What role should Claude take on in this task? (E.g.: analyst, writer, tester, coder, etc.) Describe what it will do in general terms."
+
+**RU:** "Какую роль должен взять на себя Claude в этой задаче? (Например: аналитик, писатель, тестировщик, кодер и т.д.) Опиши, что он будет делать в общих чертах."
 
 **Action:** Interpret the answer, extract the role and core function. If the answer is too broad, ask: "If I understood correctly, Claude should act as [your interpretation]? Confirm or clarify?"
 
@@ -41,10 +54,10 @@ Describe what it will do in general terms.
 ---
 
 #### Question 2: Context
-```
-What context does Claude need to understand the task?
-(Background: why this matters, conditions, prerequisites?)
-```
+
+**EN:** "What context does Claude need to understand the task? (Background: why this matters, conditions, prerequisites?)"
+
+**RU:** "Какой контекст нужен Claude для понимания задачи? (Фоновая информация: почему это важно, в каких условиях, какие предпосылки?)"
 
 **Action:** Interpret as background and prerequisites. If the user says "it's clear from the task", ask: "Are there specific conditions, constraints, or history that affect the task?"
 
@@ -53,10 +66,10 @@ What context does Claude need to understand the task?
 ---
 
 #### Question 3: Main task
-```
-Specifically, what should Claude produce?
-(Describe the exact result you need)
-```
+
+**EN:** "Specifically, what should Claude produce? (Describe the exact result you need)"
+
+**RU:** "Конкретно, что должен выполнить Claude? (Опиши точный результат, который нужен)"
 
 **Action:** Interpret as the primary goal. If the answer is vague, reframe: "So you need [your interpretation]?"
 
@@ -65,10 +78,10 @@ Specifically, what should Claude produce?
 ---
 
 #### Question 4: Input data
-```
-What data or information will be passed to Claude?
-(Text, table, list, description, nothing?)
-```
+
+**EN:** "What data or information will be passed to Claude? (Text, table, list, description, nothing?)"
+
+**RU:** "Какие данные/информация будут подаваться на вход Claude? (Текст, таблица, список, описание, ничего?)"
 
 **Action:** Interpret the format and type of input. If "it depends", ask: "Give an example of a typical input."
 
@@ -77,12 +90,10 @@ What data or information will be passed to Claude?
 ---
 
 #### Question 5: Output requirements
-```
-What should the result look like?
-(Format: text, list, table, code, structured JSON, etc.)
-(Length: brief, detailed, specific number of items?)
-(Style: technical, plain language, with examples?)
-```
+
+**EN:** "What should the result look like? (Format: text, list, table, code, JSON, etc.) (Length: brief, detailed, specific number of items?) (Style: technical, plain language, with examples?)"
+
+**RU:** "В каком виде должен быть результат? (Формат: текст, список, таблица, код, JSON и т.д.) (Объем: краткий, развёрнутый, конкретное количество пунктов?) (Стиль: технический, простой язык, с примерами?)"
 
 **Action:** Interpret all three aspects. If only one is answered, ask about the others: "And the format? Length? Style?"
 
@@ -91,10 +102,10 @@ What should the result look like?
 ---
 
 #### Question 6: Constraints and tone
-```
-Are there any constraints or special requirements?
-(What to avoid, tone, taboos, formatting restrictions?)
-```
+
+**EN:** "Are there any constraints or special requirements? (What to avoid, tone, taboos, formatting restrictions?)"
+
+**RU:** "Есть ли ограничения или специальные требования? (Что нельзя делать, особый тон, табу, форматирование?)"
 
 **Action:** Interpret as constraints and stylistic requirements. If "no constraints", ask: "Can Claude be creative? Is there a preferred style (formal/informal)?"
 
@@ -103,12 +114,12 @@ Are there any constraints or special requirements?
 ---
 
 #### Question 7: Examples
-```
-Do you need input/output examples for clarity?
-(If yes, provide one: what goes in, what's expected out)
-```
 
-**Action:** If "yes" — ask for an example. If "no" — skip, proceed to generation.
+**EN:** "Do you need input/output examples for clarity? (If yes, provide one: what goes in, what's expected out)"
+
+**RU:** "Нужны ли примеры input/output для ясности? (Если да, приведи пример: что на входе, что ожидается на выходе)"
+
+**Action:** If "yes" — ask for an example. If "no" — skip and proceed to generation.
 
 **Variable:** `EXAMPLES` (optional)
 
@@ -116,7 +127,9 @@ Do you need input/output examples for clarity?
 
 ### Step 2: Generate the prompt
 
-After collecting all answers, assemble the final prompt using this template:
+After collecting all answers, assemble the final prompt using the appropriate template.
+
+**EN template:**
 ```
 ## Role
 [ROLE]
@@ -141,56 +154,52 @@ After collecting all answers, assemble the final prompt using this template:
 [EXAMPLES]
 ```
 
+**RU template:**
+```
+## Роль
+[ROLE]
+
+## Контекст
+[CONTEXT]
+
+## Задача
+[TASK]
+
+## Входные данные
+[INPUT]
+
+## Требования к выводу
+[OUTPUT]
+
+## Ограничения
+[CONSTRAINTS]
+
+[ЕСЛИ EXAMPLES СОБРАНЫ:]
+## Примеры
+[EXAMPLES]
+```
+
 ---
 
 ### Step 3: Output and save
 
-1. **Display the final prompt in chat** clearly and structured
-2. **After the prompt, ask:**
-```
-   The prompt is ready. Do you want to save it as a .md file?
-```
-3. **If "yes":**
+1. Display the final prompt in chat — clearly and structured
+2. After the prompt, ask the user: "The prompt is ready. Do you want to save it as a `.md` file?" (in the detected language)
+3. If "yes":
    - Suggest a filename (e.g.: `prompt-[short-description].md`)
-   - Save the file via `present_files`
-4. **If "no":**
+   - Save the file and make it available for download or copying
+4. If "no":
    - Ask: "Do you need any edits to the prompt?"
    - If edits — return to the relevant step, update the variable, regenerate
 
----
+## Output Format
 
-## Key interpretation rules
+The generated prompt is a Markdown document with H2-level section headers. Each section contains only the user-provided content for that field, lightly formatted for readability. The document is self-contained and ready to paste directly into a new Claude conversation.
 
-- **Vague answers** → ask a clarifying question by rephrasing ("If I understood correctly...")
-- **Unfilled fields** → apply default logic (e.g., if context is not important, write "Minimal context" or skip)
-- **Special characters and formatting** → interpret the answer, apply correct formatting in the final prompt
-- **Contradictions** → ask for clarification instead of assuming
+## Negative Cases
 
----
-
-## Usage examples
-
-### Example 1: Prompt for code review
-**User:** "I need a prompt to review code. Check for bugs, style, optimization."
-
-**Claude interprets:**
-- ROLE: Code reviewer
-- TASK: Analyze code for bugs, style issues, and optimization opportunities
-- etc.
-
-### Example 2: Prompt for content writing
-**User:** "I want a prompt for writing articles about cars. For a blog. Should be engaging."
-
-**Claude interprets:**
-- ROLE: Content writer for an automotive blog
-- TASK: Write engaging articles about cars
-- OUTPUT: Full-length article, conversational style
-- etc.
-
----
-
-## Cowork integration
-
-Files are saved to `/home/claude/` and can be copied by the user into the project structure:
-- For a project: `projects/[project-name]/resources/prompts/[prompt-name].md`
-- For global use: `global/prompts/[prompt-name].md`
+- **User provides a full, detailed description upfront** — still ask all 7 questions to confirm each field; prefill your interpretation and ask the user to confirm rather than skipping
+- **User answers in a different language mid-interview** — switch to that language for remaining questions and the final output
+- **User wants to skip a question** — accept "skip" or "not applicable" and use a reasonable default (e.g., "No specific constraints") rather than blocking
+- **User asks to edit the generated prompt** — return to the relevant question(s), update variables, and regenerate the full prompt
+- **User provides contradictory answers** — ask for clarification rather than guessing which answer to use

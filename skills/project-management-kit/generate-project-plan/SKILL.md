@@ -14,6 +14,7 @@ trigger: >
 template: project-plan-ru.md
 output_file: project-plan.md
 phase: "2 — Planning"
+version: 1.0.0
 ---
 
 # generate-project-plan

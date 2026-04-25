@@ -1,0 +1,28 @@
+name: Documentation Improvement
+description: Report inaccurate, unclear, or missing documentation
+labels: ["documentation"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: File or section
+      description: Which file or URL is affected?
+      placeholder: e.g. skills/decision-log/README.md or README.md#how-to-install-a-skill
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is inaccurate or unclear?
+      description: Describe the issue with the current documentation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: How should it be worded or fixed?
+    validations:
+      required: false

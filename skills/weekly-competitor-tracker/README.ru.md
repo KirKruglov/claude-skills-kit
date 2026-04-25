@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Weekly Competitor Tracker
 
 Отслеживайте изменения у конкурентов еженедельно — без таблиц, подписок и кода.

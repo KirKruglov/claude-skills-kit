@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Claude Memory Auditor для Cowork — Аудит и очистка файловой памяти
 
 Находит противоречия, устаревшие записи, дубли и шум во всех слоях памяти Cowork.

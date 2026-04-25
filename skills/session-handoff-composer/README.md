@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Session Handoff Composer
 
 Transfer your work context to a new session without losing a thing.

@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Feature Guide — Instant Claude Feature Cards for Any User
 
 Stop searching docs. Get a structured answer about any Claude feature in seconds.

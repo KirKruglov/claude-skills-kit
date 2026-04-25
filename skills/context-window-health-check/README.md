@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Context Window Health Check
 
 A Claude skill that assesses the health of your current session and tells you — in plain language — whether to keep going, create a handoff, or start fresh. No token counts, no code required.

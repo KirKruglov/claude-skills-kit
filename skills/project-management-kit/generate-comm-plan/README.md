@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # generate-comm-plan
 
 Generates a communication plan with stakeholder matrix, communication schedule, and escalation rules.

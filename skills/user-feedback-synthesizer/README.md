@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # user-feedback-synthesizer
 
 Turn a folder of interview transcripts, support tickets, and survey files into a structured insight report — without spending two days tagging and clustering manually.

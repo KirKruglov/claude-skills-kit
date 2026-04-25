@@ -13,6 +13,7 @@ trigger: >
 template: project-charter.md
 output_file: project-charter.md
 phase: "1 — Initiation"
+version: 1.0.0
 ---
 
 # generate-charter

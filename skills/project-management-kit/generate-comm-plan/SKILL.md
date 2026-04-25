@@ -12,6 +12,7 @@ trigger: >
 template: comm-plan.md
 output_file: comm-plan.md
 phase: "2 — Planning"
+version: 1.0.0
 ---
 
 # generate-comm-plan

@@ -71,16 +71,15 @@ break down the report Statista_EV_Market_Report.pdf
 
 Claude will find the file in the project working folder and start processing.
 
-### Step 3 — Answer 3 questions
+### Step 3 — Answer 2 questions
 
-Claude will ask interactive questions:
-1. **Output language** — Russian or English
-2. **Analysis focus** — general overview / numbers and data / strategic takeaways / everything combined
-3. **File format** — .md / .pdf / .docx
+Claude will ask:
+1. **Analysis focus** — general overview / numbers and data / strategic takeaways / everything combined
+2. **File format** — .md / .pdf / .docx
 
 ### Step 4 — Get the result
 
-Claude will generate a summary file and offer it for download. The file is saved to the project's `output/` folder.
+Claude will generate a summary file and offer it for download. The file is saved to the project's output folder or current working directory.
 
 ---
 
@@ -117,4 +116,4 @@ No. Cowork installs all required dependencies automatically on the first skill r
 Yes. If text cannot be extracted directly, the skill automatically runs OCR.
 
 **Can I analyze a report in English and get the result in Russian?**
-Yes. The input file language and the output language are independent settings.
+Yes. Write your request in Russian — the skill detects the language from your message and generates the output accordingly.

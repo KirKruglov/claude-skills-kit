@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Weekly Digest Synthesizer
 
 Turn scattered status files into a structured weekly digest in minutes.

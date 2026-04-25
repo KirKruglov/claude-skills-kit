@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # project-onboarding
 
 Полный онбординг нового проекта в Claude Cowork за одну сессию.

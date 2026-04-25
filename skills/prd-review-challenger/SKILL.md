@@ -1,7 +1,7 @@
 ---
 name: prd-review-challenger
 description: "Critical review of PRDs, feature specs, and product decision documents — acts as a devil's advocate to surface weak assumptions, missing requirements, implementation risks, and logical gaps. Use when a PM or team lead wants to stress-test a document before team review, validate a spec before development starts, or identify what's missing in a product decision. Triggers RU: «проверь PRD», «разбери спецификацию», «найди дыры в PRD». Triggers EN: 'review my PRD', 'challenge my spec', 'find holes in my PRD', 'critique my feature spec'. Do not use for writing or rewriting PRDs."
-version: 1
+version: 1.0.0
 ---
 
 # Skill: prd-review-challenger

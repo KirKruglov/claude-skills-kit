@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Session Handoff Composer
 
 Переноси рабочий контекст в новую сессию без потери информации.

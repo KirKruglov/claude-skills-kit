@@ -6,7 +6,7 @@ description: "Audit and clean up Claude's native memory in Claude.ai: find contr
   Trigger with: audit memory, check memory, memory audit, clean up memory, review memory,
   memory health check, what's in my memory, аудит памяти, проверь память, почисти память,
   разбери память, ревью памяти, что у меня в памяти."
-version: 1.0
+version: 1.0.0
 ---
 
 # Skill: memory-auditor-chat

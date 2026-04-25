@@ -1,4 +1,4 @@
-# workspace_health_monitor — User Guide
+# workspace-health-monitor — User Guide
 
 Audit your manager's workspace: find forgotten tasks, orphaned files, and conflicting information
 across your notes, plans, and logs — in one structured report.

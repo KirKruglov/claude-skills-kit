@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # delegation-brief — Structured Task Brief Generator for Claude Cowork
 
 Stop wasting tokens on vague instructions. `delegation-brief` asks you 5 targeted questions and outputs a clear, ready-to-use task brief for your Cowork session.

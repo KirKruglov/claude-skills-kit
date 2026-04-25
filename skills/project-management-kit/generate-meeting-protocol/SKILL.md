@@ -12,6 +12,7 @@ trigger: >
 template: meeting-protocol-{lang}.md
 output_file: meeting-protocol-{date}.md
 phase: "3 — Prototyping (universal, applicable in any phase)"
+version: 1.0.0
 ---
 
 # generate-meeting-protocol

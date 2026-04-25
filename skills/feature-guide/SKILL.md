@@ -7,7 +7,7 @@ description: "Helps non-technical Claude users instantly understand any Claude f
   accomplish specific tasks with Claude. Triggers: feature lookup, capability check, does Claude
   support, how to enable, what can Claude do, can Claude, Claude feature scout, what features does
   Claude have, how do I use this Claude feature."
-version: 1.0
+version: 1.0.0
 ---
 
 # Skill: feature-guide

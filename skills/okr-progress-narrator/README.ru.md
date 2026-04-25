@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # OKR Progress Narrator
 
 **Преобразуй сырые OKR-данные в читаемый апдейт для стейкхолдеров — автоматически.**

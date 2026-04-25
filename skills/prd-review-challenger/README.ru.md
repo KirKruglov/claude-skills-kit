@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # PRD Review Challenger — AI-адвокат дьявола для продуктовых документов
 
 Найди дыры в PRD раньше, чем это сделает команда.

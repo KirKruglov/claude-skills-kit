@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # generate-plan-fact-report
 
 Генерирует отчёт план/факт — сравнение плановых и фактических данных проекта.

@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # generate-meeting-protocol
 
 Generates a structured meeting protocol from free-form notes.

@@ -8,7 +8,7 @@ description: "Adapts any working document (PRD, status update, proposal, meeting
   Triggers RU: «адаптируй документ», «сделай версию для руководства», «разные версии
   документа». Triggers EN: 'adapt document', 'stakeholder adapter', 'create executive
   version', 'make a client version', 'rewrite for audience'."
-version: 1.0
+version: 1.0.0
 ---
 
 # Skill: stakeholder-adapter

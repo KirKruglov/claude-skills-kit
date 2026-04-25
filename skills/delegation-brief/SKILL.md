@@ -7,7 +7,7 @@ description: "Interactive skill for Cowork that generates a structured delegatio
   structuring a vague request, or preparing clear instructions before starting work.
   Triggers RU: «бриф», «составь бриф», «помоги делегировать», «структурируй задачу».
   Triggers EN: 'brief', 'delegation brief', 'help me delegate', 'structure my task'."
-version: 1.0
+version: 1.0.0
 ---
 
 # Skill: delegation-brief

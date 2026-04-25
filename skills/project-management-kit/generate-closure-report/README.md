@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # generate-closure-report
 
 Generates a project closure report — the final artifact of the project lifecycle.

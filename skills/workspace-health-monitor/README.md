@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Workspace Health Monitor — Claude Skill for Managers
 
 > Weekly workspace audit: find forgotten tasks, orphaned files, and conflicting information in your notes and plans.

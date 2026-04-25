@@ -1,10 +1,10 @@
 ---
 name: report-analyzer
-description: "Analyze large PDF or PPTX reports (consulting, research, market analysis) and produce a structured summary with key data, insights, and section overview. Trigger this skill when the user mentions: 'analyze report', 'report summary', 'report analysis', 'key takeaways from report', 'break down the report', 'what's in the report', 'summarize the report'. Also trigger when a user uploads a PDF or PPTX file and asks to summarize, extract insights, or review it — even if they don't use the exact phrases above. If a large document is uploaded with any request related to understanding its contents, use this skill."
-version: 1.0
+description: "Analyze large PDF or PPTX reports (consulting, research, market analysis) and produce a structured summary with key data, insights, and section overview. Trigger this skill when the user mentions: 'analyze report', 'report summary', 'report analysis', 'key takeaways from report', 'break down the report', 'what's in the report', 'summarize the report', 'проанализируй отчёт', 'разбери отчёт', 'summary отчёта', 'ключевые выводы из отчёта', 'что в отчёте', 'краткое содержание отчёта'. Also trigger when a user uploads a PDF or PPTX file and asks to summarize, extract insights, or review it — even if they don't use the exact phrases above. If a large document is uploaded with any request related to understanding its contents, use this skill."
+version: 1.0.0
 ---
 
-# Skill: report-analyzer
+# Report Analyzer
 
 Analyzes large reports (PDF, PPTX) and produces a structured summary with key data and insights.
 
@@ -12,52 +12,68 @@ Target audience: product managers, marketers, analysts, finance professionals, C
 
 ---
 
-## Workflow
+## Language Detection
+
+Detect the language from the user's message. Use that language for all output — the summary document, clarifying questions, and responses. If the user writes in Russian, respond and generate the output in Russian. If in English — in English.
+
+---
+
+## Input
+
+- A PDF or PPTX report file
+- The user specifies the file name or path in their message, or uploads the file directly
+
+---
+
+## Output
+
+A structured summary document (up to 1.5 pages) containing:
+- Report metadata
+- Executive Summary
+- Key figures and data
+- Key insights
+- Report structure
+
+---
+
+## Instructions
 
 ### Step 1 — Locate the input file
 
-The user specifies the report file name in their message. Claude must locate this file.
+The user specifies the report file name in their message. Locate the file using this order:
 
-**Search order:**
-1. Check the current project working directory (`input/` folder or project root)
-2. Check `/mnt/user-data/uploads/` (if the file was uploaded via the interface)
-3. If the user provided a full path — use it directly
+1. Check the current working directory and subdirectories (e.g. `input/` folder or project root)
+2. If the user provided a full path — use it directly
 
 **File search:**
 ```bash
-# Search by name in working directory and uploads
-find /mnt/user-data/uploads/ -iname "*.pdf" -o -iname "*.pptx" 2>/dev/null
 find . -iname "*.pdf" -o -iname "*.pptx" 2>/dev/null
 ```
 
 **If the file is not found** — ask the user:
-> "Please specify the exact file name or path to the report. Supported formats: PDF, PPTX."
+> "Please specify the exact file name or path to the report, or upload the file directly. Supported formats: PDF, PPTX."
 
 **If the format is not supported:**
 > "This skill works with PDF and PPTX files. Please provide a file in one of these formats."
-
-**Important:** copy the file to `/home/claude/` before processing to avoid modifying the original.
 
 ---
 
 ### Step 2 — Ask clarifying questions
 
-Use `ask_user_input` for three questions simultaneously:
+Ask the user the following questions before proceeding:
 
-**Question 1** (single_select): "What language should the output be in?"
-- Russian
-- English
-
-**Question 2** (single_select): "Analysis focus?"
+**Question 1:** "What is the analysis focus?"
 - General overview
 - Numbers and data
 - Strategic takeaways
 - Everything combined
 
-**Question 3** (single_select): "Output file format?"
+**Question 2:** "What output file format do you prefer?"
 - .md
 - .pdf
 - .docx
+
+Do not create the output file until both questions are answered.
 
 ---
 
@@ -138,23 +154,23 @@ An insight is a statement from the report that meets at least one criterion:
 
 ### Step 5 — Generate the output file
 
-Use the structure from the "Output document template" section below.
+Use the structure from the "Output Format" section below.
 
 **By format:**
-- `.md` — write directly via `create_file`
-- `.pdf` — first generate `.md`, then use the `pdf` skill (read `/mnt/skills/public/pdf/SKILL.md`)
-- `.docx` — first generate `.md`, then use the `docx` skill (read `/mnt/skills/public/docx/SKILL.md`)
+- `.md` — write the file directly
+- `.pdf` — first generate `.md`, then use the pdf skill if available
+- `.docx` — first generate `.md`, then use the docx skill if available
 
 **File naming:**
 `report-summary_REPORT-NAME_YYYY-MM-DD.extension`
 
 Example: `report-summary_mckinsey-ai-trends_2026-03-18.md`
 
-Save the file to `/mnt/user-data/outputs/` and deliver to the user via `present_files`.
+Save the file in the project output folder or current working directory. Deliver the file to the user.
 
 ---
 
-## Output document template
+## Output Format
 
 ```markdown
 # Report Summary: [Report Title]
@@ -213,14 +229,14 @@ Save the file to `/mnt/user-data/outputs/` and deliver to the user via `present_
 
 ---
 
-## What to avoid
+## Negative Cases
 
 - Do not add personal assessments or recommendations — only report content
 - Do not exceed 1.5 pages in the output document
 - Do not use filler phrases ("Sure, here's the analysis...")
 - Do not retell the entire report — highlight what matters
 - Do not round or alter numbers from the original
-- Do not create the file until all 3 questions are answered
+- Do not create the file until both clarifying questions are answered
 
 ---
 

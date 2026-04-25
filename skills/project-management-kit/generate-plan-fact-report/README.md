@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # generate-plan-fact-report
 
 Generates a plan-vs-actual variance report comparing planned and actual project data.

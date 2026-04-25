@@ -1,4 +1,4 @@
-> [Версия на русском языке](operations/skills-dev/claude-skills-kit/README.ru.md)
+> [Версия на русском языке](README.ru.md)
 
 # claude-skills-kit
 
@@ -8,6 +8,8 @@
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
 31 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+
+> 24 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -22,7 +24,7 @@
 
 **Step 3.** Use Claude as usual. The skill activates based on your message — no commands needed.
 
-> Each skill folder includes a `docs/INSTALL.md` with step-by-step instructions for your platform.
+> See [INSTALL.md](INSTALL.md) / [INSTALL.ru.md](INSTALL.ru.md) for step-by-step setup.
 
 ---
 
@@ -35,8 +37,8 @@ Claude Skills Kit ships a **complete package** per skill:
 | ------------------------------ | -------------------------------------------------------- |
 | `SKILL.md` — core instructions | Claude activates the skill                               |
 | `README.md` (EN + RU)          | You know what the skill does before installing           |
-| `docs/INSTALL.md`              | Platform-specific setup in 3 steps                       |
-| `docs/USER-GUIDE.md`           | How to use the skill with examples                       |
+| `docs/USER-GUIDE.md`           | How to use the skill with examples (where applicable)    |
+| `INSTALL.md` (EN + RU)         | Common setup guide in the repo root                      |
 
 **Designed for non-technical users.** No code, no CLI, no configuration.
 **Bilingual EN/RU.** Claude detects the language of your request automatically.
@@ -67,11 +69,23 @@ Skills are:
 | okr-progress-narrator     | [→](skills/okr-progress-narrator/)     | Transforms raw OKR data (tables, lists, CSV, or pasted text) into a narrative stakeholder update: executive summary, per-objective narrative, KR status table, risks, and next steps. Bilingual EN/RU               |
 | retro-pattern-analyzer    | [→](skills/retro-pattern-analyzer/)    | Analyzes sprint retrospective files to surface recurring pain points, unresolved action items, and positive patterns across sprints. Bilingual EN/RU                                                                |
 
+#### Project Management Kit — 7 nested skills
+
+| Skill                         | Link                                                               | Description                                                                                                                           |
+| ----------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| generate-charter              | [→](skills/project-management-kit/generate-charter/)              | Generates a project charter — the foundational document of the Initiation phase. Bilingual EN/RU                                     |
+| generate-risk-register        | [→](skills/project-management-kit/generate-risk-register/)        | Generates or updates a risk register with probability/impact scoring and response strategies. Bilingual EN/RU                         |
+| generate-project-plan         | [→](skills/project-management-kit/generate-project-plan/)         | Generates a project plan with WBS, milestones, dependencies, and resource map. Bilingual EN/RU                                        |
+| generate-comm-plan            | [→](skills/project-management-kit/generate-comm-plan/)            | Generates a communication plan with stakeholder matrix, communication schedule, and escalation rules. Bilingual EN/RU                 |
+| generate-meeting-protocol     | [→](skills/project-management-kit/generate-meeting-protocol/)     | Generates a structured meeting protocol from free-form notes. Bilingual EN/RU                                                         |
+| generate-plan-fact-report     | [→](skills/project-management-kit/generate-plan-fact-report/)     | Generates a plan-vs-actual variance report comparing planned and actual project data. Bilingual EN/RU                                 |
+| generate-closure-report       | [→](skills/project-management-kit/generate-closure-report/)       | Generates a project closure report — the final artifact of the project lifecycle. Bilingual EN/RU                                     |
+
 ### Productivity & Workflow
 
 | Skill                           | Link                                         | Description                                                                                                                                                                                                                |
 | ------------------------------- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| workspace-health-monitor        | [→](skills/workspace_health_monitor/)        | Audits a manager's workspace files to find orphaned files, forgotten action items, duplicates, and plan-to-reality drift. Bilingual EN/RU                                                                                  |
+| workspace-health-monitor        | [→](skills/workspace-health-monitor/)        | Audits a manager's workspace files to find orphaned files, forgotten action items, duplicates, and plan-to-reality drift. Bilingual EN/RU                                                                                  |
 | delegation-brief                | [→](skills/delegation-brief/)                | Generates a structured task brief via 5-question interview — ready to paste into a new Cowork session. Bilingual EN/RU                                                                                                     |
 | one-to-one-prep                 | [→](skills/one-to-one-prep/)                 | Generates a structured prep document for monthly 1-on-1 meetings: action item tracking, prioritized discussion topics, and wellbeing questions. Bilingual EN/RU                                                            |
 | decision-log                    | [→](skills/decision-log/)                    | Extracts structured decisions from meeting notes, Slack threads, or email chains — builds a clean log separate from action items. Two modes: new log and append with deduplication. Bilingual EN/RU                        |
@@ -105,7 +119,7 @@ Skills are:
 
 ## How to install a skill
 
-### Option 1 — Git clone (recommended)
+### Option 1 — Git clone (full kit)
 
 ```bash
 git clone https://github.com/KirKruglov/claude-skills-kit.git
@@ -113,12 +127,7 @@ git clone https://github.com/KirKruglov/claude-skills-kit.git
 
 The skill folder will be at `skills/skill-name/`.
 
-### Option 2 — Download a single skill folder
-
-1. Open the skill folder in the repository
-2. Download the `SKILL.md` file
-3. Create a local folder with the skill name (e.g., `context-builder-cowork`)
-4. Place `SKILL.md` inside that folder
+See [INSTALL.md](INSTALL.md) for sparse-checkout, single-skill download, and more options.
 
 ---
 
@@ -150,14 +159,20 @@ Claude will automatically activate the skill when a request matches its purpose.
 
 ## Contributing
 
-Skills are currently authored and maintained by the repository owner.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to suggest a skill, report a bug, or improve documentation.
 
-To suggest a skill or report an issue — open a GitHub Issue with:
-- A brief description of what the skill does
-- An example trigger phrase
-- The expected output
+---
 
-Pull requests are welcome once contributor guidelines are published.
+## Community
+
+| File | Purpose |
+| ---- | ------- |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to suggest skills, report bugs, improve docs |
+| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community standards |
+| [SECURITY.md](SECURITY.md) | How to report security issues |
+| [GitHub Discussions](https://github.com/KirKruglov/claude-skills-kit/discussions) | Questions, ideas, general discussion |
+
+Issue templates and PR template are active automatically via `.github/`.
 
 ---
 

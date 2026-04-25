@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Weekly Competitor Tracker
 
 Stay on top of what your competitors are doing — without spreadsheets, subscriptions, or code.

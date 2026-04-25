@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # AI Project Manager Agent for Claude
 
 An AI agent that automates project management documentation for IT product development teams. Built as a set of skills for Claude.ai Projects.

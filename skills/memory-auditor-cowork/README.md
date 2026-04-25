@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Claude Memory Auditor for Cowork — Keep Your File-Based Memory Clean
 
 Find contradictions, outdated entries, duplicates, and noise across all Cowork memory layers.

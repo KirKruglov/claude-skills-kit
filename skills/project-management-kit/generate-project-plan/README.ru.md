@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # generate-project-plan
 
 Генерирует план проекта с WBS, вехами, зависимостями и картой ресурсов.

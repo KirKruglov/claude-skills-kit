@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Feature Guide — Карточки возможностей Claude по запросу
 
 Узнайте, что умеет Claude, без долгих поисков в документации.

@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # decision-log — Claude Skill for Extracting and Logging Decisions
 
 > Automatically extract structured decisions from meeting notes, Slack threads, and email chains — and keep a clean decision log separate from action items.

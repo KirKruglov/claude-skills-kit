@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # generate-project-plan
 
 Generates a project plan with WBS, milestones, dependencies, and resource map.

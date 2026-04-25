@@ -1,7 +1,7 @@
 ---
 name: project-onboarding
 description: "Full project onboarding for Claude Cowork: generates context.md, folder-instructions.md, file map, and starter prompts in one session. Triggers RU: «создай проект», «onboarding проекта», «новый проект», «настрой проект», «создай контекст проекта», «быстрый контекст», «обнови карту файлов», «пересканируй файлы». Triggers EN: 'create project', 'project onboarding', 'new project', 'set up project', 'quick context', 'update file map', 'rescan files'."
-version: 2.0
+version: 1.0.0
 ---
 
 # Skill: project-onboarding

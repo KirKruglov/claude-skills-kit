@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # project-onboarding
 
 Full project onboarding for Claude Cowork in one session.

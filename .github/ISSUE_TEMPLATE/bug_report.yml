@@ -1,0 +1,72 @@
+name: Bug Report
+description: Something isn't working as expected in a skill
+labels: ["bug"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill name
+      description: The folder name of the skill (e.g. `decision-log`)
+      placeholder: e.g. decision-log
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Claude.ai
+        - Claude Cowork
+        - Claude Projects
+        - API
+    validations:
+      required: true
+
+  - type: dropdown
+    id: plan
+    attributes:
+      label: Claude plan
+      options:
+        - Free
+        - Pro
+        - Max
+        - Team
+        - Enterprise
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Installed the skill via ...
+        2. Sent the trigger phrase ...
+        3. Claude responded with ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or output
+      description: Optional — paste Claude's response or attach a screenshot.
+    validations:
+      required: false

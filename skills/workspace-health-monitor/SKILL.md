@@ -1,5 +1,5 @@
 ---
-name: workspace_health_monitor
+name: workspace-health-monitor
 description: "Audits a manager's workspace files (meeting notes, plans, tasks, logs) to
   detect orphaned files, forgotten action items, duplicates, and plan-to-reality drift.
   Use when you want to clean up your workspace, run a weekly hygiene check, find forgotten
@@ -8,10 +8,10 @@ description: "Audits a manager's workspace files (meeting notes, plans, tasks, l
   «почисти workspace», «что я забыл сделать».
   Triggers EN: workspace audit, workspace health check, find forgotten tasks, orphaned files,
   weekly cleanup."
-version: 1.0
+version: 1.0.0
 ---
 
-# Skill: workspace_health_monitor
+# Workspace Health Monitor
 
 Audits a manager's workspace — scans files, notes, tasks, and logs to detect orphaned files,
 forgotten action items, duplicates, and drift between plans and reality.

@@ -6,7 +6,7 @@ description: "Extracts structured decisions from meeting notes, Slack threads, o
   Supports two modes: new log creation and append to an existing log with deduplication.
   Use when you want to capture decisions from a meeting, update decision log, log decisions,
   extract decisions from discussion, build decision registry, add decisions to log."
-version: 1.0
+version: 1.0.0
 ---
 
 # Skill: decision-log

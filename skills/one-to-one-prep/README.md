@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # one-to-one-prep — 1:1 Meeting Prep Generator for Managers
 
 > Turn your notes and task tracker data into a structured 1-on-1 agenda in seconds.

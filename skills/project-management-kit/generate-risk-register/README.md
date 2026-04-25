@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # generate-risk-register
 
 Generates or updates a risk register with probability/impact scoring and response strategies.

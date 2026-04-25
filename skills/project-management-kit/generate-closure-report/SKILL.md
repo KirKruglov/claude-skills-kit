@@ -7,6 +7,7 @@ description: >
 template: closure-report
 output_file: closure-report.md
 phase: "6 — Closing"
+version: 1.0.0
 ---
 
 # generate-closure-report

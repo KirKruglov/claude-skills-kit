@@ -7,7 +7,7 @@ description: "Generates a structured prep document for monthly 1-on-1 meetings w
   1-on-1 agenda generation, preparing for regular reports meetings.
   Russian triggers: подготовь 1-on-1, prep для ван-он-вана, готовлюсь к 1:1, подготовка к встрече
   с сотрудником, сгенерируй агенду для 1-on-1, подготовь встречу один на один."
-version: 1.0
+version: 1.0.0
 ---
 
 # Skill: one-to-one-prep
