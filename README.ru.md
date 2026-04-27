@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-31-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-32-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-31 готовый скилл-агент для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+32 готовых скилл-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 24 отдельных скилла + 7 вложенных скиллов в `project-management-kit`
+> 25 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -94,6 +94,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | hiring-pipeline-reviewer        | [→](skills/hiring-pipeline-reviewer/)        | Генерирует структурированный еженедельный статус по всем кандидатам пайплайна найма из заметок о собеседованиях и оценочных листов. Выявляет застрявших кандидатов, сводит оценки, формирует рекомендации. Двуязычный EN/RU |
 | morning-standup-brief-generator | [→](skills/morning-standup-brief-generator/) | Компилирует локальные заметки, задачи и проектные файлы в структурированный дейли-бриф — Вчера / Сегодня / Блокеры / Вопросы. Без коннекторов. Двуязычный EN/RU                                                             |
 | team-update-aggregator          | [→](skills/team-update-aggregator/)          | Агрегирует еженедельные обновления от членов команды в people-centric статус-отчёт — организованный по людям, а не по проектам. Прогресс, планы, блокеры, нагрузка и флаги внимания менеджера на каждого. Двуязычный EN/RU   |
+| cowork-session-planner          | [→](skills/cowork-session-planner/)          | Генерирует пре-сессионный бриф для Cowork по файлам проекта — текущий статус, цель сессии и приоритизированный план работы до первого сообщения. Двуязычный EN/RU |
 
 ### AI и возможности Claude
 

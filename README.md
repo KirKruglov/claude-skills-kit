@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-31-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-32-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-31 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+32 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 24 standalone skills + 7 nested skills in `project-management-kit`
+> 25 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -94,6 +94,7 @@ Skills are:
 | hiring-pipeline-reviewer        | [→](skills/hiring-pipeline-reviewer/)        | Generates a structured weekly status report for all candidates in your hiring pipeline from interview notes and evaluation sheets. Flags stuck candidates, consolidates scores, and recommends next steps. Bilingual EN/RU |
 | morning-standup-brief-generator | [→](skills/morning-standup-brief-generator/) | Compiles local notes, tasks, and project files into a structured daily standup brief — Yesterday / Today / Blockers / Questions. No connectors required. Bilingual EN/RU                                                   |
 | team-update-aggregator          | [→](skills/team-update-aggregator/)          | Aggregates weekly updates from team members into a people-centric status report — organized by person, not by project. Progress, plans, blockers, capacity, and manager attention flags per team member. Bilingual EN/RU   |
+| cowork-session-planner          | [→](skills/cowork-session-planner/)          | Generates a pre-session brief for Cowork by scanning project files — current status, session goal, and prioritised work plan before your first message. Bilingual EN/RU |
 
 ### AI & Claude Mastery
 
