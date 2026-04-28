@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-32-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-33-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-32 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+33 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 25 standalone skills + 7 nested skills in `project-management-kit`
+> 26 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -95,6 +95,7 @@ Skills are:
 | morning-standup-brief-generator | [→](skills/morning-standup-brief-generator/) | Compiles local notes, tasks, and project files into a structured daily standup brief — Yesterday / Today / Blockers / Questions. No connectors required. Bilingual EN/RU                                                   |
 | team-update-aggregator          | [→](skills/team-update-aggregator/)          | Aggregates weekly updates from team members into a people-centric status report — organized by person, not by project. Progress, plans, blockers, capacity, and manager attention flags per team member. Bilingual EN/RU   |
 | cowork-session-planner          | [→](skills/cowork-session-planner/)          | Generates a pre-session brief for Cowork by scanning project files — current status, session goal, and prioritised work plan before your first message. Bilingual EN/RU |
+| meeting-prep-briefer            | [→](skills/meeting-prep-briefer/)            | Generates a structured per-meeting brief for every call in your day — participants, context from local files, open questions, and suggested agenda. Paste your schedule or point to a file. No integrations required. Bilingual EN/RU |
 
 ### AI & Claude Mastery
 

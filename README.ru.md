@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-32-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-33-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-32 готовых скилл-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+33 готовых скилл-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 25 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
+> 26 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -95,6 +95,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | morning-standup-brief-generator | [→](skills/morning-standup-brief-generator/) | Компилирует локальные заметки, задачи и проектные файлы в структурированный дейли-бриф — Вчера / Сегодня / Блокеры / Вопросы. Без коннекторов. Двуязычный EN/RU                                                             |
 | team-update-aggregator          | [→](skills/team-update-aggregator/)          | Агрегирует еженедельные обновления от членов команды в people-centric статус-отчёт — организованный по людям, а не по проектам. Прогресс, планы, блокеры, нагрузка и флаги внимания менеджера на каждого. Двуязычный EN/RU   |
 | cowork-session-planner          | [→](skills/cowork-session-planner/)          | Генерирует пре-сессионный бриф для Cowork по файлам проекта — текущий статус, цель сессии и приоритизированный план работы до первого сообщения. Двуязычный EN/RU |
+| meeting-prep-briefer            | [→](skills/meeting-prep-briefer/)            | Генерирует структурированный бриф по каждой встрече дня — участники, контекст из локальных файлов, открытые вопросы и предлагаемая повестка. Вставьте расписание или укажите файл. Без интеграций. Двуязычный EN/RU |
 
 ### AI и возможности Claude
 
