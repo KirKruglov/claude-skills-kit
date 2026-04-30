@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-34-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-35-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-34 готовых скилл-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+35 готовых скилл-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 27 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
+> 28 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -114,7 +114,8 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | Скилл                     | Ссылка                                 | Описание                                                                                                                                                                                                  |
 | ------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | legal-matter-tracker      | [→](skills/legal-matter-tracker/)      | Сканирует файлы воркспейса по имени клиента или названию дела и строит хронологию событий с ключевыми фактами — без интеграций. Двуязычный EN/RU                                                          |
-| report-analyzer           | [→](skills/report-analyzer/)           | Анализирует большие отчёты (PDF/PPTX) и формирует структурированное резюме с ключевыми данными и инсайтами                                                                                                |
+| report-analyzer             | [→](skills/report-analyzer/)             | Анализирует большие отчёты (PDF/PPTX) и формирует структурированное резюме с ключевыми данными и инсайтами                                                                                                |
+| research-folder-synthesizer | [→](skills/research-folder-synthesizer/) | Синтезирует папку смешанных файлов в структурированный тематический отчёт с темами, ключевыми находками и пробелами. Двуязычный EN/RU                                                                     |
 | prd-review-challenger     | [→](skills/prd-review-challenger/)     | Адвокат дьявола для PRD, фича-спецификаций и продуктовых решений — находит слабые допущения, открытые вопросы, риски реализации и логические дыры до того, как документ уйдёт в команду. Двуязычный EN/RU |
 | user-feedback-synthesizer | [→](skills/user-feedback-synthesizer/) | Синтезирует транскрипты пользовательских интервью и feedback-файлы (.md, .txt, .csv) в приоритизированный инсайт-отчёт с темами, цитатами и открытыми вопросами. Двуязычный EN/RU                         |
 
