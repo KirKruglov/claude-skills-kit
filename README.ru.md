@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-37-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-38-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-37 готовых скилл-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+38 готовых скилл-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 30 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
+> 31 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -110,6 +110,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | weekly-ai-workflow-review       | [→](skills/weekly-ai-workflow-review/)       | Анализирует еженедельные заметки о задачах, делегированных Claude: паттерны делегирования, удачные промпты, точки оптимизации и шаблоны промптов. Двуязычный EN/RU                              |
 | context-window-health-check     | [→](skills/context-window-health-check/)     | Оценивает состояние текущей сессии Claude и даёт понятный статус (🟢/🟡/🔴) с одной конкретной рекомендацией: продолжать, сделать handoff или начать новую сессию. Без технических метрик. Двуязычный EN/RU |
 | cowork-plugin-audit             | [→](skills/cowork-plugin-audit/)             | Аудит установленных плагинов Cowork в контексте workflow — таблица рекомендаций оставить/отключить с оценкой снижения токен-расхода. Без интеграций. Двуязычный EN/RU                                       |
+| skill-usage-log-reviewer        | [→](skills/skill-usage-log-reviewer/)        | Аудит коллекции установленных скилов Claude — выявляет неиспользуемые, находит дубликаты, генерирует чеклист деактивации для снижения шума в контексте. Двуязычный EN/RU                                      |
 
 ### Анализ и рецензирование
 

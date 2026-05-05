@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-37-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-38-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-37 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+38 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 30 standalone skills + 7 nested skills in `project-management-kit`
+> 31 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -110,6 +110,7 @@ Skills are:
 | weekly-ai-workflow-review       | [→](skills/weekly-ai-workflow-review/)       | Analyzes weekly notes about Claude-delegated tasks to surface delegation patterns, effective prompts, and optimization areas — with reusable prompt templates. Bilingual EN/RU           |
 | context-window-health-check     | [→](skills/context-window-health-check/)     | Assesses current Claude session health and gives a plain-language status (🟢/🟡/🔴) with one concrete recommendation: keep working, create a handoff, or start fresh. No technical metrics. Bilingual EN/RU |
 | cowork-plugin-audit             | [→](skills/cowork-plugin-audit/)             | Audits installed Cowork plugins against your workflow and produces a keep/disable/disable-until-needed table with token-savings estimate. No integrations required. Bilingual EN/RU                         |
+| skill-usage-log-reviewer        | [→](skills/skill-usage-log-reviewer/)        | Audits your installed Claude skill collection — flags unused skills, spots duplicates, and generates a deactivation checklist to reduce context noise. Bilingual EN/RU                                      |
 
 ### Analysis & Review
 
