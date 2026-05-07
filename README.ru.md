@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-39-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-40-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-39 готовых скилл-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+40 готовых скилл-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 32 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
+> 33 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -117,6 +117,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | Скилл                     | Ссылка                                 | Описание                                                                                                                                                                                                  |
 | ------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | csv-data-analyzer         | [→](skills/csv-data-analyzer/)         | Анализирует CSV-файлы с бизнес-данными через диалоговый сценарий — без кода, без Python, без интеграций. Двуязычный EN/RU                                                                                |
+| kpi-digest-builder        | [→](skills/kpi-digest-builder/)        | Агрегирует числовые KPI из локальных файлов (.md, .txt, .csv) в еженедельный снапшот с дельтой к прошлой неделе — без кода и интеграций. Двуязычный EN/RU                                                |
 | legal-matter-tracker      | [→](skills/legal-matter-tracker/)      | Сканирует файлы воркспейса по имени клиента или названию дела и строит хронологию событий с ключевыми фактами — без интеграций. Двуязычный EN/RU                                                          |
 | report-analyzer             | [→](skills/report-analyzer/)             | Анализирует большие отчёты (PDF/PPTX) и формирует структурированное резюме с ключевыми данными и инсайтами                                                                                                |
 | research-folder-synthesizer | [→](skills/research-folder-synthesizer/) | Синтезирует папку смешанных файлов в структурированный тематический отчёт с темами, ключевыми находками и пробелами. Двуязычный EN/RU                                                                     |
