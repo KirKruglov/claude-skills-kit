@@ -215,5 +215,33 @@
     "description_ru": "Преврати папку с транскриптами интервью, тикетами поддержки и файлами опросов в структурированный инсайт-отчёт — без двух дней ручного тегирования и кластеризации.",
     "category": "analysis",
     "icon": "sparkles"
+  },
+  {
+    "id": "content-performance-reporter",
+    "description_en": "Compile weekly analytics CSV exports from Instagram, YouTube, Google Analytics, and more into a narrative performance report — no code, no dashboards required.",
+    "description_ru": "Компилирует CSV-экспорты аналитики из Instagram, YouTube, Google Analytics и других платформ в нарратив-отчёт — без кода и дашбордов.",
+    "category": "analysis",
+    "icon": "bar-chart-2"
+  },
+  {
+    "id": "csv-data-analyzer",
+    "description_en": "Analyze CSV files with business data through a conversational flow — no code, no Python, no plugins. Insights in plain language.",
+    "description_ru": "Анализирует CSV-файлы с бизнес-данными через диалог — без кода, Python и плагинов. Инсайты на понятном языке.",
+    "category": "analysis",
+    "icon": "table-2"
+  },
+  {
+    "id": "kpi-digest-builder",
+    "description_en": "Aggregate numeric KPIs from local files into a weekly snapshot with delta vs. previous week — no code, no integrations.",
+    "description_ru": "Агрегирует числовые KPI из локальных файлов в еженедельный снапшот с дельтой к прошлой неделе — без кода и интеграций.",
+    "category": "analysis",
+    "icon": "activity"
+  },
+  {
+    "id": "skill-usage-log-reviewer",
+    "description_en": "Audit your installed Claude skills: flag unused ones, spot duplicates, and get a deactivation checklist to keep your portfolio lean.",
+    "description_ru": "Аудит установленных скилов Claude: неиспользуемые, дубли и чеклист деактивации — чтобы держать коллекцию в порядке.",
+    "category": "ai-claude",
+    "icon": "package-check"
   }
 ]
