@@ -1,0 +1,219 @@
+[
+  {
+    "id": "project-management-kit",
+    "description_en": "An AI agent that automates project management documentation for IT product development teams.",
+    "description_ru": "Набор навыков, которые автоматизирует создание проектной документации для команд разработки IT-продуктов.",
+    "category": "project-management",
+    "icon": "briefcase"
+  },
+  {
+    "id": "project-onboarding",
+    "description_en": "Full project onboarding for Claude Cowork in one session.",
+    "description_ru": "Полный онбординг нового проекта в Claude Cowork за одну сессию.",
+    "category": "project-management",
+    "icon": "rocket"
+  },
+  {
+    "id": "weekly-digest-synthesizer",
+    "description_en": "Turn scattered status files into a structured weekly digest in minutes.",
+    "description_ru": "Превращайте разрозненные статус-файлы в структурированный еженедельный дайджест за несколько минут.",
+    "category": "project-management",
+    "icon": "notebook"
+  },
+  {
+    "id": "context-builder-cowork",
+    "description_en": "Creates a structured `project-context.md` file for Claude Cowork through a guided interview — ready to download and drop into any project.",
+    "description_ru": "Создаёт структурированный файл `project-context.md` для Claude Cowork через пошаговое интервью — готов к загрузке и добавлению в проект.",
+    "category": "project-management",
+    "icon": "folder"
+  },
+  {
+    "id": "okr-progress-narrator",
+    "description_en": "Transform raw OKR data into a readable stakeholder update — automatically.",
+    "description_ru": "Преобразуй сырые OKR-данные в читаемый апдейт для стейкхолдеров — автоматически.",
+    "category": "project-management",
+    "icon": "target"
+  },
+  {
+    "id": "retro-pattern-analyzer",
+    "description_en": "Stop re-reading the same complaints sprint after sprint. Surface what keeps coming back — and what your team has silently given up trying to fix.",
+    "description_ru": "Перестаньте читать одни и те же жалобы из спринта в спринт. Выясните, что постоянно возвращается — и что команда давно махнула рукой.",
+    "category": "project-management",
+    "icon": "repeat"
+  },
+  {
+    "id": "workspace-health-monitor",
+    "description_en": "Weekly workspace audit: find forgotten tasks, orphaned files, and conflicting information in your notes and plans.",
+    "description_ru": "Еженедельный аудит рабочего пространства: находит забытые задачи, осиротевшие файлы и конфликты в заметках и планах.",
+    "category": "productivity",
+    "icon": "gauge"
+  },
+  {
+    "id": "delegation-brief",
+    "description_en": "Stop wasting tokens on vague instructions. `delegation-brief` asks you 5 targeted questions and outputs a clear, ready-to-use task brief for your Cowork session.",
+    "description_ru": "Перестань тратить токены на размытые инструкции. `delegation-brief` задаёт 5 целевых вопросов и выдаёт чёткий бриф задачи — готовый для нового диалога в Cowork.",
+    "category": "productivity",
+    "icon": "send"
+  },
+  {
+    "id": "one-to-one-prep",
+    "description_en": "Turn your notes and task tracker data into a structured 1-on-1 agenda in seconds.",
+    "description_ru": "Превратите заметки и данные таск-трекера в структурированную агенду за секунды.",
+    "category": "productivity",
+    "icon": "users"
+  },
+  {
+    "id": "decision-log",
+    "description_en": "Automatically extract structured decisions from meeting notes, Slack threads, and email chains — and keep a clean decision log separate from action items.",
+    "description_ru": "Автоматически извлекает структурированные решения из заметок встреч, Slack-тредов и email-цепочек — и ведёт чистый лог отдельно от action items.",
+    "category": "productivity",
+    "icon": "list-checks"
+  },
+  {
+    "id": "weekly-competitor-tracker",
+    "description_en": "Stay on top of what your competitors are doing — without spreadsheets, subscriptions, or code.",
+    "description_ru": "Отслеживайте изменения у конкурентов еженедельно — без таблиц, подписок и кода.",
+    "category": "productivity",
+    "icon": "trending-up"
+  },
+  {
+    "id": "stakeholder-adapter",
+    "description_en": "Stop rewriting the same document for every room you walk into. `stakeholder-adapter` takes your working document and generates ready-to-send versions for Leadership, Engineering, and your Client.",
+    "description_ru": "Перестаньте переписывать один и тот же документ для каждой встречи. `stakeholder-adapter` берёт ваш рабочий документ и создаёт версии для Руководства, Команды и Клиента.",
+    "category": "productivity",
+    "icon": "workflow"
+  },
+  {
+    "id": "hiring-pipeline-reviewer",
+    "description_en": "Turn scattered interview notes into a structured weekly candidate status report — with flags, scores, and clear next steps.",
+    "description_ru": "Превращает разрозненные заметки о собеседованиях в структурированный еженедельный отчёт по кандидатам — с флагами, оценками и чёткими следующими шагами.",
+    "category": "productivity",
+    "icon": "shield-check"
+  },
+  {
+    "id": "morning-standup-brief-generator",
+    "description_en": "Turn your local notes and task files into a ready-to-use standup brief in seconds — no integrations required.",
+    "description_ru": "Превращает локальные заметки и файлы задач в готовый бриф для стендапа за несколько секунд — без интеграций и подключений.",
+    "category": "productivity",
+    "icon": "mic"
+  },
+  {
+    "id": "team-update-aggregator",
+    "description_en": "A Claude skill that compiles weekly updates from your team members into a structured people-centric status report — organized by person, not by project.",
+    "description_ru": "Скил для Claude, который компилирует еженедельные обновления от членов команды в структурированный people-centric статус-отчёт — организованный по людям, не по проектам.",
+    "category": "productivity",
+    "icon": "megaphone"
+  },
+  {
+    "id": "cowork-session-planner",
+    "description_en": "Start every Cowork session with a clear focus — your status, goal, and work plan in one brief.",
+    "description_ru": "Начинайте каждую Cowork-сессию с чёткого фокуса — статус проекта, цель и план работы в одном брифе.",
+    "category": "productivity",
+    "icon": "calendar"
+  },
+  {
+    "id": "meeting-prep-briefer",
+    "description_en": "Walk into every meeting prepared — participants, context, and open questions from your own files, in seconds.",
+    "description_ru": "Входите на каждую встречу подготовленными — участники, контекст и открытые вопросы из ваших файлов за секунды.",
+    "category": "productivity",
+    "icon": "clipboard-check"
+  },
+  {
+    "id": "feature-guide",
+    "description_en": "Stop searching docs. Get a structured answer about any Claude feature in seconds.",
+    "description_ru": "Узнайте, что умеет Claude, без долгих поисков в документации.",
+    "category": "ai-claude",
+    "icon": "book-open"
+  },
+  {
+    "id": "memory-auditor-chat",
+    "description_en": "Find contradictions, outdated entries, duplicates, and noise across all Claude.ai native memory layers.",
+    "description_ru": "Находит противоречия, устаревшие записи, дубли и шум во всех слоях нативной памяти Claude.ai.",
+    "category": "ai-claude",
+    "icon": "brain"
+  },
+  {
+    "id": "memory-auditor-cowork",
+    "description_en": "Find contradictions, outdated entries, duplicates, and noise across all Cowork memory layers.",
+    "description_ru": "Находит противоречия, устаревшие записи, дубли и шум во всех слоях памяти Cowork.",
+    "category": "ai-claude",
+    "icon": "database"
+  },
+  {
+    "id": "session-handoff-composer",
+    "description_en": "Transfer your work context to a new session without losing a thing.",
+    "description_ru": "Переноси рабочий контекст в новую сессию без потери информации.",
+    "category": "ai-claude",
+    "icon": "handshake"
+  },
+  {
+    "id": "prompt-builder",
+    "description_en": "Build structured, reusable prompts for Claude through a guided 7-question interview.",
+    "description_ru": "Создавай структурированные, многоразовые промпты для Claude через интерактивное интервью из 7 вопросов.",
+    "category": "ai-claude",
+    "icon": "wand-sparkles"
+  },
+  {
+    "id": "prompt-library-curator",
+    "description_en": "Organise and tag your personal prompt collection into a structured, navigable markdown catalog — without any manual sorting.",
+    "description_ru": "Структурируйте и тегируйте свою коллекцию промптов в организованный markdown-каталог — без ручной сортировки.",
+    "category": "ai-claude",
+    "icon": "library"
+  },
+  {
+    "id": "weekly-ai-workflow-review",
+    "description_en": "Turn your week of Claude interactions into actionable insights: patterns, wins, and prompt templates for next week.",
+    "description_ru": "Превратите неделю взаимодействий с Claude в конкретные инсайты: паттерны, победы и шаблоны промптов на следующую неделю.",
+    "category": "ai-claude",
+    "icon": "bar-chart-3"
+  },
+  {
+    "id": "context-window-health-check",
+    "description_en": "A Claude skill that assesses the health of your current session and tells you — in plain language — whether to keep going, create a handoff, or start fresh.",
+    "description_ru": "Скил для Claude, который оценивает состояние текущей сессии и говорит простым языком — продолжать работу, сделать handoff или начать заново.",
+    "category": "ai-claude",
+    "icon": "compass"
+  },
+  {
+    "id": "cowork-plugin-audit",
+    "description_en": "Keep only the plugins that match your actual workflow — disable the rest to reduce token usage and noise.",
+    "description_ru": "Оставь только плагины, которые соответствуют твоему workflow — остальные отключи, чтобы снизить расход токенов и убрать лишний шум.",
+    "category": "ai-claude",
+    "icon": "puzzle"
+  },
+  {
+    "id": "legal-matter-tracker",
+    "description_en": "Scan your workspace files by client or case name and get a complete chronological timeline of events — no integrations, no setup, just your local notes.",
+    "description_ru": "Сканирует файлы воркспейса по имени клиента или названию дела и строит полную хронологию событий — без интеграций, без настройки, только из ваших локальных заметок.",
+    "category": "analysis",
+    "icon": "scale"
+  },
+  {
+    "id": "report-analyzer",
+    "description_en": "A skill for Claude Cowork that analyzes large reports (PDF, PPTX) and produces a structured summary with key data and insights.",
+    "description_ru": "Скил для Claude Cowork, который анализирует большие отчёты (PDF, PPTX) и формирует структурированное резюме с ключевыми данными и инсайтами.",
+    "category": "analysis",
+    "icon": "file-text"
+  },
+  {
+    "id": "research-folder-synthesizer",
+    "description_en": "Turn a folder of scattered research files into a structured thematic report — no manual sorting required.",
+    "description_ru": "Превращает папку с разрозненными исследовательскими файлами в структурированный тематический отчёт — без ручной сортировки.",
+    "category": "analysis",
+    "icon": "search"
+  },
+  {
+    "id": "prd-review-challenger",
+    "description_en": "Find the gaps in your PRD before your team does.",
+    "description_ru": "Найди дыры в PRD раньше, чем это сделает команда.",
+    "category": "analysis",
+    "icon": "message-square"
+  },
+  {
+    "id": "user-feedback-synthesizer",
+    "description_en": "Turn a folder of interview transcripts, support tickets, and survey files into a structured insight report — without spending two days tagging and clustering manually.",
+    "description_ru": "Преврати папку с транскриптами интервью, тикетами поддержки и файлами опросов в структурированный инсайт-отчёт — без двух дней ручного тегирования и кластеризации.",
+    "category": "analysis",
+    "icon": "sparkles"
+  }
+]
