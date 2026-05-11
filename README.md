@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-41-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-42-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-41 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+42 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 34 standalone skills + 7 nested skills in `project-management-kit`
+> 35 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -116,6 +116,7 @@ Skills are:
 
 | Skill                        | Link                                      | Description                                                                                                                                                                                               |
 | ---------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| changelog-narrator           | [→](skills/changelog-narrator/)           | Compares two versions of a business document and generates a human-readable changelog — no git, no Track Changes. Works on PRDs, SOPs, contracts, and strategy docs. Bilingual EN/RU                      |
 | content-performance-reporter | [→](skills/content-performance-reporter/) | Compiles weekly analytics CSV exports from content platforms (YouTube, GA4, LinkedIn) into a narrative report: what worked, what didn't, the week's pattern, and recommendations. Bilingual EN/RU         |
 | csv-data-analyzer            | [→](skills/csv-data-analyzer/)            | Analyzes CSV files with business data through a dialogue-based question flow — no code, no Python, no integrations required. Bilingual EN/RU                                                              |
 | kpi-digest-builder           | [→](skills/kpi-digest-builder/)           | Aggregates numeric KPIs from local files (.md, .txt, .csv) into a weekly snapshot with delta vs. previous week — no code, no integrations required. Bilingual EN/RU                                       |
