@@ -243,5 +243,12 @@
     "description_ru": "Аудит установленных скилов Claude: неиспользуемые, дубли и чеклист деактивации — чтобы держать коллекцию в порядке.",
     "category": "ai-claude",
     "icon": "package-check"
+  },
+    {
+    "id": "changelog-narrator",
+    "description_en": "Compare two versions of a business document and get a structured, human-readable changelog — no git, no CLI.",
+    "description_ru": "Сравните две версии бизнес-документа и получите структурированный, удобный для чтения журнал изменений — без git, командной строки и функции «Отслеживание изменений».",
+    "category": "analysis",
+    "icon": "book-alert"
   }
 ]
