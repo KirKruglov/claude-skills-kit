@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-42-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-43-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-42 готовых скилл-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+43 готовых скилл-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 35 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
+> 36 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -68,6 +68,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | context-builder-cowork    | [→](skills/context-builder-cowork/) | Генерирует структурированный `project-context.md` через интерактивное интервью                                                                                                                                                |
 | okr-progress-narrator     | [→](skills/okr-progress-narrator/)     | Преобразует сырые OKR-данные (таблицы, списки, CSV или текст в чате) в нарративный апдейт для стейкхолдеров: executive summary, абзац по каждой цели, таблица KR, риски и следующие шаги. Двуязычный EN/RU                    |
 | retro-pattern-analyzer    | [→](skills/retro-pattern-analyzer/)    | Анализирует файлы ретроспектив нескольких спринтов и выявляет повторяющиеся боли, нерешённые action items и стабильные позитивные паттерны команды. Двуязычный EN/RU                                                          |
+| release-notes-generator   | [→](skills/release-notes-generator/)   | Преобразует plain-language итоги спринта в 4 формата user-facing release notes: changelog-запись, email-анонс, in-app push-уведомление и пост для соцсети. Git не нужен. Двуязычный EN/RU                                     |
 
 #### Project Management Kit — 7 вложенных скиллов
 

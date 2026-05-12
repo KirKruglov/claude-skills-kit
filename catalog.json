@@ -250,5 +250,14 @@
     "description_ru": "Сравните две версии бизнес-документа и получите структурированный, удобный для чтения журнал изменений — без git, командной строки и функции «Отслеживание изменений».",
     "category": "analysis",
     "icon": "book-alert"
+  },
+  {
+    "id": "release-notes-generator",
+    "description_en": "Write your sprint results in a markdown file the way you normally would, and get 4 ready-to-send formats: a changelog entry, an email announcement, an in-app push notification, and a social post.",
+    "description_ru": "Напишите итоги спринта в markdown-файл в привычном формате и получите 4 готовых версии: changelog-запись, email-анонс, in-app уведомление и пост в соцсети..",
+    "category": "project-management",
+    "icon": "book-up-2"
   }
+
+
 ]
