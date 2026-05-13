@@ -4,10 +4,10 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-43-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-44-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-43 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+44 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
 > 36 standalone skills + 7 nested skills in `project-management-kit`
 
@@ -69,6 +69,7 @@ Skills are:
 | okr-progress-narrator     | [→](skills/okr-progress-narrator/)     | Transforms raw OKR data (tables, lists, CSV, or pasted text) into a narrative stakeholder update: executive summary, per-objective narrative, KR status table, risks, and next steps. Bilingual EN/RU               |
 | retro-pattern-analyzer    | [→](skills/retro-pattern-analyzer/)    | Analyzes sprint retrospective files to surface recurring pain points, unresolved action items, and positive patterns across sprints. Bilingual EN/RU                                                                |
 | release-notes-generator   | [→](skills/release-notes-generator/)   | Turns a plain-language sprint summary into 4 user-facing release notes formats: changelog entry, email announcement, in-app push notification, and social post. No git required. Bilingual EN/RU                  |
+| backlog-grooming-assistant | [→](skills/backlog-grooming-assistant/) | Reads a local backlog export (CSV or Markdown), flags problematic items (no owner, no estimate, stale, blocked), and generates a structured grooming session agenda with a scorecard. No Jira API required. Bilingual EN/RU |
 
 #### Project Management Kit — 7 nested skills
 

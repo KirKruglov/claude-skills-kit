@@ -257,7 +257,12 @@
     "description_ru": "Напишите итоги спринта в markdown-файл в привычном формате и получите 4 готовых версии: changelog-запись, email-анонс, in-app уведомление и пост в соцсети..",
     "category": "project-management",
     "icon": "book-up-2"
+  },
+  {
+    "id": "backlog-grooming-assistant",
+    "description_en": "Prepare your grooming session in minutes — flag problematic backlog items and generate an agenda automatically from a local CSV or Markdown export.",
+    "description_ru": "Подготовка к груминг-сессии за несколько минут — флагирование проблемных задач и генерация повестки из локального CSV или Markdown-экспорта.",
+    "category": "project-management",
+    "icon": "file-code-corner"
   }
-
-
 ]
