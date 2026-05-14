@@ -264,5 +264,12 @@
     "description_ru": "Подготовка к груминг-сессии за несколько минут — флагирование проблемных задач и генерация повестки из локального CSV или Markdown-экспорта.",
     "category": "project-management",
     "icon": "file-code-corner"
+  },
+    {
+    "id": "feature-announcement-writer",
+    "description_en": "Turn a single feature description into a ready-to-send announcement pack — in 4 formats, no copywriting required.",
+    "description_ru": "Превратите описание фичи в готовый пакет анонса для 4 каналов — без навыков копирайтинга.",
+    "category": "productivity",
+    "icon": "book-copy"
   }
 ]

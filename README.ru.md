@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-44-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-45-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-44 готовых скилл-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+45 готовых скилл-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 36 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
+> 38 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -98,6 +98,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | team-update-aggregator          | [→](skills/team-update-aggregator/)          | Агрегирует еженедельные обновления от членов команды в people-centric статус-отчёт — организованный по людям, а не по проектам. Прогресс, планы, блокеры, нагрузка и флаги внимания менеджера на каждого. Двуязычный EN/RU   |
 | cowork-session-planner          | [→](skills/cowork-session-planner/)          | Генерирует пре-сессионный бриф для Cowork по файлам проекта — текущий статус, цель сессии и приоритизированный план работы до первого сообщения. Двуязычный EN/RU |
 | meeting-prep-briefer            | [→](skills/meeting-prep-briefer/)            | Генерирует структурированный бриф по каждой встрече дня — участники, контекст из локальных файлов, открытые вопросы и предлагаемая повестка. Вставьте расписание или укажите файл. Без интеграций. Двуязычный EN/RU |
+| feature-announcement-writer     | [→](skills/feature-announcement-writer/)     | Генерирует пакет анонса фичи в 4 форматах (changelog, email, push-уведомление, пост для соцсети) из одного описания продукта — без навыков копирайтинга. Двуязычный EN/RU                                            |
 
 ### AI и возможности Claude
 
