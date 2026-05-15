@@ -271,5 +271,12 @@
     "description_ru": "Превратите описание фичи в готовый пакет анонса для 4 каналов — без навыков копирайтинга.",
     "category": "productivity",
     "icon": "book-copy"
+  },
+  {
+    "id": "sprint-review-summarizer",
+    "description_en": "Turn your raw sprint notes into a structured stakeholder document in seconds — no Jira, no YAML, no integrations needed.",
+    "description_ru": "Превратите сырые заметки по спринту в структурированный документ для стейкхолдеров за секунды — без Jira, YAML или интеграций.",
+    "category": "project-management",
+    "icon": "file-text"
   }
 ]

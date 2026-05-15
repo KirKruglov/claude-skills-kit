@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-45-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-46-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-45 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+46 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 37 standalone skills + 7 nested skills in `project-management-kit`
+> 39 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -70,6 +70,7 @@ Skills are:
 | retro-pattern-analyzer    | [→](skills/retro-pattern-analyzer/)    | Analyzes sprint retrospective files to surface recurring pain points, unresolved action items, and positive patterns across sprints. Bilingual EN/RU                                                                |
 | release-notes-generator   | [→](skills/release-notes-generator/)   | Turns a plain-language sprint summary into 4 user-facing release notes formats: changelog entry, email announcement, in-app push notification, and social post. No git required. Bilingual EN/RU                  |
 | backlog-grooming-assistant | [→](skills/backlog-grooming-assistant/) | Reads a local backlog export (CSV or Markdown), flags problematic items (no owner, no estimate, stale, blocked), and generates a structured grooming session agenda with a scorecard. No Jira API required. Bilingual EN/RU |
+| sprint-review-summarizer | [→](skills/sprint-review-summarizer/) | Transforms plain-language sprint notes into a structured stakeholder doc — delivered, deferred, risks, and next sprint focus. No Jira required. Bilingual EN/RU |
 
 #### Project Management Kit — 7 nested skills
 
