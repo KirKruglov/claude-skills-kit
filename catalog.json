@@ -278,5 +278,12 @@
     "description_ru": "Превратите сырые заметки по спринту в структурированный документ для стейкхолдеров за секунды — без Jira, YAML или интеграций.",
     "category": "project-management",
     "icon": "file-text"
+  },
+    {
+    "id": "user-persona-synthesizer",
+    "description_en": "Turn real interview transcripts into structured, evidence-backed user persona cards — no integrations, no templates to fill.",
+    "description_ru": "Превращает реальные транскрипты CustDev-интервью в структурированные карточки пользовательских персон — без интеграций и заполнения шаблонов вручную.",
+    "category": "analysis",
+    "icon": "file-text"
   }
 ]
