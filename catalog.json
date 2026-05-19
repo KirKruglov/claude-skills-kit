@@ -285,5 +285,12 @@
     "description_ru": "Превращает реальные транскрипты CustDev-интервью в структурированные карточки пользовательских персон — без интеграций и заполнения шаблонов вручную.",
     "category": "analysis",
     "icon": "file-text"
+  },
+  {
+    "id": "survey-results-analyzer",
+    "description_en": "Turn raw survey CSV exports into structured insights — frequencies, themes, and Top-3 findings — without any code or data tools.",
+    "description_ru": "ППревращает сырой CSV-экспорт опроса в структурированный отчёт — частоты, темы открытых ответов и топ-3 инсайта — без кода и инструментов аналитики.",
+    "category": "analysis",
+    "icon": "compass"
   }
 ]
