@@ -292,5 +292,12 @@
     "description_ru": "ППревращает сырой CSV-экспорт опроса в структурированный отчёт — частоты, темы открытых ответов и топ-3 инсайта — без кода и инструментов аналитики.",
     "category": "analysis",
     "icon": "compass"
+  },
+    {
+    "id": "sreading-list-prioritizer",
+    "description_en": "Turn your pile of saved articles into a focused weekly reading plan — grouped by topic, ranked by relevance to your role.",
+    "description_ru": "Превратите кучу сохранённых статей в сфокусированный план чтения на неделю — по темам и релевантности вашей роли.",
+    "category": "productivity",
+    "icon": "file-text"
   }
 ]
