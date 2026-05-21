@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-49-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-50-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-49 готовых скилл-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+50 готовых скилл-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 42 отдельный скилл + 7 вложенных скиллов в `project-management-kit`
+> 43 отдельных скилла + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -101,6 +101,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | meeting-prep-briefer            | [→](skills/meeting-prep-briefer/)            | Генерирует структурированный бриф по каждой встрече дня — участники, контекст из локальных файлов, открытые вопросы и предлагаемая повестка. Вставьте расписание или укажите файл. Без интеграций. Двуязычный EN/RU |
 | feature-announcement-writer     | [→](skills/feature-announcement-writer/)     | Генерирует пакет анонса фичи в 4 форматах (changelog, email, push-уведомление, пост для соцсети) из одного описания продукта — без навыков копирайтинга. Двуязычный EN/RU                                            |
 | reading-list-prioritizer        | [→](skills/reading-list-prioritizer/)        | Расставляет приоритеты и группирует md-список чтения по темам и релевантности роли — формирует недельный план чтения с шортлистом. Двуязычный EN/RU                                                                   |
+| newsletter-digest-builder       | [→](skills/newsletter-digest-builder/)       | Преобразует папку с сохранёнными рассылками и статьями в структурированный еженедельный дайджест с приоритизацией по роли — группировка по темам, шортлист «Читать на этой неделе». Без интеграций. Двуязычный EN/RU   |
 
 ### AI и возможности Claude
 

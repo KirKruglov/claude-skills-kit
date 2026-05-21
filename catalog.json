@@ -299,5 +299,13 @@
     "description_ru": "Превратите кучу сохранённых статей в сфокусированный план чтения на неделю — по темам и релевантности вашей роли.",
     "category": "productivity",
     "icon": "file-text"
+  },
+  {
+    "id": "newsletter-digest-builder",
+    "description_en": "Turn a folder of saved articles and newsletters into a focused weekly digest — grouped by topic, ranked by relevance to your role.",
+    "description_ru": "Превратите папку с сохранёнными статьями и рассылками в структурированный еженедельный дайджест — по темам и релевантности вашей роли.",
+    "category": "productivity",
+    "icon": "package-check"
   }
+
 ]

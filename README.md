@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-49-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-50-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-49 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+50 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 42 standalone skills + 7 nested skills in `project-management-kit`
+> 43 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -101,6 +101,7 @@ Skills are:
 | meeting-prep-briefer            | [→](skills/meeting-prep-briefer/)            | Generates a structured per-meeting brief for every call in your day — participants, context from local files, open questions, and suggested agenda. Paste your schedule or point to a file. No integrations required. Bilingual EN/RU |
 | feature-announcement-writer     | [→](skills/feature-announcement-writer/)     | Generates a multi-format feature announcement pack (changelog, email, push notification, social post) from a single product description — no copywriting needed. Bilingual EN/RU                                                     |
 | reading-list-prioritizer        | [→](skills/reading-list-prioritizer/)        | Prioritizes and groups a local markdown reading list by topic and relevance to your role — outputs a focused weekly reading plan with a shortlist. Bilingual EN/RU                                                                    |
+| newsletter-digest-builder       | [→](skills/newsletter-digest-builder/)       | Transforms a folder of saved newsletters and articles into a role-prioritized weekly digest — topic-grouped with a 'Read This Week' shortlist. No integrations. Bilingual EN/RU                                                       |
 
 ### AI & Claude Mastery
 
