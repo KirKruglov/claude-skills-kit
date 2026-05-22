@@ -306,6 +306,13 @@
     "description_ru": "Превратите папку с сохранёнными статьями и рассылками в структурированный еженедельный дайджест — по темам и релевантности вашей роли.",
     "category": "productivity",
     "icon": "package-check"
+  },
+  {
+    "id": "routines-setup-assistant",
+    "description_en": "Set up Claude Cowork Scheduled Tasks in minutes — no blank page, no guesswork.",
+    "description_ru": "Настройте Scheduled Tasks в Claude Cowork за несколько минут — без угадывания формата и пустого экрана.",
+    "category": "productivity",
+    "icon": "users"
   }
 
 ]
