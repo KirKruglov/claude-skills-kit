@@ -313,6 +313,13 @@
     "description_ru": "Настройте Scheduled Tasks в Claude Cowork за несколько минут — без угадывания формата и пустого экрана.",
     "category": "productivity",
     "icon": "users"
+  },
+  {
+    "id": "metrics-anomaly-investigator",
+    "description_en": "Metrics Anomaly Investigator takes a plain-language description of an unexpected metric change and returns a ranked hypothesis framework plus a ready-to-paste stakeholder narrative.",
+    "description_ru": "Metrics Anomaly Investigator принимает описание неожиданного изменения метрики на простом языке и возвращает ранжированный фреймворк гипотез плюс готовый нарратив для стейкхолдеров.",
+    "category": "analysis",
+    "icon": "sparkles"
   }
 
 ]
