@@ -320,6 +320,13 @@
     "description_ru": "Metrics Anomaly Investigator принимает описание неожиданного изменения метрики на простом языке и возвращает ранжированный фреймворк гипотез плюс готовый нарратив для стейкхолдеров.",
     "category": "analysis",
     "icon": "sparkles"
+  },
+  {
+    "id": "weekly-metrics-story-writer",
+    "description_en": "Turn dashboard numbers into a polished stakeholder narrative — email or Slack, ready to send in minutes.",
+    "description_ru": "Превращает числа из дашборда в готовый нарратив для стейкхолдеров — email или Slack, за несколько минут.",
+    "category": "analysis",
+    "icon": "sparkles"
   }
 
 ]
