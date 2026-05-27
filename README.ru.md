@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-53-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-54-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-53 готовых скилла-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+54 готовых скилла-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 46 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
+> 47 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -126,6 +126,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | changelog-narrator           | [→](skills/changelog-narrator/)           | Сравнивает две версии бизнес-документа и формирует читаемый changelog — без git и Track Changes. Работает с PRD, SOP, договорами и стратегическими документами. Двуязычный EN/RU                             |
 | content-performance-reporter | [→](skills/content-performance-reporter/) | Компилирует CSV-экспорты аналитики контент-платформ (YouTube, GA4, LinkedIn и другие) в нарративный отчёт: что сработало, что нет, паттерн недели и рекомендации. Двуязычный EN/RU                           |
 | csv-data-analyzer            | [→](skills/csv-data-analyzer/)            | Анализирует CSV-файлы с бизнес-данными через диалоговый сценарий — без кода, без Python, без интеграций. Двуязычный EN/RU                                                                                    |
+| experiment-results-interpreter | [→](skills/experiment-results-interpreter/) | Превращает результаты A/B теста в решение «шипать / откатить / продлить» — оценка статистической значимости в понятных словах, рекомендация с обоснованием и готовый текст для стейкхолдеров. Двуязычный EN/RU |
 | kpi-digest-builder           | [→](skills/kpi-digest-builder/)           | Агрегирует числовые KPI из локальных файлов (.md, .txt, .csv) в еженедельный снапшот с дельтой к прошлой неделе — без кода и интеграций. Двуязычный EN/RU                                                    |
 | legal-matter-tracker         | [→](skills/legal-matter-tracker/)         | Сканирует файлы воркспейса по имени клиента или названию дела и строит хронологию событий с ключевыми фактами — без интеграций. Двуязычный EN/RU                                                             |
 | metrics-anomaly-investigator | [→](skills/metrics-anomaly-investigator/) | Преобразует описание метрической аномалии в ранжированный фреймворк гипотез и нарратив для стейкхолдеров — без базы данных и кода. Двуязычный EN/RU                                                          |

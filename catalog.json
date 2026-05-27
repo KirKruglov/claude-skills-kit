@@ -327,6 +327,13 @@
     "description_ru": "Превращает числа из дашборда в готовый нарратив для стейкхолдеров — email или Slack, за несколько минут.",
     "category": "analysis",
     "icon": "sparkles"
+  },
+  {
+    "id": "experiment-results-interpreter",
+    "description_en": "Experiment Results Interpreter takes an A/B test description and results from any analytics tool and returns three things: a plain-language assessment of whether the result is statistically significant, a ship/rollback/extend recommendation with a documented rationale, and a stakeholder summary you can copy straight into Slack or email.",
+    "description_ru": "Скил принимает описание A/B теста и результаты из любого аналитического инструмента, а возвращает три вещи: оценку статистической значимости в понятных словах, рекомендацию ship/rollback/extend с задокументированным обоснованием и готовый саммари-текст.",
+    "category": "analysis",
+    "icon": "sparkles"
   }
 
 ]

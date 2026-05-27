@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-53-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-54-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-53 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+54 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 46 standalone skills + 7 nested skills in `project-management-kit`
+> 47 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -126,6 +126,7 @@ Skills are:
 | changelog-narrator           | [→](skills/changelog-narrator/)           | Compares two versions of a business document and generates a human-readable changelog — no git, no Track Changes. Works on PRDs, SOPs, contracts, and strategy docs. Bilingual EN/RU                      |
 | content-performance-reporter | [→](skills/content-performance-reporter/) | Compiles weekly analytics CSV exports from content platforms (YouTube, GA4, LinkedIn) into a narrative report: what worked, what didn't, the week's pattern, and recommendations. Bilingual EN/RU         |
 | csv-data-analyzer            | [→](skills/csv-data-analyzer/)            | Analyzes CSV files with business data through a dialogue-based question flow — no code, no Python, no integrations required. Bilingual EN/RU                                                              |
+| experiment-results-interpreter | [→](skills/experiment-results-interpreter/) | Turns A/B test results into a go/no-go decision — plain-language significance assessment, ship/rollback/extend recommendation with rationale, and a copy-paste stakeholder summary. No stats background required. Bilingual EN/RU |
 | kpi-digest-builder           | [→](skills/kpi-digest-builder/)           | Aggregates numeric KPIs from local files (.md, .txt, .csv) into a weekly snapshot with delta vs. previous week — no code, no integrations required. Bilingual EN/RU                                       |
 | legal-matter-tracker         | [→](skills/legal-matter-tracker/)         | Scans workspace files by client or case name and assembles a chronological timeline of events with key facts — no integrations required. Bilingual EN/RU                                                  |
 | metrics-anomaly-investigator | [→](skills/metrics-anomaly-investigator/) | Turns a metric anomaly description into a ranked hypothesis framework and stakeholder narrative — no database or code required. Bilingual EN/RU                                                            |
