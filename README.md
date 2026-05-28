@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-54-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-55-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-54 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+55 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 47 standalone skills + 7 nested skills in `project-management-kit`
+> 48 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -137,6 +137,7 @@ Skills are:
 | user-feedback-synthesizer    | [→](skills/user-feedback-synthesizer/)    | Synthesizes user interview transcripts and feedback files (.md, .txt, .csv) into a prioritized insight report with themes, quotes, and open questions. Bilingual EN/RU                                    |
 | user-persona-synthesizer     | [→](skills/user-persona-synthesizer/)     | Extracts recurring user profiles from real CustDev transcripts and generates structured persona cards with verbatim quotes and respondent counts. No integrations required. Bilingual EN/RU                |
 | weekly-metrics-story-writer  | [→](skills/weekly-metrics-story-writer/)  | Turns dashboard numbers into a polished weekly narrative for stakeholders — email or Slack, copy-paste ready in minutes. Bilingual EN/RU                                                                   |
+| competitive-feature-matrix-builder | [→](skills/competitive-feature-matrix-builder/) | Builds a comparative feature matrix and gap analysis from a folder of competitor notes (md/txt) — fully offline, no web access required. Bilingual EN/RU |
 
 ---
 

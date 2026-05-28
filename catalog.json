@@ -334,6 +334,13 @@
     "description_ru": "Скил принимает описание A/B теста и результаты из любого аналитического инструмента, а возвращает три вещи: оценку статистической значимости в понятных словах, рекомендацию ship/rollback/extend с задокументированным обоснованием и готовый саммари-текст.",
     "category": "analysis",
     "icon": "sparkles"
+  },
+  {
+    "id": "competitive-feature-matrix-builder",
+    "description_en": "Competitive Feature Matrix Builder reads your local competitor research notes (md or txt files) and outputs a ready-to-share markdown matrix showing which features each competitor has, alongside a prioritized gap analysis.",
+    "description_ru": "Competitive Feature Matrix Builder читает локальные заметки о конкурентах (md или txt файлы) и формирует готовую для шаринга markdown-матрицу с перечнем фич по каждому конкуренту и приоритизированным gap-анализом.",
+    "category": "analysis",
+    "icon": "sparkles"
   }
 
 ]

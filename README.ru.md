@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-54-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-55-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-54 готовых скилла-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+55 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 47 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
+> 48 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -137,6 +137,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | user-feedback-synthesizer    | [→](skills/user-feedback-synthesizer/)    | Синтезирует транскрипты пользовательских интервью и feedback-файлы (.md, .txt, .csv) в приоритизированный инсайт-отчёт с темами, цитатами и открытыми вопросами. Двуязычный EN/RU                            |
 | user-persona-synthesizer     | [→](skills/user-persona-synthesizer/)     | Извлекает повторяющиеся пользовательские профили из реальных транскриптов CustDev-интервью и генерирует структурированные карточки персон с дословными цитатами и количеством респондентов. Двуязычный EN/RU |
 | weekly-metrics-story-writer  | [→](skills/weekly-metrics-story-writer/)  | Преобразует числа дашборда в готовый еженедельный нарратив для стейкхолдеров — email или Slack, за несколько минут. Двуязычный EN/RU                                                                         |
+| competitive-feature-matrix-builder | [→](skills/competitive-feature-matrix-builder/) | Строит сравнительную feature matrix и gap-анализ из папки с конкурентными заметками (md/txt) — полностью офлайн, без веб-доступа. Двуязычный EN/RU |
 
 ---
 
