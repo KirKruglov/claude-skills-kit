@@ -341,6 +341,13 @@
     "description_ru": "Competitive Feature Matrix Builder читает локальные заметки о конкурентах (md или txt файлы) и формирует готовую для шаринга markdown-матрицу с перечнем фич по каждому конкуренту и приоритизированным gap-анализом.",
     "category": "analysis",
     "icon": "sparkles"
+  },
+  {
+    "id": "industry-trend-brief",
+    "description_en": "Turn your weekly reading pile into a structured trend signals brief for your product team — in minutes, without leaving Cowork.",
+    "description_ru": "Превращает еженедельную папку со статьями в структурированный тренд-бриф для продуктовой команды — за несколько минут, без выхода из Cowork.",
+    "category": "analysis",
+    "icon": "sparkles"
   }
 
 ]
