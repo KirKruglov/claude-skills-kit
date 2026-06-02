@@ -348,6 +348,13 @@
     "description_ru": "Превращает еженедельную папку со статьями в структурированный тренд-бриф для продуктовой команды — за несколько минут, без выхода из Cowork.",
     "category": "analysis",
     "icon": "sparkles"
+  },
+  {
+    "id": "exec-metrics-storyteller",
+    "description_en": "Exec Metrics Storyteller converts a raw metrics snapshot into a formal executive report for C-suite, board, or investor audiences.",
+    "description_ru": "Exec Metrics Storyteller конвертирует сырой набор метрик в формальный executive-отчёт для C-suite, борда или инвесторов.",
+    "category": "analysis",
+    "icon": "sparkles"
   }
 
 ]
