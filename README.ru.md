@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-57-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-58-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-57 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+58 готовых скиллов-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 50 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
+> 51 отдельный скилл + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -134,6 +134,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | metrics-anomaly-investigator | [→](skills/metrics-anomaly-investigator/) | Преобразует описание метрической аномалии в ранжированный фреймворк гипотез и нарратив для стейкхолдеров — без базы данных и кода. Двуязычный EN/RU                                                          |
 | report-analyzer              | [→](skills/report-analyzer/)              | Анализирует большие отчёты (PDF/PPTX) и формирует структурированное резюме с ключевыми данными и инсайтами                                                                                                   |
 | research-folder-synthesizer  | [→](skills/research-folder-synthesizer/)  | Синтезирует папку смешанных файлов в структурированный тематический отчёт с темами, ключевыми находками и пробелами. Двуязычный EN/RU                                                                        |
+| retention-cohort-interpreter | [→](skills/retention-cohort-interpreter/) | Интерпретирует таблицу когортного удержания в диагноз: здоровье кривой, точки отвала, сравнение с бенчмарками, гипотезы и следующие шаги. Без аналитических инструментов. Двуязычный EN/RU                   |
 | survey-results-analyzer      | [→](skills/survey-results-analyzer/)      | Анализирует CSV-экспорты опросов — частоты закрытых вопросов, темы открытых ответов и топ-3 инсайта без кода. Двуязычный EN/RU                                                                               |
 | prd-review-challenger        | [→](skills/prd-review-challenger/)        | Адвокат дьявола для PRD, фича-спецификаций и продуктовых решений — находит слабые допущения, открытые вопросы, риски реализации и логические дыры до того, как документ уйдёт в команду. Двуязычный EN/RU    |
 | user-feedback-synthesizer    | [→](skills/user-feedback-synthesizer/)    | Синтезирует транскрипты пользовательских интервью и feedback-файлы (.md, .txt, .csv) в приоритизированный инсайт-отчёт с темами, цитатами и открытыми вопросами. Двуязычный EN/RU                            |

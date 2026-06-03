@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-57-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-58-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-57 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+58 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 50 standalone skills + 7 nested skills in `project-management-kit`
+> 51 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -134,6 +134,7 @@ Skills are:
 | metrics-anomaly-investigator | [→](skills/metrics-anomaly-investigator/) | Turns a metric anomaly description into a ranked hypothesis framework and stakeholder narrative — no database or code required. Bilingual EN/RU                                                            |
 | report-analyzer              | [→](skills/report-analyzer/)              | Analyzes large PDF/PPTX reports and produces a structured summary with key data and insights                                                                                                              |
 | research-folder-synthesizer  | [→](skills/research-folder-synthesizer/)  | Synthesizes a folder of mixed local files into a structured thematic report with themes, key findings, and gaps. Bilingual EN/RU                                                                          |
+| retention-cohort-interpreter | [→](skills/retention-cohort-interpreter/) | Interprets cohort retention tables into plain-language diagnosis: curve health, drop-off windows, benchmark comparison, hypotheses, and next steps. No analytics tools required. Bilingual EN/RU          |
 | survey-results-analyzer      | [→](skills/survey-results-analyzer/)      | Analyzes survey CSV exports — quantitative frequencies, open-ended themes, and Top-3 insights without code or Python. Bilingual EN/RU                                                                     |
 | prd-review-challenger        | [→](skills/prd-review-challenger/)        | Devil's advocate for PRDs, feature specs, and product decisions — surfaces weak assumptions, open questions, implementation risks, and logical gaps before the document goes to the team. Bilingual EN/RU |
 | user-feedback-synthesizer    | [→](skills/user-feedback-synthesizer/)    | Synthesizes user interview transcripts and feedback files (.md, .txt, .csv) into a prioritized insight report with themes, quotes, and open questions. Bilingual EN/RU                                    |
