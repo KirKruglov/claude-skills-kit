@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-58-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-60-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-58 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+60 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 51 standalone skills + 7 nested skills in `project-management-kit`
+> 53 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -129,11 +129,13 @@ Skills are:
 | exec-metrics-storyteller     | [→](skills/exec-metrics-storyteller/)     | Turns a metrics snapshot into a board-ready executive narrative with revenue and LTV framing. Bilingual EN/RU                                                                                              |
 | experiment-results-interpreter | [→](skills/experiment-results-interpreter/) | Turns A/B test results into a go/no-go decision — plain-language significance assessment, ship/rollback/extend recommendation with rationale, and a copy-paste stakeholder summary. No stats background required. Bilingual EN/RU |
 | industry-trend-brief         | [→](skills/industry-trend-brief/)         | Synthesizes a folder of articles and clippings into a weekly trend signals brief for product teams — ranked themes, source-linked signals, and takeaways. Fully offline. Bilingual EN/RU                   |
+| jobs-to-be-done-extractor    | [→](skills/jobs-to-be-done-extractor/)    | Extracts Jobs-to-be-Done statements from a folder of custdev transcripts and interview notes — ranked JTBD map with evidence quotes, frequency counts, and patterns. Bilingual EN/RU                       |
 | kpi-digest-builder           | [→](skills/kpi-digest-builder/)           | Aggregates numeric KPIs from local files (.md, .txt, .csv) into a weekly snapshot with delta vs. previous week — no code, no integrations required. Bilingual EN/RU                                       |
 | legal-matter-tracker         | [→](skills/legal-matter-tracker/)         | Scans workspace files by client or case name and assembles a chronological timeline of events with key facts — no integrations required. Bilingual EN/RU                                                  |
 | metrics-anomaly-investigator | [→](skills/metrics-anomaly-investigator/) | Turns a metric anomaly description into a ranked hypothesis framework and stakeholder narrative — no database or code required. Bilingual EN/RU                                                            |
 | report-analyzer              | [→](skills/report-analyzer/)              | Analyzes large PDF/PPTX reports and produces a structured summary with key data and insights                                                                                                              |
 | research-folder-synthesizer  | [→](skills/research-folder-synthesizer/)  | Synthesizes a folder of mixed local files into a structured thematic report with themes, key findings, and gaps. Bilingual EN/RU                                                                          |
+| research-to-content-brief    | [→](skills/research-to-content-brief/)    | Turns research notes (audience, competitor signals, trends) into a structured content brief with six sections. No interview needed. Bilingual EN/RU                                                       |
 | retention-cohort-interpreter | [→](skills/retention-cohort-interpreter/) | Interprets cohort retention tables into plain-language diagnosis: curve health, drop-off windows, benchmark comparison, hypotheses, and next steps. No analytics tools required. Bilingual EN/RU          |
 | survey-results-analyzer      | [→](skills/survey-results-analyzer/)      | Analyzes survey CSV exports — quantitative frequencies, open-ended themes, and Top-3 insights without code or Python. Bilingual EN/RU                                                                     |
 | prd-review-challenger        | [→](skills/prd-review-challenger/)        | Devil's advocate for PRDs, feature specs, and product decisions — surfaces weak assumptions, open questions, implementation risks, and logical gaps before the document goes to the team. Bilingual EN/RU |
