@@ -36,3 +36,7 @@ env/
 
 # Logs
 *.log
+
+# Claude Code
+settings.local.json
+catalog.json
