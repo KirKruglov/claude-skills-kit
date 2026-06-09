@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Routines Setup Assistant
 
 Настройте Scheduled Tasks в Claude Cowork за несколько минут — без угадывания формата и пустого экрана.

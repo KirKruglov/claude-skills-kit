@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Weekly Metrics Story Writer
 
 Превращает числа из дашборда в готовый нарратив для стейкхолдеров — email или Slack, за несколько минут.

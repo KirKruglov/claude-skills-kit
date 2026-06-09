@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Cowork Plugin Audit
 
 Keep only the plugins that match your actual workflow — disable the rest to reduce token usage and noise.

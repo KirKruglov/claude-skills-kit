@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Content Performance Reporter
 
 Turn your weekly analytics CSV exports into a readable narrative report: what worked, what didn't, and what to do next week. No code, no dashboards, no API connections required.

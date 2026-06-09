@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Cowork Session Planner
 
 Начинайте каждую Cowork-сессию с чёткого фокуса — статус проекта, цель и план работы в одном брифе.

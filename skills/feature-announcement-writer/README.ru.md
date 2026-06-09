@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Feature Announcement Writer
 
 Превратите описание фичи в готовый пакет анонса для 4 каналов — без навыков копирайтинга.

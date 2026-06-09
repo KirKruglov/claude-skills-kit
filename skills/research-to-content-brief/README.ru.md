@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Research to Content Brief
 
 Превращает папку с research-заметками в готовый контент-бриф — без интервью.

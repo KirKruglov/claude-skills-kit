@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Reading List Prioritizer
 
 Turn your pile of saved articles into a focused weekly reading plan — grouped by topic, ranked by relevance to your role.

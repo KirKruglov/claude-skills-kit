@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Experiment Results Interpreter
 
 Turn raw A/B test results into a clear go/no-go decision — with a plain-language explanation and a ready-to-paste stakeholder summary.

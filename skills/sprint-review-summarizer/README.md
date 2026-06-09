@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Sprint Review Summarizer
 
 Turn your raw sprint notes into a structured stakeholder document in seconds — no Jira, no YAML, no integrations needed.

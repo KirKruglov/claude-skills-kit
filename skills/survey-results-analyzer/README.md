@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Survey Results Analyzer
 
 Turn raw survey CSV exports into structured insights — frequencies, themes, and Top-3 findings — without any code or data tools.

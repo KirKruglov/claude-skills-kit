@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Changelog Narrator
 
 Compare two versions of a business document and get a structured, human-readable changelog — no git, no CLI, no "Track Changes" required.

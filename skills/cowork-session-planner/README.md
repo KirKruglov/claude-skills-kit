@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Cowork Session Planner
 
 Start every Cowork session with a clear focus — your status, goal, and work plan in one brief.

@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Research Folder Synthesizer
 
 Turn a folder of scattered research files into a structured thematic report — no manual sorting required.

@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Jobs-to-be-Done Extractor
 
 Extract structured JTBD statements from a folder of custdev transcripts and interview notes. The skill reads multiple md/txt files, synthesizes cross-file patterns, and produces an evidence-backed JTBD map ranked by frequency — ready for roadmap sessions and prioritization work.

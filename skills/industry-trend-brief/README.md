@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Industry Trend Brief
 
 Turn your weekly reading pile into a structured trend signals brief for your product team — in minutes, without leaving Cowork.

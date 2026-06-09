@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # CSV Data Analyzer
 
 Analyze any CSV file through a conversational flow — no code, no Python, no external plugins required. Claude reads your file, profiles its structure, and guides you to the insights you need through a single clarifying question.

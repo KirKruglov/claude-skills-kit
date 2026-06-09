@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Weekly Metrics Story Writer
 
 Turn dashboard numbers into a polished stakeholder narrative — email or Slack, ready to send in minutes.

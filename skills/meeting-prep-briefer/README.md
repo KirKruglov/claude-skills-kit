@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Meeting Prep Briefer
 
 Walk into every meeting prepared — participants, context, and open questions from your own files, in seconds.

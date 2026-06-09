@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Release Notes Generator
 
 Turn a plain-language sprint summary into polished, user-facing release notes — no git, no CLI, no technical knowledge required.

@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Prompt Library Curator
 
 Структурируйте и тегируйте свою коллекцию промптов в организованный markdown-каталог — без ручной сортировки.

@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Legal Matter Tracker
 
 Scan your workspace files by client or case name and get a complete chronological timeline of events — no integrations, no setup, just your local notes.

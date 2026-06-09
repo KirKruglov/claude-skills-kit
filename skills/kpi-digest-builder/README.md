@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # KPI Digest Builder
 
 Turn your KPI files into a structured weekly snapshot — with deltas and a plain-language summary.

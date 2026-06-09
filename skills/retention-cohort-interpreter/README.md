@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Retention Cohort Interpreter
 
 Turn raw cohort retention tables into actionable plain-language diagnostics — no data tools required.

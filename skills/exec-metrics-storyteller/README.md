@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Exec Metrics Storyteller
 
 Turn your metrics snapshot into a board-ready executive narrative — with revenue framing, LTV linkage, and strategic outlook — in one step.

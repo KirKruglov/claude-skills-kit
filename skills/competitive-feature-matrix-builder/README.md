@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Competitive Feature Matrix Builder
 
 Turn a folder of competitor notes into a structured feature comparison table and gap analysis — no web access, no API, fully offline.

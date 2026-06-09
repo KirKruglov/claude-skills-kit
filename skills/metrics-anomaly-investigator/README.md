@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Metrics Anomaly Investigator
 
 Turn a confusing metric drop or spike into a structured investigation plan — in one message.

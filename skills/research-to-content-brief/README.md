@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Research to Content Brief
 
 Turn your research notes into a ready-to-use content brief — without the interview.

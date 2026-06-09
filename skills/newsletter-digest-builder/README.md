@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Newsletter Digest Builder
 
 Turn a folder of saved articles and newsletters into a focused weekly digest — grouped by topic, ranked by relevance to your role.

@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Backlog Grooming Assistant
 
 Prepare your grooming session in minutes — flag problematic backlog items and generate an agenda automatically from a local CSV or Markdown export.

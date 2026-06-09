@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Exec Metrics Storyteller
 
 Превратите снапшот метрик в executive-отчёт для борда — с бизнес-интерпретацией, привязкой к revenue и LTV, и стратегическим прогнозом — за один шаг.

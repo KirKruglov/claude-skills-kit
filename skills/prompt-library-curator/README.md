@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Prompt Library Curator
 
 Organise and tag your personal prompt collection into a structured, navigable markdown catalog — without any manual sorting.

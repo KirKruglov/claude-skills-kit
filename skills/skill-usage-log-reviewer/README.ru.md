@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Skill Usage Log Reviewer
 
 Аудит коллекции установленных скилов Claude с чеклистом деактивации для поддержания лёгкого портфолио.

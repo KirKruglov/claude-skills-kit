@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Feature Announcement Writer
 
 Turn a single feature description into a ready-to-send announcement pack — in 4 formats, no copywriting required.

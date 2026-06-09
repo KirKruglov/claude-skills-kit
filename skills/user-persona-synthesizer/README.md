@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # User Persona Synthesizer
 
 Turn real interview transcripts into structured, evidence-backed user persona cards — no integrations, no templates to fill.

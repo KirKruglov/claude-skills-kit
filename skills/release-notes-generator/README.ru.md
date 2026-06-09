@@ -1,3 +1,5 @@
+> [English version](README.md)
+
 # Release Notes Generator
 
 Превращает plain-language итоги спринта в готовые пользовательские release notes — без git, без CLI, без технических знаний.

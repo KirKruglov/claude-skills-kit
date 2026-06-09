@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Routines Setup Assistant
 
 Set up Claude Cowork Scheduled Tasks in minutes — no blank page, no guesswork.

@@ -1,3 +1,5 @@
+> [Версия на русском языке](README.ru.md)
+
 # Skill Usage Log Reviewer
 
 Audit your installed Claude skill collection and get a deactivation checklist to keep your portfolio lean.

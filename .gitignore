@@ -41,3 +41,8 @@ env/
 .claude/
 settings.local.json
 catalog.json
+CLAUDE.md
+
+# skill-planner / skill-builder working artifacts (safety net; canonical temp lives under .claude/)
+outputs/
+eval-reports/
