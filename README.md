@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-61-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-62-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-61 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+62 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 54 standalone skills + 7 nested skills in `project-management-kit`
+> 55 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -93,6 +93,7 @@ Skills are:
 | delegation-brief                | [→](skills/delegation-brief/)                | Generates a structured task brief via 5-question interview — ready to paste into a new Cowork session. Bilingual EN/RU                                                                                                     |
 | morning-standup-brief-generator | [→](skills/morning-standup-brief-generator/) | Compiles local notes, tasks, and project files into a structured daily standup brief — Yesterday / Today / Blockers / Questions. No connectors required. Bilingual EN/RU                                                   |
 | okr-progress-narrator           | [→](skills/okr-progress-narrator/)           | Transforms raw OKR data (tables, lists, CSV, or pasted text) into a narrative stakeholder update: executive summary, per-objective narrative, KR status table, risks, and next steps. Bilingual EN/RU                     |
+| weekly-status-report-generator  | [→](skills/weekly-status-report-generator/)  | Transforms raw weekly notes into two ready-to-send status reports in one pass: a detailed Manager Report and a 3-point Skip-Level Brief. Bilingual EN/RU                                                                  |
 
 ### Product & User Research
 

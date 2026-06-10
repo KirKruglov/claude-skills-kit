@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-61-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-62-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-61 готовый скилл-агент для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+62 готовых скилл-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 54 отдельных скилла + 7 вложенных скиллов в `project-management-kit`
+> 55 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -93,6 +93,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | delegation-brief                | [→](skills/delegation-brief/)                | Генерирует структурированный бриф задачи через 5-вопросное интервью — готов к вставке в новый диалог Cowork. Двуязычный EN/RU                                                                                               |
 | morning-standup-brief-generator | [→](skills/morning-standup-brief-generator/) | Компилирует локальные заметки, задачи и проектные файлы в структурированный дейли-бриф — Вчера / Сегодня / Блокеры / Вопросы. Без коннекторов. Двуязычный EN/RU                                                             |
 | okr-progress-narrator           | [→](skills/okr-progress-narrator/)           | Преобразует сырые OKR-данные (таблицы, списки, CSV или текст в чате) в нарративный апдейт для стейкхолдеров: executive summary, абзац по каждой цели, таблица KR, риски и следующие шаги. Двуязычный EN/RU                  |
+| weekly-status-report-generator  | [→](skills/weekly-status-report-generator/)  | Преобразует сырые заметки недели в два готовых статус-отчёта за один проход: развёрнутый для менеджера и краткий (3 пункта) для skip-level. Двуязычный EN/RU                                                               |
 
 ### Продукт и UX-исследования
 
