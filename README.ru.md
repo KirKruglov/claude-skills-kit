@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-62-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-63-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-62 готовых скилл-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+63 готовых скилл-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 55 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
+> 56 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -139,6 +139,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | feature-announcement-writer | [→](skills/feature-announcement-writer/) | Генерирует пакет анонса фичи в 4 форматах (changelog, email, push-уведомление, пост для соцсети) из одного описания продукта — без навыков копирайтинга. Двуязычный EN/RU                                          |
 | research-to-content-brief   | [→](skills/research-to-content-brief/)   | Преобразует папку с research-заметками (аудитория, конкурентные сигналы, тренды) в структурированный контент-бриф из шести разделов. Без интервью. Двуязычный EN/RU                                                 |
 | changelog-narrator          | [→](skills/changelog-narrator/)          | Сравнивает две версии бизнес-документа и формирует читаемый changelog — без git и Track Changes. Работает с PRD, SOP, договорами и стратегическими документами. Двуязычный EN/RU                                    |
+| proposal-and-quote-drafter  | [→](skills/proposal-and-quote-drafter/)  | Превращает заметки со звонка в готовое КП: скоуп, три ценовых пакета, сопроводительное письмо и чеклист проверки. Двуязычный EN/RU                                                                                  |
 
 ### Организация рабочего процесса
 

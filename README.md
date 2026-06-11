@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-62-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-63-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-62 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+63 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 55 standalone skills + 7 nested skills in `project-management-kit`
+> 56 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -139,6 +139,7 @@ Skills are:
 | feature-announcement-writer | [→](skills/feature-announcement-writer/) | Generates a multi-format feature announcement pack (changelog, email, push notification, social post) from a single product description — no copywriting needed. Bilingual EN/RU                        |
 | research-to-content-brief   | [→](skills/research-to-content-brief/)   | Turns research notes (audience, competitor signals, trends) into a structured content brief with six sections. No interview needed. Bilingual EN/RU                                                      |
 | changelog-narrator          | [→](skills/changelog-narrator/)          | Compares two versions of a business document and generates a human-readable changelog — no git, no Track Changes. Works on PRDs, SOPs, contracts, and strategy docs. Bilingual EN/RU                    |
+| proposal-and-quote-drafter  | [→](skills/proposal-and-quote-drafter/)  | Turns discovery call notes into a client proposal: scope, pricing packages, cover letter, and review checklist. Bilingual EN/RU                                                                          |
 
 ### Workflow & Organization
 
