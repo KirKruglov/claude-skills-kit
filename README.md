@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-63-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-64-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-63 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+64 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 56 standalone skills + 7 nested skills in `project-management-kit`
+> 57 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -136,6 +136,7 @@ Skills are:
 
 | Skill                       | Link                                     | Description                                                                                                                                                                                              |
 | --------------------------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| accounts-receivable-followup-writer | [→](skills/accounts-receivable-followup-writer/) | Drafts an escalating 4-message invoice reminder sequence from overdue invoice details and client relationship context — gentle to final notice, relationship-preserving throughout. No accounting SaaS required. Bilingual EN/RU |
 | feature-announcement-writer | [→](skills/feature-announcement-writer/) | Generates a multi-format feature announcement pack (changelog, email, push notification, social post) from a single product description — no copywriting needed. Bilingual EN/RU                        |
 | research-to-content-brief   | [→](skills/research-to-content-brief/)   | Turns research notes (audience, competitor signals, trends) into a structured content brief with six sections. No interview needed. Bilingual EN/RU                                                      |
 | changelog-narrator          | [→](skills/changelog-narrator/)          | Compares two versions of a business document and generates a human-readable changelog — no git, no Track Changes. Works on PRDs, SOPs, contracts, and strategy docs. Bilingual EN/RU                    |
