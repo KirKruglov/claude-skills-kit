@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-64-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-65-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-64 готовых скилл-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+65 готовых скилл-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 57 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
+> 58 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -94,6 +94,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | morning-standup-brief-generator | [→](skills/morning-standup-brief-generator/) | Компилирует локальные заметки, задачи и проектные файлы в структурированный дейли-бриф — Вчера / Сегодня / Блокеры / Вопросы. Без коннекторов. Двуязычный EN/RU                                                             |
 | okr-progress-narrator           | [→](skills/okr-progress-narrator/)           | Преобразует сырые OKR-данные (таблицы, списки, CSV или текст в чате) в нарративный апдейт для стейкхолдеров: executive summary, абзац по каждой цели, таблица KR, риски и следующие шаги. Двуязычный EN/RU                  |
 | weekly-status-report-generator  | [→](skills/weekly-status-report-generator/)  | Преобразует сырые заметки недели в два готовых статус-отчёта за один проход: развёрнутый для менеджера и краткий (3 пункта) для skip-level. Двуязычный EN/RU                                                               |
+| job-description-and-scorecard-builder | [→](skills/job-description-and-scorecard-builder/) | Создаёт вакансию и согласованный оценочный лист для интервью по заметкам о роли — парная связка документов для менеджеров, ведущих найм без рекрутера. Без рекрутингового SaaS. Двуязычный EN/RU |
 
 ### Продукт и UX-исследования
 

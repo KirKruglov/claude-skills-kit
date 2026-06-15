@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-64-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-65-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-64 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+65 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 57 standalone skills + 7 nested skills in `project-management-kit`
+> 58 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -94,6 +94,7 @@ Skills are:
 | morning-standup-brief-generator | [→](skills/morning-standup-brief-generator/) | Compiles local notes, tasks, and project files into a structured daily standup brief — Yesterday / Today / Blockers / Questions. No connectors required. Bilingual EN/RU                                                   |
 | okr-progress-narrator           | [→](skills/okr-progress-narrator/)           | Transforms raw OKR data (tables, lists, CSV, or pasted text) into a narrative stakeholder update: executive summary, per-objective narrative, KR status table, risks, and next steps. Bilingual EN/RU                     |
 | weekly-status-report-generator  | [→](skills/weekly-status-report-generator/)  | Transforms raw weekly notes into two ready-to-send status reports in one pass: a detailed Manager Report and a 3-point Skip-Level Brief. Bilingual EN/RU                                                                  |
+| job-description-and-scorecard-builder | [→](skills/job-description-and-scorecard-builder/) | Generates a job description and a matched interview scorecard from role notes — paired hiring documents for managers who run interviews without an HR team. No recruiting SaaS required. Bilingual EN/RU |
 
 ### Product & User Research
 
