@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-65-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-66-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-65 готовых скилл-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+66 готовых скилл-агентов для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 58 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
+> 59 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -95,6 +95,7 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | okr-progress-narrator           | [→](skills/okr-progress-narrator/)           | Преобразует сырые OKR-данные (таблицы, списки, CSV или текст в чате) в нарративный апдейт для стейкхолдеров: executive summary, абзац по каждой цели, таблица KR, риски и следующие шаги. Двуязычный EN/RU                  |
 | weekly-status-report-generator  | [→](skills/weekly-status-report-generator/)  | Преобразует сырые заметки недели в два готовых статус-отчёта за один проход: развёрнутый для менеджера и краткий (3 пункта) для skip-level. Двуязычный EN/RU                                                               |
 | job-description-and-scorecard-builder | [→](skills/job-description-and-scorecard-builder/) | Создаёт вакансию и согласованный оценочный лист для интервью по заметкам о роли — парная связка документов для менеджеров, ведущих найм без рекрутера. Без рекрутингового SaaS. Двуязычный EN/RU |
+| company-policy-drafter | [→](skills/company-policy-drafter/) | Составляет или обновляет одну корпоративную политику (PTO, удалённая работа, расходы, AI-usage) для SMB-команд без штатного HR или юриста. Обязательный флаг юридической проверки. Двуязычный EN/RU |
 
 ### Продукт и UX-исследования
 
