@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-66-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-68-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-66 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+68 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 59 standalone skills + 7 nested skills in `project-management-kit`
+> 61 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -96,6 +96,7 @@ Skills are:
 | weekly-status-report-generator  | [→](skills/weekly-status-report-generator/)  | Transforms raw weekly notes into two ready-to-send status reports in one pass: a detailed Manager Report and a 3-point Skip-Level Brief. Bilingual EN/RU                                                                  |
 | job-description-and-scorecard-builder | [→](skills/job-description-and-scorecard-builder/) | Generates a job description and a matched interview scorecard from role notes — paired hiring documents for managers who run interviews without an HR team. No recruiting SaaS required. Bilingual EN/RU |
 | company-policy-drafter | [→](skills/company-policy-drafter/) | Drafts or updates a single company policy (PTO, remote work, expenses, AI-usage) in handbook-ready format for SMB teams without in-house HR or legal staff. Legal review flag included. Bilingual EN/RU |
+| onboarding-plan-30-60-90 | [→](skills/onboarding-plan-30-60-90/) | Generates a targeted 30-60-90 day onboarding plan for a new hire from the manager's perspective — goals, key contacts, learning milestones, and success metrics per phase. No HR tools required. Bilingual EN/RU |
 
 ### Product & User Research
 
