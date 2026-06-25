@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-69-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-71-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-69 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+71 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 62 standalone skills + 7 nested skills in `project-management-kit`
+> 64 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -145,6 +145,8 @@ Skills are:
 | changelog-narrator          | [→](skills/changelog-narrator/)          | Compares two versions of a business document and generates a human-readable changelog — no git, no Track Changes. Works on PRDs, SOPs, contracts, and strategy docs. Bilingual EN/RU                    |
 | proposal-and-quote-drafter  | [→](skills/proposal-and-quote-drafter/)  | Turns discovery call notes into a client proposal: scope, pricing packages, cover letter, and review checklist. Bilingual EN/RU                                                                          |
 | monthly-close-checklist-and-reconciliation-prep | [→](skills/monthly-close-checklist-and-reconciliation-prep/) | Turns a pasted bank export or transaction list into a monthly-close checklist, categorization draft with disputed-transaction flags, and an accountant/investor summary — no SaaS required. Bilingual EN/RU |
+| invoice-and-payment-tracker-summary | [→](skills/invoice-and-payment-tracker-summary/) | Turns a pasted invoice list into an aging summary, per-client reconciliation, and needs-action list — no accounting SaaS required. Bilingual EN/RU |
+| fundraise-pipeline-tracker | [→](skills/fundraise-pipeline-tracker/) | Assembles a structured investor pipeline from pasted meeting notes: Tier 1/2/3 tiering, per-investor status and follow-up priorities — no CRM required. Bilingual EN/RU |
 
 ### Workflow & Organization
 
