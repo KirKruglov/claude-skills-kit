@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-71-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-74-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-71 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+74 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
 
-> 64 standalone skills + 7 nested skills in `project-management-kit`
+> 67 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -144,9 +144,12 @@ Skills are:
 | research-to-content-brief   | [→](skills/research-to-content-brief/)   | Turns research notes (audience, competitor signals, trends) into a structured content brief with six sections. No interview needed. Bilingual EN/RU                                                      |
 | changelog-narrator          | [→](skills/changelog-narrator/)          | Compares two versions of a business document and generates a human-readable changelog — no git, no Track Changes. Works on PRDs, SOPs, contracts, and strategy docs. Bilingual EN/RU                    |
 | proposal-and-quote-drafter  | [→](skills/proposal-and-quote-drafter/)  | Turns discovery call notes into a client proposal: scope, pricing packages, cover letter, and review checklist. Bilingual EN/RU                                                                          |
+| win-loss-debrief-writer     | [→](skills/win-loss-debrief-writer/)     | Generates a structured win/loss debrief from closed deal notes — decision drivers, objections, competitive context, repeat/fix recommendations, and a trend row for your deal log. No CRM required. Bilingual EN/RU |
 | monthly-close-checklist-and-reconciliation-prep | [→](skills/monthly-close-checklist-and-reconciliation-prep/) | Turns a pasted bank export or transaction list into a monthly-close checklist, categorization draft with disputed-transaction flags, and an accountant/investor summary — no SaaS required. Bilingual EN/RU |
 | invoice-and-payment-tracker-summary | [→](skills/invoice-and-payment-tracker-summary/) | Turns a pasted invoice list into an aging summary, per-client reconciliation, and needs-action list — no accounting SaaS required. Bilingual EN/RU |
 | fundraise-pipeline-tracker | [→](skills/fundraise-pipeline-tracker/) | Assembles a structured investor pipeline from pasted meeting notes: Tier 1/2/3 tiering, per-investor status and follow-up priorities — no CRM required. Bilingual EN/RU |
+| campaign-retrospective-writer | [→](skills/campaign-retrospective-writer/) | Builds a structured marketing retrospective from pasted campaign data: goal vs. result, channel breakdown, what worked/didn't, recommendations, and trend line. Bilingual EN/RU |
+| data-room-prep-checklist | [→](skills/data-room-prep-checklist/) | Generates a stage-specific due-diligence checklist, folder structure, and investor gap list for founders entering seed or Series A due diligence — from pasted round context, no integrations required. Bilingual EN/RU |
 
 ### Workflow & Organization
 

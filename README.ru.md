@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-71-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-74-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-71 готовый скилл-агент для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+74 готовых скилл-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
 
-> 64 отдельных скилла + 7 вложенных скиллов в `project-management-kit`
+> 67 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
 ---
 
@@ -144,9 +144,12 @@ Claude Skills Kit поставляет **полный пакет** для каж
 | research-to-content-brief   | [→](skills/research-to-content-brief/)   | Преобразует папку с research-заметками (аудитория, конкурентные сигналы, тренды) в структурированный контент-бриф из шести разделов. Без интервью. Двуязычный EN/RU                                                 |
 | changelog-narrator          | [→](skills/changelog-narrator/)          | Сравнивает две версии бизнес-документа и формирует читаемый changelog — без git и Track Changes. Работает с PRD, SOP, договорами и стратегическими документами. Двуязычный EN/RU                                    |
 | proposal-and-quote-drafter  | [→](skills/proposal-and-quote-drafter/)  | Превращает заметки со звонка в готовое КП: скоуп, три ценовых пакета, сопроводительное письмо и чеклист проверки. Двуязычный EN/RU                                                                                  |
+| win-loss-debrief-writer     | [→](skills/win-loss-debrief-writer/)     | Генерирует структурированный win/loss-разбор из заметок по закрытой сделке: факторы решения, возражения, конкурентный контекст, что повторить / исправить, строка тренда для журнала сделок. CRM не нужен. Двуязычный EN/RU |
 | monthly-close-checklist-and-reconciliation-prep | [→](skills/monthly-close-checklist-and-reconciliation-prep/) | Превращает вставленную банковскую выгрузку или список транзакций в чек-лист месячного закрытия, черновик категоризации с флагами спорных транзакций и резюме для бухгалтера/инвестора — без SaaS и интеграций. Двуязычный EN/RU |
 | invoice-and-payment-tracker-summary | [→](skills/invoice-and-payment-tracker-summary/) | Из вставленного списка счетов формирует aging-сводку, акт сверки по клиентам и список «требует внимания» — без бухгалтерского SaaS и интеграций. Двуязычный EN/RU |
 | fundraise-pipeline-tracker | [→](skills/fundraise-pipeline-tracker/) | Собирает структурированную воронку инвесторов из вставленных заметок: тиеринг Tier 1/2/3, статус по инвестору и приоритеты follow-up — без CRM. Двуязычный EN/RU |
+| campaign-retrospective-writer | [→](skills/campaign-retrospective-writer/) | Составляет структурированное ретро маркетинговой кампании из вставленных данных: цель vs. факт, разбор по каналам, что сработало/нет, рекомендации и строка тренда. Двуязычный EN/RU |
+| data-room-prep-checklist | [→](skills/data-room-prep-checklist/) | По стадии раунда и бизнес-модели формирует приоритизированный чек-лист due diligence, структуру папок для data room и список пробелов с предсказуемыми вопросами инвестора. Без SaaS и интеграций. Двуязычный EN/RU |
 
 ### Организация рабочего процесса
 
