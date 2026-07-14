@@ -7,7 +7,7 @@
 ![Skills](https://img.shields.io/badge/skills-74-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-74 curated agent skills for Claude — designed for non-technical users: PMs, managers, and team leads.
+74 curated agent skills for Claude — designed for non-technical users across PM, operations, finance, HR, and industry-specific teams.
 
 > 67 standalone skills + 7 nested skills in `project-management-kit`
 

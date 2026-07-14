@@ -7,7 +7,7 @@
 ![Skills](https://img.shields.io/badge/skills-74-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-74 готовых скилл-агента для Claude — созданы для нетехнических пользователей: менеджеров, тимлидов и руководителей проектов.
+74 готовых скилл-агента для Claude — созданы для нетехнических специалистов в командах продукта, операций, финансов, HR и отраслевых направлений.
 
 > 67 отдельных скиллов + 7 вложенных скиллов в `project-management-kit`
 
