@@ -7,12 +7,13 @@
 ## Checklist
 
 ### For new skills
+- [ ] Placed under the right thematic group: `skills/<group>/<skill-name>/`
 - [ ] `SKILL.md` with structured instructions
 - [ ] `README.md` (EN) — first line: `> [Версия на русском языке](README.ru.md)`
 - [ ] `README.ru.md` (RU) — first line: `> [English version](README.md)`
 - [ ] Added to the correct category table in both root READMEs
 - [ ] Skill counter updated in both root READMEs (badge + description)
-- [ ] `docs/INSTALL.md` only if setup differs from root [INSTALL.md](INSTALL.md)
+- [ ] `docs/INSTALL.md` only if setup differs from root [INSTALL.md](../INSTALL.md)
 - [ ] `docs/USER-GUIDE.md` if applicable
 
 ### For updates

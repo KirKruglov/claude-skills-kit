@@ -7,7 +7,7 @@ body:
     attributes:
       label: File or section
       description: Which file or URL is affected?
-      placeholder: e.g. skills/decision-log/README.md or README.md#how-to-install-a-skill
+      placeholder: e.g. skills/project-management/decision-log/README.md or README.md#how-to-install-a-skill
     validations:
       required: true
 

@@ -16,20 +16,20 @@ Choose any option that fits your setup.
 git clone https://github.com/KirKruglov/claude-skills-kit.git
 ```
 
-All skill folders will be at `skills/<skill-name>/`.
+All skill folders will be at `skills/<group>/<skill-name>/`, where `<group>` is the thematic group from the [catalog](README.md#skills) — e.g. `skills/data-analysis/csv-data-analyzer/`.
 
 ### Option 2 — Git sparse-checkout (one skill, no full clone)
 
 ```bash
 git clone --filter=blob:none --sparse https://github.com/KirKruglov/claude-skills-kit.git
 cd claude-skills-kit
-git sparse-checkout set skills/<skill-name>
+git sparse-checkout set skills/<group>/<skill-name>
 ```
 
 For skills inside `project-management-kit`, use the nested path:
 
 ```bash
-git sparse-checkout set skills/project-management-kit/generate-charter
+git sparse-checkout set skills/project-management/project-management-kit/generate-charter
 ```
 
 ### Option 3 — Browser download, no CLI
@@ -37,7 +37,7 @@ git sparse-checkout set skills/project-management-kit/generate-charter
 Open this URL in your browser (replace `<skill-name>` with the actual folder name):
 
 ```
-https://download-directory.github.io/?url=https://github.com/KirKruglov/claude-skills-kit/tree/main/skills/<skill-name>
+https://download-directory.github.io/?url=https://github.com/KirKruglov/claude-skills-kit/tree/main/skills/<group>/<skill-name>
 ```
 
 A ZIP with only that skill folder will download. Recommended for non-technical users.
@@ -45,7 +45,7 @@ A ZIP with only that skill folder will download. Recommended for non-technical u
 ### Option 4 — Single `SKILL.md` via curl
 
 ```bash
-curl -O https://raw.githubusercontent.com/KirKruglov/claude-skills-kit/main/skills/<skill-name>/SKILL.md
+curl -O https://raw.githubusercontent.com/KirKruglov/claude-skills-kit/main/skills/<group>/<skill-name>/SKILL.md
 ```
 
 Or: open the file on GitHub → click **Raw** → **Save As** in your browser.

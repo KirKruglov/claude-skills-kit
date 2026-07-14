@@ -16,20 +16,20 @@
 git clone https://github.com/KirKruglov/claude-skills-kit.git
 ```
 
-Все папки скиллов будут по пути `skills/<skill-name>/`.
+Все папки скиллов будут по пути `skills/<group>/<skill-name>/`, где `<group>` — тематическая группа из [каталога](README.ru.md#скиллы) — например, `skills/data-analysis/csv-data-analyzer/`.
 
 ### Вариант 2 — Git sparse-checkout (один скилл, без полного клонирования)
 
 ```bash
 git clone --filter=blob:none --sparse https://github.com/KirKruglov/claude-skills-kit.git
 cd claude-skills-kit
-git sparse-checkout set skills/<skill-name>
+git sparse-checkout set skills/<group>/<skill-name>
 ```
 
 Для скиллов внутри `project-management-kit` используй вложенный путь:
 
 ```bash
-git sparse-checkout set skills/project-management-kit/generate-charter
+git sparse-checkout set skills/project-management/project-management-kit/generate-charter
 ```
 
 ### Вариант 3 — Скачать через браузер, без CLI
@@ -37,7 +37,7 @@ git sparse-checkout set skills/project-management-kit/generate-charter
 Открой в браузере (замени `<skill-name>` на реальное имя папки):
 
 ```
-https://download-directory.github.io/?url=https://github.com/KirKruglov/claude-skills-kit/tree/main/skills/<skill-name>
+https://download-directory.github.io/?url=https://github.com/KirKruglov/claude-skills-kit/tree/main/skills/<group>/<skill-name>
 ```
 
 Скачается ZIP только с нужной папкой скилла. Рекомендуется нетехническим пользователям.
@@ -45,7 +45,7 @@ https://download-directory.github.io/?url=https://github.com/KirKruglov/claude-s
 ### Вариант 4 — Один файл `SKILL.md` через curl
 
 ```bash
-curl -O https://raw.githubusercontent.com/KirKruglov/claude-skills-kit/main/skills/<skill-name>/SKILL.md
+curl -O https://raw.githubusercontent.com/KirKruglov/claude-skills-kit/main/skills/<group>/<skill-name>/SKILL.md
 ```
 
 Или: открой файл на GitHub → нажми **Raw** → **Сохранить как** в браузере.
