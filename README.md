@@ -4,12 +4,12 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/KirKruglov/claude-skills-kit?style=flat-square)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
-![Skills](https://img.shields.io/badge/skills-74-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-75-informational?style=flat-square)
 ![Last commit](https://img.shields.io/github/last-commit/KirKruglov/claude-skills-kit?style=flat-square)
 
-74 curated agent skills for Claude — designed for non-technical users across PM, operations, finance, HR, and industry-specific teams.
+75 curated agent skills for Claude — designed for non-technical users across PM, operations, finance, HR, and industry-specific teams.
 
-> 67 standalone skills + 7 nested skills in `project-management-kit`
+> 68 standalone skills + 7 nested skills in `project-management-kit`
 
 ---
 
@@ -74,7 +74,7 @@ A skill can appear under several roles. Full descriptions are in the [catalog be
 
 **📊 Analyst** — [csv-data-analyzer](skills/data-analysis/csv-data-analyzer/) · [report-analyzer](skills/data-analysis/report-analyzer/) · [retention-cohort-interpreter](skills/data-analysis/retention-cohort-interpreter/) · [experiment-results-interpreter](skills/data-analysis/experiment-results-interpreter/) · [metrics-anomaly-investigator](skills/data-analysis/metrics-anomaly-investigator/) · [kpi-digest-builder](skills/metrics-and-exec-narratives/kpi-digest-builder/) · [exec-metrics-storyteller](skills/metrics-and-exec-narratives/exec-metrics-storyteller/) · [weekly-metrics-story-writer](skills/metrics-and-exec-narratives/weekly-metrics-story-writer/) · [north-star-metric-auditor](skills/metrics-and-exec-narratives/north-star-metric-auditor/) · [survey-results-analyzer](skills/launch-and-releases/survey-results-analyzer/) · [content-performance-reporter](skills/marketing-and-content/content-performance-reporter/) · [research-folder-synthesizer](skills/personal-productivity/research-folder-synthesizer/)
 
-**🤖 Claude power user** — [prompt-builder](skills/prompts-and-memory/prompt-builder/) · [prompt-library-curator](skills/prompts-and-memory/prompt-library-curator/) · [memory-auditor-chat](skills/prompts-and-memory/memory-auditor-chat/) · [memory-auditor-cowork](skills/prompts-and-memory/memory-auditor-cowork/) · [session-handoff-composer](skills/sessions-and-context/session-handoff-composer/) · [context-window-health-check](skills/sessions-and-context/context-window-health-check/) · [cowork-session-planner](skills/sessions-and-context/cowork-session-planner/) · [feature-guide](skills/setup-and-audit/feature-guide/) · [cowork-plugin-audit](skills/setup-and-audit/cowork-plugin-audit/) · [skill-usage-log-reviewer](skills/setup-and-audit/skill-usage-log-reviewer/) · [routines-setup-assistant](skills/setup-and-audit/routines-setup-assistant/) · [weekly-ai-workflow-review](skills/setup-and-audit/weekly-ai-workflow-review/)
+**🤖 Claude power user** — [prompt-builder](skills/prompts-and-memory/prompt-builder/) · [prompt-library-curator](skills/prompts-and-memory/prompt-library-curator/) · [memory-auditor-chat](skills/prompts-and-memory/memory-auditor-chat/) · [memory-auditor-cowork](skills/prompts-and-memory/memory-auditor-cowork/) · [session-handoff-composer](skills/sessions-and-context/session-handoff-composer/) · [context-window-health-check](skills/sessions-and-context/context-window-health-check/) · [cowork-session-planner](skills/sessions-and-context/cowork-session-planner/) · [feature-guide](skills/setup-and-audit/feature-guide/) · [cowork-plugin-audit](skills/setup-and-audit/cowork-plugin-audit/) · [skill-usage-log-reviewer](skills/setup-and-audit/skill-usage-log-reviewer/) · [routines-setup-assistant](skills/setup-and-audit/routines-setup-assistant/) · [weekly-ai-workflow-review](skills/setup-and-audit/weekly-ai-workflow-review/) · [setup-wizard](skills/setup-and-audit/setup-wizard/)
 
 ---
 
@@ -273,6 +273,7 @@ The **Input** column says what you must provide to run the skill.
 | skill-usage-log-reviewer | Pasted list of installed skills | [→](skills/setup-and-audit/skill-usage-log-reviewer/) | Audits your installed Claude skill collection — flags unused skills, spots duplicates, and generates a deactivation checklist to reduce context noise. Bilingual EN/RU |
 | routines-setup-assistant | Interview answers | [→](skills/setup-and-audit/routines-setup-assistant/) | Sets up Claude Cowork Scheduled Tasks via interview — generates ready-to-paste automation prompts for recurring tasks. No integrations required. Bilingual EN/RU |
 | weekly-ai-workflow-review | .md file or pasted task log | [→](skills/setup-and-audit/weekly-ai-workflow-review/) | Analyzes weekly notes about Claude-delegated tasks to surface delegation patterns, effective prompts, and optimization areas — with reusable prompt templates. Bilingual EN/RU |
+| setup-wizard | Service link plus your setup goal | [→](skills/setup-and-audit/setup-wizard/) | Walks you through setting up an external service or IT tool one step at a time — builds the route from official documentation and closes each step only on evidence you send. Never runs commands for you. Bilingual EN/RU |
 
 ---
 
